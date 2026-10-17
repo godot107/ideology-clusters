@@ -1,5 +1,7 @@
 # Plan
 
+Stages 1-4 built 2026-10-17; results in the README and notebooks/. Plan kept as written.
+
 **Question:** what is the ideological structure of the US Congress, as revealed by how members vote,
 and which methods find it best? Beyond "two parties": factions inside each party, the members who
 sit between them, and how that has changed since the 1970s.
@@ -14,8 +16,10 @@ Coalition, Problem Solvers) is an external label the votes never saw.
 | | House | Senate |
 |---|---|---|
 | \|corr(PCA dim 1, NOMINATE dim 1)\|, all members | 0.966 | 0.953 |
-| same, Democrats only | 0.235 | 0.149 |
-| same, Republicans only | 0.615 | 0.653 |
+| same, Democrats only (Spearman) | 0.52 | 0.18 |
+| same, Republicans only (Spearman) | 0.82 | 0.72 |
+
+(The first draft of this table used Pearson and included the President's row; corrected.)
 
 Any method separates the two parties; that gives a near-perfect headline correlation for free.
 **The real test is ordering members within their own party**, so every method is scored

@@ -4,3 +4,7 @@ pyarrow>=17
 scipy>=1.13
 scikit-learn>=1.5
 matplotlib>=3.9
+jax[cpu]>=0.4.30
+numpyro>=0.15
+networkx>=3.3
+lxml>=5.0

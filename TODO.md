@@ -1,9 +1,11 @@
 # TODO
 
-- [x] Scaffold, Voteview downloader, vote matrix with NOMINATE filters, PCA smoke test vs NOMINATE
-- [ ] Stage 1: EDA notebook (missingness, party-line share, agreement heat map)
-- [ ] Stage 2: logistic PCA (+ synthetic-Congress recovery test), NumPyro IRT ideal points with uncertainty
-- [ ] Stage 3: k-means vs GMM+BIC vs HDBSCAN vs Ward vs co-voting communities; party/caucus/stability scores
-- [ ] Caucus membership lists (sources + dates) for the 118th/119th as external labels
-- [ ] Stage 4: polarisation across Congresses 93-119
-- [ ] Stage 5: README results, blog, interactive scatter demo; public/private decision
+Built 2026-10-17: all stages 1-4 with results in results/ and three executed notebooks.
+
+## Open
+- [ ] Proofread notebooks + README; blog post
+- [ ] Verify citation details in docs/PRIOR_ART.md (Clinton/Jackman/Rivers 2004; Poole & Rosenthal)
+- [ ] IRT: more draws / 2 chains for the members with low ESS; a 2-D IRT for the hard-line faction case
+- [ ] Interactive scatter demo (hover a dot -> member, caucus, interval)
+- [ ] What dimension 2 means today: which roll calls load on it (leadership/procedural votes?)
+- [ ] Senate caucus check (Progressive Caucus has Senate members)

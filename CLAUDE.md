@@ -9,20 +9,42 @@ Plan: docs/PLAN.md. Open work: TODO.md. Prior art: docs/PRIOR_ART.md.
 ## Run
 
 ```bash
-source .venv/bin/activate        # own venv, CPU only
+source .venv/bin/activate        # own venv, CPU only (jax cpu + numpyro)
 pytest -q
-python -c "from ideology import matrix; print(matrix.summary(matrix.build(118, 'H')))"   # downloads on first use
+python scripts/run_analysis.py   # all non-Bayesian results -> results/ (~10 min; downloads 54 Voteview files first time)
+python scripts/fit_irt.py 118S 118H 119H   # Bayesian ideal points -> data/irt_*.npy (~5-15 min each)
+python notebooks/build.py && for n in notebooks/0*.ipynb; do jupyter nbconvert --to notebook --execute --inplace $n; done
 ```
+
+Modules: voteview (download + codes), matrix (vote matrix + filters), simulate (synthetic Congress =
+answer key), embed (PCA, logistic PCA, held-out CV, party baseline), irt (NumPyro), cluster (5 methods +
+bootstrap stability), caucus (Wikipedia lists -> members), evaluate, polarization, plot.
 
 ## Decisions
 
 - **Data:** Voteview CSVs (members / votes / rollcalls per Congress+chamber), fetched at runtime by
   `voteview.py` (single source of truth for URLs and vote codes) into data/ (gitignored).
 - **Known answer:** DW-NOMINATE dims in the members file. Matching it is a check, not a finding.
-- **Score within party, always.** Day-one smoke test (118th): PCA dim 1 vs NOMINATE |r| = 0.97
-  overall but 0.24 (D) / 0.62 (R) within party in the House. Party separation is free.
+- **Score within party, always** (Spearman). 118th House: PCA dim 1 vs NOMINATE |r| = 0.97 overall,
+  but 0.52 (D) / 0.82 (R) within party. Party separation is free.
+- **DW-NOMINATE is a comparison, not ground truth within party** (it pools whole careers). The synthetic
+  Congress (`simulate.py`) is the real answer key.
+- Logistic PCA settings chosen by held-out votes (hide 10%), never against NOMINATE.
+- Caucus labels: 119th House only (Wikipedia lists are current), matched by state+district then surname.
 - Matrix filters = NOMINATE conventions: drop roll calls with minority < 2.5%, members < 20 votes.
 - Public officials' public votes; report neutrally, no editorial labels.
+
+## Gotchas
+
+- **Voteview votes files include the President's announced positions as a "member"** (icpsr 99913 in
+  the 118th). `matrix.build` keeps only icpsr in that chamber's members file. Found 2026-10-17; IRT and
+  CV were re-run after the fix.
+- `irt.fit` returns read-only JAX arrays unless copied (`np.array`); diagnostics are wrapped so a
+  finished 5-15 min run is never lost to a summary error.
+- Don't register a user-level Jupyter kernel named python3: it hijacks every project's notebooks.
+  Each venv's own jupyter provides python3.
+- Never pkill/pgrep -f a pattern that appears in your own command line; kill by PID.
+- NumPyro 1 chain: split R-hat; min ESS is low for a few members (absentees). Report it.
 
 ## Data notes
 

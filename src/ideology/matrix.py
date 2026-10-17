@@ -17,6 +17,9 @@ MIN_VOTES = 20
 
 def build(congress, chamber):
     v = voteview.votes(congress, chamber)
+    # The votes file also records the President's announced positions as if he were a member
+    # (e.g. icpsr 99913 in the 118th): keep only members of this chamber.
+    v = v[v.icpsr.isin(voteview.members(congress, chamber).index)]
     v = v[v.cast_code.isin(voteview.YEA | voteview.NAY)]
     v = v.assign(y=v.cast_code.isin(voteview.YEA).astype(float))
     m = v.pivot_table(index="icpsr", columns="rollnumber", values="y", aggfunc="first")

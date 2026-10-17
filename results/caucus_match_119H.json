@@ -1,0 +1,31 @@
+{
+  "Freedom Caucus": {
+    "listed": 31,
+    "matched": 31,
+    "unmatched": [],
+    "retrieved": "2026-10-17"
+  },
+  "Progressive Caucus": {
+    "listed": 100,
+    "matched": 98,
+    "unmatched": [
+      "Aisha Wahab",
+      "Eleanor Holmes Norton"
+    ],
+    "retrieved": "2026-10-17"
+  },
+  "Blue Dog Coalition": {
+    "listed": 10,
+    "matched": 10,
+    "unmatched": [],
+    "retrieved": "2026-10-17"
+  },
+  "Problem Solvers Caucus": {
+    "listed": 49,
+    "matched": 48,
+    "unmatched": [
+      "James Moylan"
+    ],
+    "retrieved": "2026-10-17"
+  }
+}
