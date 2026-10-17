@@ -1,0 +1,16 @@
+[project]
+name = "ideology"
+version = "0.1.0"
+description = "Finding the ideological structure of the US Congress from roll-call votes, checked against DW-NOMINATE"
+requires-python = ">=3.11"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
