@@ -3,7 +3,7 @@
 Ideological structure of the US Congress from roll-call votes: dimension reduction (PCA → logistic
 PCA → Bayesian IRT ideal points) and clustering beyond k-means (GMM+BIC, HDBSCAN, Ward, co-voting
 network communities), checked against DW-NOMINATE and caucus membership. From Trello Project
-Checklist #4 item 11. Started 2026-10-17. Portfolio piece; docs plain-language for general readers.
+Checklist #4 item 11, Trello #103 https://trello.com/c/2o4lbama. Started 2026-10-17. Portfolio piece; docs plain-language for general readers.
 Plan: docs/PLAN.md. Open work: TODO.md. Prior art: docs/PRIOR_ART.md.
 
 ## Run
