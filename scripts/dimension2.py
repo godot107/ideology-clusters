@@ -4,7 +4,7 @@ For every roll call where at least 5% of a party broke with that party's majorit
 with my party" with each member's dimension-1 and dimension-2 position (evaluate.breakaway), then
 summarise by kind of vote. Needs scripts/run_analysis.py first (results/members_119H.csv).
 
-    python scripts/dimension2.py      # -> results/dim2_rollcalls_119H.csv, dim2_summary_119H.csv, dim2_119H.json
+    python scripts/dimension2.py      # -> results/dim2_{rollcalls,summary,members}_119H.csv, dim2_119H.json
 """
 import json
 from pathlib import Path
@@ -46,6 +46,8 @@ def main():
     dem = mem[mem.party == "Democrat"]
     both = [r for r in m.columns if m.loc[dem.index, r].mean() >= 0.5 and m.loc[rep.index, r].mean() >= 0.5]
     yes = m[both].mean(axis=1)
+    pd.DataFrame({"bipartisan_yes": yes, "bipartisan_votes_cast": m[both].notna().sum(axis=1)}).to_csv(
+        RES / "dim2_members_119H.csv", index_label="icpsr")
     biyes, biyes1 = {}, {}
     for name, g in (("democrats", dem), ("republicans", rep)):
         biyes[name] = float(g.dim2.corr(yes[g.index], method="spearman"))

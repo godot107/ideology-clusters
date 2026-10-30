@@ -14,7 +14,8 @@ together. This project goes past the usual tutorial ("run k-means, the two parti
   DW-NOMINATE, political science's standard scores; and caucus membership the votes never saw.
 - **Polarisation since 1973**, from 54 House and Senate sessions.
 
-Write-up for general readers: [blog.md](blog.md).
+Write-up for general readers: [blog.md](blog.md). Interactive explorer (hover any member, highlight a
+caucus, search by name): [docs/explorer.html](docs/explorer.html), a single self-contained file; download and open it.
 
 | Notebook | Question |
 |---|---|
@@ -130,6 +131,7 @@ pytest -q
 python scripts/run_analysis.py              # all non-Bayesian results (~10 min, downloads Voteview data)
 python scripts/fit_irt.py 118S 118H 119H    # Bayesian ideal points (~5-15 min each, CPU)
 python scripts/dimension2.py                # what dimension 2 means (needs run_analysis first)
+python scripts/build_explorer.py            # docs/explorer.html, the interactive page
 python notebooks/build.py                   # then execute each notebook (see notebooks/build.py)
 ```
 
