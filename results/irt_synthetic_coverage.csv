@@ -1,0 +1,7 @@
+faction,1-D model,"2-D model, dim 1","2-D model, dim 2"
+D-mainstream,0.871,0.886,0.871
+D-moderate,0.909,0.97,0.818
+D-progressive,0.818,0.873,0.909
+R-hardline,0.25,0.932,0.955
+R-mainstream,0.769,0.888,0.874
+R-moderate,0.879,0.879,0.939

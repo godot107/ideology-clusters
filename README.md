@@ -54,10 +54,17 @@ models the chance of a "yes" and simply skips missed votes.
 One left-right dimension does most of the work, as decades of political science have found.
 
 **The Bayesian ideal-point model** (Clinton, Jackman & Rivers 2004, in NumPyro) agrees best with
-DW-NOMINATE within party: **0.90** among Republicans and **0.72** among Democrats, against 0.75 / 0.67 for
-logistic PCA. Its error bars are honest where the model fits. On the synthetic Congress its 90% ranges
-contain the truth 85-100% of the time for five factions, but only **39%** for the faction that differs
-on a *second* dimension: a one-dimensional model is confidently wrong about them.
+DW-NOMINATE within party: **0.90** among Republicans and **0.72** among Democrats in the 118th House
+(0.89 / 0.75 in the 119th), against 0.75 / 0.67 for logistic PCA. Its error bars are honest where the
+model fits. On the synthetic Congress its 90% ranges contain the truth 77-91% of the time for five
+factions, but only **25%** for the faction that differs on a *second* dimension: a one-dimensional model
+is confidently wrong about them. **Give the model a second dimension and that faction's coverage rises to
+93%** (96% on dimension 2), with the other five at 82-97% on both.
+
+| Faction (synthetic) | 1-D model | 2-D model, dim 1 | 2-D model, dim 2 |
+|---|---|---|---|
+| Hard-line (differs on dim 2) | **25%** | **93%** | 96% |
+| Other five factions | 77-91% | 87-97% | 82-94% |
 
 ![Every member of the 118th House with a 90% range](reports/01_fig3.png)
 
@@ -115,9 +122,12 @@ voting ran partly along a second dimension.
 - **DW-NOMINATE is a comparison, not ground truth** within a party: it pools each member's whole career
   and uses a different voting model. The synthetic Congress is the answer key.
 - Model settings were picked by predicting hidden votes, never by matching DW-NOMINATE.
-- The Bayesian sampler (NUTS, 1 chain, 500 + 500 draws) reports split R-hat 1.02 (House) / 1.03 (Senate)
-  and no divergences, but the effective sample size is low (~18) for a few members; their intervals are
-  rougher. A 119th House fit mixed poorly (R-hat 1.19) and is not used.
+- The Bayesian sampler (NUTS, no divergences): 118th House and Senate, 1 chain, 500 + 500 draws, split
+  R-hat 1.02 / 1.03, effective sample size low (~18) for a few members, so their intervals are rougher.
+  119th House: 2 chains, 1000 + 1000 draws, R-hat 1.02, min ESS 67 (a first 1-chain run mixed poorly).
+- The model pins the axis's location, scale and (in 2-D) rotation only weakly, so chains drift in ways
+  that move nobody relative to anyone else. Synthetic draws are standardised (1-D) or rotated onto the
+  logistic-PCA map (2-D) before scoring; after that, R-hat is 1.01 (1-D) and 1.02 (2-D).
 - Voteview's vote files also record the President's announced positions as a "member"; they are
   excluded (found during this project).
 - These are public officials' public votes, reported with the methods' own neutral terms.
@@ -130,6 +140,7 @@ pip install -r requirements.txt -r requirements-dev.txt && pip install -e .
 pytest -q
 python scripts/run_analysis.py              # all non-Bayesian results (~10 min, downloads Voteview data)
 python scripts/fit_irt.py 118S 118H 119H    # Bayesian ideal points (~5-15 min each, CPU)
+python scripts/fit_irt_synthetic.py         # 1-D vs 2-D Bayesian model on the synthetic Congress (~40 min)
 python scripts/dimension2.py                # what dimension 2 means (needs run_analysis first)
 python scripts/build_explorer.py            # docs/explorer.html, the interactive page
 python notebooks/build.py                   # then execute each notebook (see notebooks/build.py)

@@ -149,15 +149,21 @@ First, check it on the synthetic Congress: do the 90% ranges contain the true po
 """)
     code("""
 from ideology import irt
-xs = np.load('data/sim_irt_x.npy'); s = irt.summarize(xs)
-a, b = np.polyfit(c.members.x1, s['mean'], 1); tt = a * c.members.x1.to_numpy() + b
-inside = (tt >= s['lo']) & (tt <= s['hi'])
-pd.Series(inside, index=c.members.faction).groupby(level=0).mean().round(2).rename('share of true positions inside the 90% range')
+# from scripts/fit_irt_synthetic.py: share of true positions inside each member's 90% range
+pd.read_csv('results/irt_synthetic_coverage.csv', index_col='faction').round(2)
 """)
     md("""
-Close to 90% for most factions, but the **hard-line faction is the exception**: they differ from their
-party on the *second* dimension, which this one-dimensional model can't represent, so it is confidently
-wrong about them. Error bars are only as honest as the model behind them.
+**1-D model (first column):** close to 90% for most factions, but the **hard-line faction is the exception**
+(25%): they differ from their party on the *second* dimension, which a one-dimensional model can't
+represent, so it is confidently wrong about them. Error bars are only as honest as the model behind them.
+
+**2-D model (last two columns):** given a second dimension, the hard-liners' ranges contain the truth 93%
+of the time, and every faction lands near 90% on both dimensions.
+
+A practical note: these models only loosely fix the axes (their shift and stretch, and in 2-D their
+rotation), so the sampler's two runs drift apart in ways that move nobody relative to anyone else. Raw
+R-hat looked like failure (1.6-2.0); after standardising (1-D) or rotating every draw onto the
+logistic-PCA map (2-D), it is 1.01 / 1.02.
 
 Now the real 118th House, every member ordered by position:
 """)

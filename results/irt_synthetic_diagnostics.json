@@ -1,0 +1,27 @@
+{
+  "1-D": {
+    "raw": {
+      "max_split_rhat": 1.5631487369537354,
+      "min_ess": 1.7608877641949572,
+      "divergences": 0
+    },
+    "seconds": 984,
+    "standardized": {
+      "max_split_rhat": 1.0068620443344116,
+      "min_ess": 1180.070888542085
+    }
+  },
+  "2-D": {
+    "raw": {
+      "max_split_rhat": 2.0558218955993652,
+      "min_ess": 1.5384289361169965,
+      "divergences": 0,
+      "anchor_rollcall_column": 537
+    },
+    "seconds": 1376,
+    "aligned": {
+      "max_split_rhat": 1.0242297649383545,
+      "min_ess": 90.50523340892606
+    }
+  }
+}

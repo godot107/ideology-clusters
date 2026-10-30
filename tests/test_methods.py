@@ -87,3 +87,21 @@ def test_vote_type():
     assert voteview.vote_type("On Agreeing to the Resolution") == "rule"
     assert voteview.vote_type("On Passage") == "passage"
     assert voteview.vote_type(None) == "other"
+
+
+def test_coverage2d_ignores_rotation_and_scale():
+    from ideology import irt
+    rng = np.random.default_rng(0)
+    truth = rng.normal(size=(60, 2))
+    theta = 0.4
+    rot = np.array([[np.cos(theta), -np.sin(theta)], [np.sin(theta), np.cos(theta)]])
+    est = 3 * truth @ rot + 1.0                         # same configuration, rotated, scaled, shifted
+    draws = est[None] + rng.normal(0, 0.3, size=(400, 60, 2))
+    cov = irt.coverage2d(draws, truth, ["g"] * 60)
+    assert (cov.loc["g"] > 0.8).all()
+
+
+def test_anchor_rollcall_is_the_party_line_vote():
+    from ideology import irt
+    votes = pd.DataFrame({1: [1, 1, 0, 0], 2: [1, 0, 1, 0], 3: [1, 1, 1, 0]}, dtype=float)
+    assert irt.anchor_rollcall(votes, ["R", "R", "D", "D"]) == 0

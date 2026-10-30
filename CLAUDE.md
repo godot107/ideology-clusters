@@ -13,6 +13,7 @@ source .venv/bin/activate        # own venv, CPU only (jax cpu + numpyro)
 pytest -q
 python scripts/run_analysis.py   # all non-Bayesian results -> results/ (~10 min; downloads 54 Voteview files first time)
 python scripts/fit_irt.py 118S 118H 119H   # Bayesian ideal points -> data/irt_*.npy (~5-15 min each)
+python scripts/fit_irt_synthetic.py  # 1-D vs 2-D IRT coverage on synthetic (~40 min; --rescore = seconds)
 python scripts/dimension2.py     # what dim 2 means -> results/dim2_* (seconds; needs run_analysis)
 python scripts/build_explorer.py # docs/explorer.html: self-contained SVG+JS, no CDN (needs the three above)
 python notebooks/build.py && for n in notebooks/0*.ipynb; do jupyter nbconvert --to notebook --execute --inplace $n; done
@@ -47,6 +48,10 @@ bootstrap stability), caucus (Wikipedia lists -> members), evaluate, polarizatio
   Each venv's own jupyter provides python3.
 - Never pkill/pgrep -f a pattern that appears in your own command line; kill by PID.
 - NumPyro 1 chain: split R-hat; min ESS is low for a few members (absentees). Report it.
+- **IRT axes are weakly identified** (shift/scale in 1-D, plus rotation in 2-D): raw multi-chain R-hat looks
+  terrible (1.6-2.0) while configurations agree (chain-mean corr 1.00). Score after irt.standardize /
+  irt.align (reference = logistic PCA, never the answer key). Found 2026-10-30.
+- irt.py sets 2 host devices so `chains=2` runs in parallel.
 
 ## Data notes
 

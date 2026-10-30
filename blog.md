@@ -65,14 +65,20 @@ Bayesian ideal-point model (Clinton, Jackman & Rivers, 2004) in NumPyro, which g
 The wide ranges make sense once you look at who has them: members sworn in late after a special
 election, members who left early, and members at the far edge of their party, where no vote separates
 them from their neighbours. Within party, this model agrees best with DW-NOMINATE: **0.90** among
-Republicans and **0.72** among Democrats.
+Republicans and **0.72** among Democrats (0.89 and 0.75 in the current House).
 
 But the synthetic Congress caught something. For five of the six factions, the 90% ranges contained the
-true position 85-100% of the time, roughly as promised. For the sixth, a faction I'd made different on a
-*second* dimension (voting against its own leadership), they contained it only **39%** of the time. A
+true position 77-91% of the time, close to the promised 90%. For the sixth, a faction I'd made different on
+a *second* dimension (voting against its own leadership), they contained it only **25%** of the time. A
 one-dimensional model has nowhere to put that difference, so it squeezes those members onto the
 left-right line and reports narrow ranges around the wrong spot. Error bars are only as honest as the
 model behind them.
+
+The fix is to give the model somewhere to put it. With a second dimension, the same faction's ranges
+contain the truth **93%** of the time, and the other five stay at 82-97%. Getting there took one more
+lesson: these models only loosely fix where the axes point, so the sampler's runs slowly drift and
+rotate, and the raw diagnostics looked like total failure. Lining every draw up on a common map (a
+rotation that moves nobody relative to anybody else) showed the runs had agreed all along.
 
 ## Factions: five methods, one trade-off
 

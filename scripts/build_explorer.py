@@ -3,9 +3,9 @@ every member's position. Hover a dot for the member, caucus and numbers; pick a 
 search by name.
 
 - 119th House map (logistic PCA, 2 dimensions) with caucus labels and the bipartisan yes-rate.
-- 118th House Bayesian positions with 90% ranges (the 119th House Bayesian fit didn't converge).
+- 119th House Bayesian positions with 90% ranges (scripts/fit_irt.py 119H --chains 2 ...).
 
-Needs scripts/run_analysis.py, scripts/fit_irt.py 118H and scripts/dimension2.py first.
+Needs scripts/run_analysis.py, scripts/fit_irt.py 119H and scripts/dimension2.py first.
 
     python scripts/build_explorer.py      # -> docs/explorer.html
 """
@@ -27,7 +27,7 @@ def data():
               "c": "" if r.caucus == "none" else r.caucus, "x": round(r.dim1, 3), "y": round(r.dim2, 3),
               "b": None if pd.isna(r.bipartisan_yes) else round(r.bipartisan_yes, 3),
               "g": int(r.gmm), "gm": round(r.gmm_max_membership, 2)} for _, r in mem.iterrows()]
-    irt = pd.read_csv(RES / "irt_118H_positions.csv").sort_values("position")
+    irt = pd.read_csv(RES / "irt_119H_positions.csv").sort_values("position")
     ranked = [{"n": r.bioname, "p": r.party, "s": r.state_abbrev, "x": round(float(r.position), 3),
                "lo": round(float(r.lo), 3), "hi": round(float(r.hi), 3), "v": int(r.votes_cast)}
               for _, r in irt.iterrows()]
@@ -100,11 +100,11 @@ alike sit close together. Hover over a dot (or tap it) for the member; pick a ca
 </section>
 
 <section class="card">
-  <h2>118th House (2023&ndash;24): one dimension, with uncertainty</h2>
+  <h2>119th House: one dimension, with uncertainty</h2>
   <p class="note">A Bayesian model gives each member a position and a 90% range. Wide ranges belong to members
   with few votes (late arrivals, early departures) and to members at their party's far edge.</p>
   <div class="legend" id="leg2"></div>
-  <div class="chart" id="c2"><svg id="s2" role="img" aria-label="Every 118th House member ordered by position with a 90% range"></svg><div class="tip" id="t2"></div></div>
+  <div class="chart" id="c2"><svg id="s2" role="img" aria-label="Every 119th House member ordered by position with a 90% range"></svg><div class="tip" id="t2"></div></div>
 </section>
 
 <details>
@@ -230,7 +230,7 @@ document.querySelectorAll('#tbl th').forEach(th => th.onclick = () => {
 
 function size() { const w = Math.max(320, Math.min(900, document.getElementById('c1').clientWidth));
   W1 = W2 = w; H1 = Math.max(340, Math.round(w * 0.58)); H2 = Math.max(240, Math.round(w * 0.33)); }
-function all() { size(); legend('leg1', ['Democrat', 'Republican', 'Independent']); legend('leg2', ['Democrat', 'Republican']);
+function all() { size(); legend('leg1', ['Democrat', 'Republican', 'Independent']); legend('leg2', ['Democrat', 'Republican', 'Independent']);
   drawMap(); drawRanked(); drawTable(); }
 document.getElementById('caucus').onchange = e => { caucus = e.target.value; all(); };
 document.getElementById('search').oninput = e => { query = e.target.value.trim().toLowerCase(); all(); };
