@@ -135,7 +135,7 @@ v[['congress', 'chamber', 'method', 'dim1_overall_r', 'dim1_within_Democrat_spea
 """)
     md("""
 Across everyone, both methods match NOMINATE at r ≈ 0.95-0.98: that is the parties separating. **Within
-a party the agreement is only moderate (0.25-0.82), and neither method consistently wins.** That is not
+a party the agreement is only moderate (0.18-0.82), and neither method consistently wins.** That is not
 necessarily our error: DW-NOMINATE estimates each member's position from their *whole career*, and uses a
 different model of voting, so within-party orderings legitimately differ. On the synthetic Congress,
 where the truth is known, logistic PCA was clearly better.

@@ -14,6 +14,8 @@ together. This project goes past the usual tutorial ("run k-means, the two parti
   DW-NOMINATE, political science's standard scores; and caucus membership the votes never saw.
 - **Polarisation since 1973**, from 54 House and Senate sessions.
 
+Write-up for general readers: [blog.md](blog.md).
+
 | Notebook | Question |
 |---|---|
 | [1 · Positions](notebooks/01_positions.ipynb) | Which method places members best, and how sure can we be? |
@@ -104,8 +106,9 @@ voting ran partly along a second dimension.
 - **DW-NOMINATE is a comparison, not ground truth** within a party: it pools each member's whole career
   and uses a different voting model. The synthetic Congress is the answer key.
 - Model settings were picked by predicting hidden votes, never by matching DW-NOMINATE.
-- The Bayesian sampler (NUTS, 1 chain, 500 + 500 draws) reports split R-hat ≤ 1.02 and no divergences,
-  but the effective sample size is low (~18) for a few members; their intervals are rougher.
+- The Bayesian sampler (NUTS, 1 chain, 500 + 500 draws) reports split R-hat 1.02 (House) / 1.03 (Senate)
+  and no divergences, but the effective sample size is low (~18) for a few members; their intervals are
+  rougher. A 119th House fit mixed poorly (R-hat 1.19) and is not used.
 - Voteview's vote files also record the President's announced positions as a "member"; they are
   excluded (found during this project).
 - These are public officials' public votes, reported with the methods' own neutral terms.
@@ -120,6 +123,15 @@ python scripts/run_analysis.py              # all non-Bayesian results (~10 min,
 python scripts/fit_irt.py 118S 118H 119H    # Bayesian ideal points (~5-15 min each, CPU)
 python notebooks/build.py                   # then execute each notebook (see notebooks/build.py)
 ```
+
+## References
+
+- Clinton, J., Jackman, S., & Rivers, D. (2004). The Statistical Analysis of Roll Call Data.
+  *American Political Science Review*, 98(2), 355-370. https://doi.org/10.1017/S0003055404001194
+- Poole, K. T., & Rosenthal, H. (1985). A Spatial Model for Legislative Roll Call Analysis.
+  *American Journal of Political Science*, 29(2), 357-384.
+- Poole, K. T., & Rosenthal, H. (1997). *Congress: A Political-Economic History of Roll Call Voting*.
+  Oxford University Press.
 
 ## Data
 
