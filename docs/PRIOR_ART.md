@@ -17,8 +17,9 @@ Citation details verified 2026-10-30.
   to compare with.
 - **Freedom Caucus as a bloc:** Pew Research Center (2015-10-20), "House Freedom Caucus: What is it
   and who's in it?", found its members more conservative on average than other House Republicans on
-  DW-NOMINATE dimension 1. Consistent with Ward/GMM picking it out here. Whether it also separates
-  on dimension 2 in real votes is untested (TODO: what dimension 2 means today).
+  DW-NOMINATE dimension 1. Consistent with Ward/GMM picking it out here. Our addition: it also separates
+  on dimension 2, which in the 119th House tracks voting yes or no on bipartisan bills
+  (scripts/dimension2.py).
 - Common in data-science tutorials: k-means or PCA on the vote matrix, then "the parties separate".
   That is the trivial result this project goes past (within-party scoring, caucus validation,
   stability, uncertainty).

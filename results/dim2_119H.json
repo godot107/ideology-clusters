@@ -1,0 +1,22 @@
+{
+  "suspension_bills_most_republicans_backed": 68,
+  "freedom_caucus_members": 31,
+  "freedom_caucus_median_no_share": 0.5166666666666667,
+  "other_republicans_median_no_share": 0.015384615384615385,
+  "freedom_caucus_median_dim2": -1.9240048704257289,
+  "other_republicans_median_dim2": 0.3875055795700111,
+  "republicans_dim2_vs_no_share_spearman": -0.8952824984218751,
+  "bipartisan_votes_both_majorities_yes": 80,
+  "democrats_dim2_vs_bipartisan_yes_spearman": 0.880664441256687,
+  "republicans_dim2_vs_bipartisan_yes_spearman": 0.8774553508874277,
+  "democrats_dim1_vs_bipartisan_yes_spearman": 0.5828839891378645,
+  "republicans_dim1_vs_bipartisan_yes_spearman": -0.23011086699443015,
+  "freedom_caucus_median_bipartisan_yes": 0.5333333333333333,
+  "freedom_caucus_rest_of_party_median_bipartisan_yes": 0.9852941176470589,
+  "freedom_caucus_rest_of_party_median_dim2": 0.3875055795700111,
+  "progressive_caucus_median_bipartisan_yes": 0.8778554778554779,
+  "progressive_caucus_rest_of_party_median_bipartisan_yes": 0.9736842105263158,
+  "progressive_caucus_median_dim2": -0.6665903966070992,
+  "progressive_caucus_rest_of_party_median_dim2": 0.446893709039213,
+  "rollcall_text_note": "Voteview has no amendment text for these roll calls (dtl_desc empty)."
+}

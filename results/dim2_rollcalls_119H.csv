@@ -1,0 +1,237 @@
+party,rollnumber,voters,dissent,party_yea,r_dim1,r_dim2,date,bill_number,vote_question,vote_desc,type
+Republican,23,215,0.28837209302325584,0.7116279069767442,-0.2292791263450136,0.7644963746872023,2025-01-23,HR375,On Motion to Suspend the Rules and Pass,Continued Rapid Ohia Death Response Act,suspension
+Republican,28,212,0.26415094339622647,0.7358490566037735,-0.21238362494368507,0.7217583395071479,2025-02-04,HR776,On Motion to Suspend the Rules and Pass,Nutria Eradication and Control Reauthorization Act,suspension
+Republican,43,208,0.07211538461538458,0.9278846153846154,0.045077450395279,0.5901304025601315,2025-02-24,HR832,On Motion to Suspend the Rules and Pass,Small Business Advocacy Improvements Act,suspension
+Republican,44,206,0.12135922330097082,0.8786407766990292,-0.054714422022830826,0.6282674678398483,2025-02-24,HR818,On Motion to Suspend the Rules and Pass,SPUR Act,suspension
+Republican,54,210,0.07619047619047614,0.9238095238095239,-0.03745522421812099,0.4624251483560264,2025-03-03,HR758,On Motion to Suspend the Rules and Pass,Mail Traffic Deaths Reporting Act,suspension
+Republican,72,208,0.16346153846153844,0.8365384615384616,-0.10374802010553633,0.6987349713676855,2025-03-24,HR1326,On Motion to Suspend the Rules and Pass,DOE and USDA Interagency Research Act,suspension
+Republican,73,215,0.3395348837209302,0.6604651162790698,-0.19409100216205502,0.652788399505255,2025-03-25,HR1534,On Motion to Suspend the Rules and Pass,IMPACT Act,suspension
+Republican,79,212,0.4339622641509434,0.4339622641509434,-0.3168182911839428,0.6202115736522292,2025-03-27,HR1048,On Agreeing to the Amendment,,amendment
+Republican,102,205,0.20487804878048776,0.7951219512195122,-0.07057873639486403,0.707476157218006,2025-04-28,HR973,On Motion to Suspend the Rules and Pass,Setting Consumer Standards for Lithium-Ion Batteries Act,suspension
+Republican,106,217,0.06912442396313367,0.9308755760368663,-0.05151054394619061,0.5412880159384788,2025-04-29,HR1402,On Motion to Suspend the Rules and Pass,TICKET Act,suspension
+Republican,107,214,0.19626168224299068,0.8037383177570093,-0.06592146071276078,0.6825771032776183,2025-04-29,HR1442,"On Motion to Suspend the Rules and Pass, as Amended",Youth Poisoning Protection Act,suspension
+Republican,115,202,0.16831683168316836,0.8316831683168316,-0.03859874565797076,0.6773234073200872,2025-05-05,HR36,On Motion to Suspend the Rules and Pass,MEGOBARI Act,suspension
+Republican,123,212,0.23584905660377353,0.7641509433962265,-0.15870189165103427,0.6288087888518673,2025-05-13,HR249,On Motion to Suspend the Rules and Pass,"To redesignate certain facilities at Paterson Great Falls National Historical Park in honor of Congressman Bill Pascrell, Jr.",suspension
+Republican,124,213,0.14553990610328638,0.8544600938967136,-0.06841380918089214,0.7012781438185112,2025-05-14,HR2215,On Motion to Suspend the Rules and Pass,Salem Maritime National Historical Park Redesignation and Boundary Study Act,suspension
+Republican,131,193,0.2590673575129534,0.7409326424870466,-0.13327339665615717,0.7748107394412712,2025-05-19,HR1263,On Motion to Suspend the Rules and Pass,Strengthening the Quad Act,suspension
+Republican,135,217,0.05069124423963134,0.9493087557603687,-0.10785603752465688,0.46760535495744127,2025-05-20,HR1223,On Motion to Suspend the Rules and Pass,ANCHOR Act,suspension
+Republican,150,215,0.12558139534883717,0.8744186046511628,0.021185300297369092,0.6983272707744642,2025-06-04,HR2483,On Passage,SUPPORT for Patients and Communities Reauthorization Act,passage
+Republican,156,198,0.06060606060606055,0.9393939393939394,-0.029962802208358022,0.44411871762079735,2025-06-09,HR2035,On Motion to Suspend the Rules and Pass,American Cargo for American Ships Act,suspension
+Republican,173,209,0.416267942583732,0.583732057416268,-0.19606511988572942,0.7369534840800808,2025-06-23,HR3422,"On Motion to Suspend the Rules and Pass, as Amended",Promoting Opportunities for Non-Traditional Capital Formation Act,suspension
+Republican,190,193,0.051813471502590636,0.9481865284974094,0.016980182983022795,0.38807552555225433,2025-07-14,HR1709,On Motion to Suspend the Rules and Pass,Understanding Cybersecurity of Mobile Networks Act,suspension
+Republican,191,193,0.1658031088082902,0.8341968911917098,-0.08223344079711505,0.6144769255795378,2025-07-14,HR1770,On Motion to Suspend the Rules and Pass,Consumer Safety Technology Act,suspension
+Republican,194,209,0.062200956937799035,0.937799043062201,0.09473917461042655,0.5090081451670462,2025-07-15,HRES580,On Agreeing to the Resolution,"Providing for consideration of the bills (H.R. 4016) Department of Defense Appropriations Act, 2026; (H.R. 3633) CLARITY Act; (H.R. 1919) Anti-CBDC Surveillance State Act; and (S. 1582) GENIUS Act",rule
+Republican,195,207,0.15458937198067635,0.8454106280193237,-0.033799439418200086,0.6679673407977508,2025-07-15,HR1717,On Motion to Suspend the Rules and Pass,Communications Security Act,suspension
+Republican,199,218,0.05504587155963303,0.944954128440367,0.08397386232128497,0.4430814962511208,2025-07-17,S1582,On Passage,GENIUS Act,passage
+Republican,203,216,0.29166666666666663,0.2916666666666667,-0.22412137505800386,0.7578354004132164,2025-07-18,HR4016,On Agreeing to the Amendment,,amendment
+Republican,205,218,0.47706422018348627,0.47706422018348627,-0.37300983033171425,0.6036528027214719,2025-07-18,HR4016,On Agreeing to the Amendment,,amendment
+Republican,207,218,0.13761467889908252,0.13761467889908258,-0.04232654481730586,0.65816491928082,2025-07-18,HR4016,On Agreeing to the Amendment,,amendment
+Republican,208,217,0.3502304147465438,0.35023041474654376,-0.2909543470175072,0.6708923210275599,2025-07-18,HR4016,On Agreeing to the Amendment,,amendment
+Republican,209,219,0.3470319634703196,0.3470319634703196,-0.24358764362784874,0.6614206293545586,2025-07-18,HR4016,On Agreeing to the Amendment,,amendment
+Republican,213,202,0.05940594059405946,0.9405940594059405,-0.02276313202284556,0.5713623002208732,2025-07-21,HR3351,"On Motion to Suspend the Rules and Pass, as Amended",Improving Access to Small Business Information Act,suspension
+Republican,215,210,0.27142857142857146,0.7285714285714285,-0.1858088607851579,0.6883020303126401,2025-07-22,HR1917,"On Motion to Suspend the Rules and Pass, as Amended",Great Lakes Mass Marking Program Act,suspension
+Republican,216,207,0.1497584541062802,0.8502415458937198,-0.1358876566573859,0.6593433853732805,2025-07-23,HR3357,"On Motion to Suspend the Rules and Pass, as Amended",Enhancing Multi-Class Share Disclosures Act,suspension
+Republican,217,209,0.0574162679425837,0.9425837320574163,0.07390897146443086,0.5569927724852518,2025-07-23,HR4275,"On Motion to Suspend the Rules and Pass, as Amended",Coast Guard Authorization Act,suspension
+Republican,226,217,0.10138248847926268,0.8986175115207373,0.4040579982284989,-0.24515442217425742,2025-09-03,HR4553,On Agreeing to the Amendment,,amendment
+Republican,227,216,0.3379629629629629,0.6620370370370371,0.5049767718580644,-0.5280406502131095,2025-09-03,HR4553,On Agreeing to the Amendment,,amendment
+Republican,228,215,0.35813953488372097,0.3581395348837209,-0.24193362409695618,0.662209592892513,2025-09-03,HR4553,On Agreeing to the Amendment,,amendment
+Republican,229,218,0.35779816513761464,0.6422018348623854,0.44034661670274844,-0.6024403209961985,2025-09-03,HR4553,On Agreeing to the Amendment,,amendment
+Republican,230,216,0.4444444444444444,0.5555555555555556,0.3674826807102186,-0.5499507702261668,2025-09-03,HR4553,On Agreeing to the Amendment,,amendment
+Republican,231,216,0.42592592592592593,0.5740740740740741,0.42884276991093595,-0.5966105080145615,2025-09-03,HR4553,On Agreeing to the Amendment,,amendment
+Republican,232,215,0.40930232558139534,0.5906976744186047,0.4163490507557687,-0.5883600350001809,2025-09-03,HR4553,On Agreeing to the Amendment,,amendment
+Republican,233,216,0.4444444444444444,0.5555555555555556,0.37123630328298407,-0.575803216376317,2025-09-03,HR4553,On Agreeing to the Amendment,,amendment
+Republican,234,215,0.4418604651162791,0.5581395348837209,0.37168850641218504,-0.615143104676878,2025-09-04,HR4553,On Agreeing to the Amendment,,amendment
+Republican,235,215,0.40930232558139534,0.5906976744186047,0.3915366236801846,-0.6338385777936211,2025-09-04,HR4553,On Agreeing to the Amendment,,amendment
+Republican,236,217,0.3502304147465438,0.35023041474654376,-0.2414668176979206,0.6113190027301904,2025-09-04,HR4553,On Agreeing to the Amendment,,amendment
+Republican,243,215,0.22790697674418603,0.22790697674418606,0.23055840311550724,0.4834340785644391,2025-09-10,HR3838,On Agreeing to the Amendment,,amendment
+Republican,249,219,0.0730593607305936,0.9269406392694064,0.43106051479359797,-0.2641684778473234,2025-09-10,HR3838,On Agreeing to the Amendment,,amendment
+Republican,253,217,0.12903225806451613,0.8709677419354839,0.4665295479829262,-0.19578316428094633,2025-09-10,HR3838,On Agreeing to the Amendment,,amendment
+Republican,254,218,0.27522935779816515,0.27522935779816515,-0.22564491910837897,0.6587178987800493,2025-09-10,HR3838,On Agreeing to the Amendment,,amendment
+Republican,255,219,0.273972602739726,0.273972602739726,-0.2006060336230114,0.7076928853634331,2025-09-10,HR3838,On Agreeing to the Amendment,,amendment
+Republican,258,216,0.08333333333333337,0.9166666666666666,0.5284943352099891,-0.1891309667699008,2025-09-10,HR3838,On Agreeing to the Amendment,,amendment
+Republican,265,197,0.10659898477157359,0.8934010152284264,-0.15321202540049275,0.5598563105465647,2025-09-15,HR3400,"On Motion to Suspend the Rules and Pass, as Amended",TRAVEL Act,suspension
+Republican,285,208,0.07211538461538458,0.9278846153846154,0.05913460723838986,0.5680354169686195,2025-11-17,HR1608,"On Motion to Suspend the Rules and Pass, as Amended",Department of Homeland Security Vehicular Terrorism Prevention and Mitigation Act,suspension
+Republican,299,215,0.2093023255813954,0.7906976744186046,-0.09438181656064124,0.6703510107243067,2025-11-19,HR4058,On Motion to Suspend the Rules and Pass,Enhancing Stakeholder Support and Outreach for Preparedness Grants Act,suspension
+Republican,319,215,0.08372093023255811,0.9162790697674419,0.21351879875307625,0.5804198142118494,2025-12-10,S1071,On Passage,"To require the Secretary of Veterans Affairs to disinter the remains of Fernando V. Cota from Fort Sam Houston National Cemetery, Texas, and for other purposes",passage
+Republican,320,213,0.06103286384976525,0.06103286384976526,0.563374561851413,-0.1919817434663565,2025-12-10,HRES432,On Motion to Discharge,"Providing for consideration of the bill (H.R. 2550) to nullify the Executive Order relating to Exclusions from Federal Labor-Management Relations Programs, and for other purposes",other
+Republican,324,218,0.24311926605504586,0.24311926605504589,-0.13465048272583532,0.646277818521984,2025-12-11,HR3383,On Agreeing to the Amendment,,amendment
+Republican,330,216,0.10185185185185186,0.10185185185185185,0.5479045124024616,-0.17555979218399442,2025-12-11,HRES432,On Agreeing to the Resolution,"Providing for consideration of the bill (H.R. 2550) to nullify the Executive Order relating to Exclusions from Federal Labor-Management Relations Programs, and for other purposes",rule
+Republican,331,215,0.09302325581395354,0.09302325581395349,0.6080760985066345,-0.2327536623160251,2025-12-11,HR2550,On Passage,Protect America’s Workforce Act,passage
+Republican,334,198,0.11111111111111116,0.8888888888888888,-0.08079480014172356,0.6797776630969774,2025-12-15,S284,On Motion to Suspend the Rules and Pass,Congressional Award Program Reauthorization Act,suspension
+Republican,351,213,0.05164319248826288,0.9483568075117371,0.5975365780892173,-0.1560101681556954,2025-12-18,HR4776,On Agreeing to the Amendment,,amendment
+Republican,365,211,0.18957345971563977,0.8104265402843602,-0.08210490291643342,0.7328708051884457,2026-01-08,HR6938,On Retaining Division A,"Commerce, Justice, Science; Energy and Water Development; and Interior and Environment Appropriations Act, 2026",other
+Republican,367,213,0.10328638497652587,0.8967136150234741,0.06096734531899747,0.6004498426138476,2026-01-08,HR6938,On Passage,"Commerce, Justice, Science; Energy and Water Development; and Interior and Environment Appropriations Act, 2026",passage
+Republican,368,212,0.1132075471698113,0.11320754716981132,0.4983640142749535,-0.2716722983408073,2026-01-08,HR504,"Passage, Objections of the President To The Contrary Notwithstanding",Miccosukee Reserved Area Amendments Act,passage
+Republican,369,212,0.16509433962264153,0.1650943396226415,0.42452783991566445,-0.09407501298729531,2026-01-08,HR131,"Passage, Objections of the President To The Contrary Notwithstanding",Finish the Arkansas Valley Conduit Act,passage
+Republican,370,213,0.05164319248826288,0.051643192488262914,0.47236662842621285,-0.1414709028121779,2026-01-08,HRES780,On Agreeing to the Resolution,Providing for consideration of the bill (H.R. 1834) to advance policy priorities that will break the gridlock,rule
+Republican,371,213,0.07981220657277,0.07981220657276995,0.48566975870384954,-0.23871306402070305,2026-01-08,HR1834,On Passage,Breaking the Gridlock Act,passage
+Republican,373,189,0.1164021164021164,0.8835978835978836,-0.14333204371803446,0.682156858824551,2026-01-12,HR2683,"On Motion to Suspend the Rules and Pass, as Amended",Remote Access Security Act,suspension
+Republican,374,192,0.22395833333333337,0.7760416666666666,-0.12488820386446092,0.7389825435730557,2026-01-12,HR6500,"On Motion to Suspend the Rules and Pass, as Amended",AGOA Extension Act,suspension
+Republican,375,191,0.23560209424083767,0.7643979057591623,-0.08559010971325355,0.7414500141049315,2026-01-12,HR6504,"On Motion to Suspend the Rules and Pass, as Amended",Haiti Economic Lift Program Extension Act,suspension
+Republican,386,209,0.22009569377990434,0.7799043062200957,0.47616864111779006,-0.499748103065255,2026-01-14,HR7006,On Agreeing to the Amendment,,amendment
+Republican,387,208,0.38942307692307687,0.6105769230769231,0.35968745716816525,-0.6586256659235422,2026-01-14,HR7006,On Agreeing to the Amendment,,amendment
+Republican,388,210,0.10476190476190472,0.8952380952380953,0.11534156405410304,0.6435055336099577,2026-01-14,HR7006,On Passage,"Financial Services and General Government and National Security, Department of State, and Related Programs Appropriations Act, 2026",passage
+Republican,393,207,0.0531400966183575,0.9468599033816425,0.007435087250778943,0.4051296024414063,2026-01-20,HR5764,"On Motion to Suspend the Rules and Pass, as Amended",AI for Main Street Act,suspension
+Republican,403,217,0.2626728110599078,0.7373271889400922,0.4582448825728694,-0.49294550510898,2026-01-22,HR7148,On Agreeing to the Amendment,,amendment
+Republican,404,212,0.3584905660377359,0.6415094339622641,0.4445384741156104,-0.6100435946429181,2026-01-22,HR7148,On Agreeing to the Amendment,,amendment
+Republican,405,216,0.11111111111111116,0.8888888888888888,0.08504503788811311,0.6426639997232163,2026-01-22,HR7148,On Passage,"Consolidated Appropriations Act, 2026",passage
+Republican,413,217,0.09677419354838712,0.9032258064516129,0.11178126634734038,0.5847104129852029,2026-02-03,HR7148,On Motion to Concur in the Senate Amendments,"Consolidated Appropriations Act, 2026",amendment
+Republican,432,209,0.368421052631579,0.3684210526315789,0.25149059991259504,0.11468667251809458,2026-02-24,S2503,On Motion to Suspend the Rules and Pass,ROTOR Act,suspension
+Republican,441,215,0.1813953488372093,0.8186046511627907,-0.11900254790557871,0.6587965449477725,2026-03-04,S723,On Motion to Suspend the Rules and Pass,Tribal Trust Land Homeownership Act,suspension
+Republican,442,214,0.3317757009345794,0.6682242990654206,-0.1481247958307427,0.638263030404389,2026-03-04,HR6472,"On Motion to Suspend the Rules and Pass, as Amended",Territorial Student Access to Higher Education Act,suspension
+Republican,443,213,0.17840375586854462,0.8215962441314554,0.20336378296439833,0.4364862694842516,2026-03-04,HRES1100,On Motion to Refer,Directing the Committee on Ethics to preserve and publicly release records of the Committee’s review of violations or alleged violations of clause 9 (as it pertains to acts of sexual harassment) and clause 18 of rule XXIII of the Rules of the House of Representatives.,other
+Republican,448,193,0.33678756476683935,0.6632124352331606,-0.08511579006971416,0.7008656417079752,2026-03-17,HR4294,"On Motion to Suspend the Rules and Pass, as Amended",MAWS Act,suspension
+Republican,449,193,0.20725388601036265,0.7927461139896373,-0.054752005011811475,0.7293345377948672,2026-03-17,S3971,On Motion to Suspend the Rules and Pass,Small Business Innovation and Economic Security Act,suspension
+Republican,457,207,0.1497584541062802,0.8502415458937198,-0.183295169720361,0.6505559973670867,2026-03-24,HR6422,"On Motion to Suspend the Rules and Pass, as Amended",American Water Stewardship Act,suspension
+Republican,483,208,0.05769230769230771,0.9423076923076923,0.37094611955442747,0.17219193142880443,2026-04-17,HRES1175,On Agreeing to the Amendment,,amendment
+Republican,484,212,0.09433962264150941,0.9056603773584906,0.012090505658607975,0.5869584685502965,2026-04-17,HRES1175,On Agreeing to the Resolution,"Providing for consideration of the bill (H.R. 8035) to amend the FISA Amendments Act of 2008 to extend the authorities of title VII of the Foreign Intelligence Surveillance Act of 1978 through October 20, 2027, and for other purposes",rule
+Republican,489,200,0.06999999999999995,0.93,-0.050491806941609346,0.45861336406867126,2026-04-21,S1020,On Motion to Suspend the Rules and Pass,To require the Federal Energy Regulatory Commission to extend the time period during which licensees are required to commence construction of certain hydropower projects,suspension
+Republican,498,171,0.052631578947368474,0.9473684210526315,0.0862910716173265,0.4876985979845746,2026-04-27,HR7959,"On Motion to Suspend the Rules and Pass, as Amended",IRS Whistleblower Program Improvement Act,suspension
+Republican,502,214,0.10280373831775702,0.897196261682243,0.1427427945661317,0.5347491333067317,2026-04-29,S1318,On Passage,Fallen Servicemembers Religious Heritage Restoration Act,passage
+Republican,504,212,0.18867924528301883,0.8113207547169812,0.08197271881134872,0.2885829898678226,2026-04-30,HR7567,On Agreeing to the Amendment,,amendment
+Republican,505,210,0.10952380952380958,0.8904761904761904,-0.06122124186922336,0.28682593924856964,2026-04-30,HR7567,On Agreeing to the Amendment,,amendment
+Republican,507,211,0.31753554502369663,0.3175355450236967,-0.13952012325850807,0.6180942854034955,2026-04-30,HR7567,On Agreeing to the Amendment,,amendment
+Republican,508,208,0.35096153846153844,0.35096153846153844,0.29570677045919,0.35958213649030885,2026-04-30,HR7567,On Agreeing to the Amendment,,amendment
+Republican,509,212,0.13207547169811318,0.8679245283018868,0.25522534325544305,0.015249724448017987,2026-04-30,HR7567,On Agreeing to the Amendment,,amendment
+Republican,510,213,0.08920187793427226,0.0892018779342723,0.3831232089603263,-0.11992527328762377,2026-04-30,HR7567,"On Agreeing to the Amendment, as Modified",,amendment
+Republican,511,211,0.26066350710900477,0.7393364928909952,0.06508149216551314,-0.3163154266605432,2026-04-30,HR7567,On Agreeing to the Amendment,,amendment
+Republican,515,192,0.13541666666666663,0.8645833333333334,-0.026828679590376898,0.698932698222702,2026-04-30,S4465,On Motion to Suspend the Rules and Pass,"To amend the FISA Amendments Act of 2008 to extend the authorities of title VII of the Foreign Intelligence Surveillance Act of 1978, and for other purposes",suspension
+Republican,523,213,0.15962441314553988,0.1596244131455399,-0.0018800236524794999,0.6935946979158121,2026-05-13,HR1346,On Motion to Recommit,Nationwide Consumer and Fuel Retailer Choice Act,other
+Republican,524,212,0.42452830188679247,0.5754716981132075,0.020818618921324656,0.38783997007723653,2026-05-13,HR1346,On Passage,Nationwide Consumer and Fuel Retailer Choice Act,passage
+Republican,534,207,0.38647342995169087,0.3864734299516908,-0.13303733984515265,0.6435310549659964,2026-05-15,HR8469,On Agreeing to the Amendment,,amendment
+Republican,536,204,0.06372549019607843,0.9362745098039216,0.09170097828112748,0.5248279458589505,2026-05-20,HRES1299,On Motion to Suspend the Rules and Agree,"Providing for the concurrence by the House in the Senate amendment to H.R. 6644, with amendment",suspension
+Republican,552,209,0.062200956937799035,0.937799043062201,-0.07508513572857234,0.4954646801586514,2026-06-03,HR7618,"On Motion to Suspend the Rules and Pass, as Amended",American Battlefield Protection Program Amendments Act,suspension
+Republican,553,210,0.06666666666666665,0.9333333333333333,-0.038895103937118446,0.4822847163665248,2026-06-03,S254,On Motion to Suspend the Rules and Pass,ARTIST Act,suspension
+Republican,556,211,0.23222748815165872,0.7677725118483413,-0.16299886605411598,0.7360663724942802,2026-06-03,HR2860,"On Motion to Suspend the Rules and Pass, as Amended",Northwest Straits Marine Conservation Initiative Reauthorization Act,suspension
+Republican,567,212,0.08490566037735847,0.08490566037735849,0.47185218330022827,-0.3248460748037617,2026-06-04,HR2913,On Passage,Ukraine Support Act,passage
+Republican,575,211,0.05213270142180093,0.052132701421800945,0.5148577221058581,-0.1134888600669413,2026-06-09,HRES1140,On Agreeing to the Resolution,Providing for consideration of the bill (H.R. 5408) to accelerate workplace time-to-contract under the National Labor Relations Act,rule
+Republican,576,212,0.09433962264150941,0.09433962264150944,0.5723399711259909,-0.20141465291527327,2026-06-09,HR5408,On Passage,Faster Labor Contracts Act,passage
+Republican,581,209,0.09090909090909094,0.9090909090909091,0.13754482628668044,0.5711489354804047,2026-06-11,HR9238,On Motion to Suspend the Rules and Pass,"To amend the FISA Amendments Act of 2008 to extend the authorities of title VII of the Foreign Intelligence Surveillance Act of 1978, and for other purposes",suspension
+Republican,583,197,0.09644670050761417,0.9035532994923858,-0.03206272286740577,0.6083863489524758,2026-06-23,S629,On Motion to Suspend the Rules and Pass,Emergency Conservation Program Improvement Act,suspension
+Republican,584,198,0.16161616161616166,0.8383838383838383,-0.0452959841247312,0.739787885524061,2026-06-23,HR6644,On Motion to Suspend the Rules and Concur in Senate Adt to House Adt to Senate Adt,Housing for the 21st Century Act,suspension
+Republican,588,194,0.1649484536082474,0.8350515463917526,0.04028346555745046,0.6741714771778446,2026-06-29,HR7757,"On Motion to Suspend the Rules and Pass, as Amended",KIDS Act,suspension
+Republican,589,196,0.07653061224489799,0.923469387755102,-0.03855476158892774,0.6080484442238874,2026-06-29,HR7128,"On Motion to Suspend the Rules and Pass, as Amended",TRIA Program Reauthorization Act,suspension
+Republican,591,211,0.06635071090047395,0.933649289099526,0.2660760644699857,0.4075691484612921,2026-06-30,HRES1398,On Agreeing to the Resolution,"Providing for consideration of the bills H.R. 8800, H.R. 8595, and H.R. 8884; and providing for consideration of the resolution H. Res. 1383",rule
+Republican,598,215,0.10232558139534886,0.8976744186046511,0.14097689724471882,0.045700858884884135,2026-07-14,HR139,On Passage,Sunshine Protection Act,passage
+Republican,601,216,0.3657407407407407,0.36574074074074076,-0.2435538220198027,0.6765842444423894,2026-07-15,HR8595,On Agreeing to the Amendment,,amendment
+Republican,602,214,0.17757009345794394,0.822429906542056,0.41334898113723945,-0.4855267099426705,2026-07-15,HR8595,On Agreeing to the Amendment,,amendment
+Republican,605,216,0.37037037037037035,0.6296296296296297,0.34578772641314914,-0.6321565021330953,2026-07-15,HR8595,On Agreeing to the Amendment,,amendment
+Republican,615,213,0.30516431924882625,0.3051643192488263,-0.10614763532871554,0.7415059593399553,2026-07-21,HR8800,On Agreeing to the Amendment,,amendment
+Republican,616,210,0.29047619047619044,0.2904761904761905,-0.13553366153146862,0.7014555077751973,2026-07-21,HR8800,On Agreeing to the Amendment,,amendment
+Republican,617,211,0.2796208530805687,0.2796208530805687,-0.0714825810205492,0.6751936360739597,2026-07-21,HR8800,On Agreeing to the Amendment,,amendment
+Republican,618,213,0.4225352112676056,0.4225352112676056,-0.029930695778216873,0.5529357359289623,2026-07-21,HR8800,On Agreeing to the Amendment,,amendment
+Republican,622,212,0.07075471698113212,0.9292452830188679,0.2562888118943443,0.44894901192161324,2026-07-21,HR8800,On Agreeing to the Amendment,,amendment
+Republican,623,212,0.28773584905660377,0.28773584905660377,-0.10978909881729797,0.6923039014669247,2026-07-21,HR8800,On Agreeing to the Amendment,,amendment
+Republican,624,212,0.3584905660377359,0.3584905660377358,-0.296652692659773,0.6647099262415257,2026-07-21,HR8800,On Agreeing to the Amendment,,amendment
+Republican,634,218,0.08256880733944949,0.9174311926605505,0.1905063922123302,0.3945465202121565,2026-07-22,HR8800,On Agreeing to the Amendment,,amendment
+Republican,636,217,0.1981566820276498,0.8018433179723502,0.4433796406733545,-0.11936136992967403,2026-07-22,HR8800,On Agreeing to the Amendment,,amendment
+Republican,645,196,0.05102040816326525,0.9489795918367347,0.07571069872930762,0.46856945948144046,2026-08-31,S32,On Motion to Suspend the Rules and Pass,Local Access to Courts Act,suspension
+Republican,646,212,0.089622641509434,0.910377358490566,0.015762648673308812,0.5938833364507127,2026-09-01,HR6500,On Motion to Suspend the Rules and Concur in the Senate Amendments,AGOA Extension Act,suspension
+Republican,656,198,0.16666666666666663,0.8333333333333334,-0.1518792658427681,0.6787515737595982,2026-09-14,HR4219,"On Motion to Suspend the Rules and Pass, as Amended",National Wildlife Refuge System Invasive Species Strike Team Act,suspension
+Republican,657,198,0.303030303030303,0.696969696969697,-0.20128575390529538,0.6819477983987736,2026-09-14,HR3276,"On Motion to Suspend the Rules and Pass, as Amended",Local Communities & Bird Habitat Stewardship Act,suspension
+Republican,664,209,0.37799043062200954,0.6220095693779905,-0.26399182768658613,0.7035485307030207,2026-09-15,HR2140,On Motion to Suspend the Rules and Pass,Diesel Emissions Reduction Act,suspension
+Republican,665,212,0.08018867924528306,0.9198113207547169,-0.13621190671901234,0.5456730340400296,2026-09-15,HR9500,"On Motion to Suspend the Rules and Pass, as Amended",Tax Relief for Fraud Victims Act,suspension
+Republican,674,205,0.06829268292682922,0.9317073170731708,-0.052330863474616456,0.5224987271880179,2026-09-16,S2403,On Motion to Suspend the Rules and Pass,Retire through Ownership Act,suspension
+Democrat,5,207,0.23188405797101452,0.2318840579710145,-0.6496155643524026,-0.5802661590871854,2025-01-07,HR29,On Passage,Laken Riley Act,passage
+Democrat,6,185,0.2432432432432432,0.24324324324324326,-0.5430736979158689,-0.4385122818051728,2025-01-09,HR23,On Passage,Illegitimate Court Counteraction Act,passage
+Democrat,16,206,0.2961165048543689,0.2961165048543689,-0.6468369981499934,-0.6335142605645113,2025-01-16,HR30,On Passage,Preventing Violence Against Women by Illegal Aliens Act,passage
+Democrat,22,202,0.2277227722772277,0.22772277227722773,-0.674005236511791,-0.608584853800868,2025-01-22,S5,On Passage,Laken Riley Act,passage
+Democrat,24,205,0.31219512195121957,0.3121951219512195,-0.5774991602759038,-0.5117017683727961,2025-01-23,HR471,On Passage,Fix Our Forests Act,passage
+Democrat,31,206,0.11650485436893199,0.883495145631068,-0.5451064547183632,-0.403037705554245,2025-02-06,HR27,On Agreeing to the Amendment,,amendment
+Democrat,32,205,0.47804878048780486,0.47804878048780486,-0.610982700448524,-0.6459131291286244,2025-02-06,HR27,On Passage,HALT Fentanyl Act,passage
+Democrat,34,204,0.07843137254901966,0.0784313725490196,-0.5548885535403181,-0.31111717882824685,2025-02-07,HR26,On Passage,Protecting American Energy Production Act,passage
+Democrat,41,205,0.24390243902439024,0.24390243902439024,-0.6416131211285264,-0.6101518341433257,2025-02-13,HR35,On Passage,Agent Raul Gonzalez Officer Safety Act,passage
+Democrat,52,209,0.052631578947368474,0.05263157894736842,-0.5742878421356585,-0.5518268456192201,2025-02-27,HJRES20,On Passage,"Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Department of Energy relating to “Energy Conservation Program: Energy Conservation Standards for Consumer Gas-fired Instantaneous Water Heaters”",passage
+Democrat,67,210,0.3952380952380953,0.3952380952380952,-0.5633536110482384,-0.5283043061194989,2025-03-11,HR1156,On Passage,Pandemic Unemployment Fraud Enforcement Act,passage
+Democrat,70,208,0.3653846153846154,0.36538461538461536,-0.49195277749151106,-0.37953632359522943,2025-03-11,HJRES25,On Passage,"Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Internal Revenue Service relating to “Gross Proceeds Reporting by Brokers That Regularly Provide Services Effectuating Digital Asset Sales”",passage
+Democrat,82,199,0.15577889447236182,0.15577889447236182,-0.5705998043537178,-0.507601318250468,2025-03-27,HR1048,On Passage,DETERRENT Act,passage
+Democrat,110,203,0.0640394088669951,0.06403940886699508,-0.5495564348336348,-0.5224322260879041,2025-04-30,HJRES87,On Passage,"Congressional disapproval, of the rule submitted by the EPA relating to “CA Motor Vehicle and Engine Pollution Control Standards; Heavy-Duty Vehicle and Engine Em Warranty and Maintenance Provisions; Advanced Clean Trucks; Zero Em Airport Shuttle; Zero-Em Power Train Cert.; Waiver of Preemption; Notice of Decision”",passage
+Democrat,113,199,0.1758793969849246,0.17587939698492464,-0.5957239793947758,-0.5565348570926276,2025-05-01,HJRES88,On Passage,"Congressional disapproval, of the rule submitted by the EPA relating to “California State Motor Vehicle and Engine Pollution Control Standards; Advanced Clean Cars II; Waiver of Preemption; Notice of Decision”",passage
+Democrat,119,208,0.26442307692307687,0.2644230769230769,-0.6445632197725406,-0.6261445574011195,2025-05-07,HR881,On Passage,DHS Restrictions on Confucius Institutes and Chinese Entities of Concern Act,passage
+Democrat,127,207,0.06763285024154586,0.06763285024154589,-0.5306888173266413,-0.42898366970470964,2025-05-14,HR2243,On Passage,LEOSA Reform Act,passage
+Democrat,129,202,0.09900990099009899,0.09900990099009901,-0.6284488629278782,-0.5441953974162294,2025-05-15,HR2255,On Passage,Federal Law Enforcement Officer Service Weapon Purchase Act,passage
+Democrat,130,201,0.05472636815920395,0.945273631840796,0.2709429123354523,0.4124220243283919,2025-05-15,HR2240,On Passage,Improving Law Enforcement Officer Safety and Wellness Through Data Act,passage
+Democrat,150,208,0.14423076923076927,0.8557692307692307,0.20316893912373807,0.2554870024382388,2025-06-04,HR2483,On Passage,SUPPORT for Patients and Communities Reauthorization Act,passage
+Democrat,157,188,0.39893617021276595,0.39893617021276595,-0.6022624747496577,-0.5826669594826328,2025-06-09,HRES488,On Motion to Suspend the Rules and Agree,"Denouncing the antisemitic terrorist attack in Boulder, Colorado",suspension
+Democrat,161,204,0.1470588235294118,0.14705882352941177,-0.6322762148857398,-0.5992407630580541,2025-06-10,HR2096,On Passage,Protecting Our Nation’s Capital Emergency Act,passage
+Democrat,162,204,0.27450980392156865,0.27450980392156865,-0.7146440656034255,-0.6303528628891788,2025-06-10,HR884,On Passage,To prohibit individuals who are not citizens of the United States from voting in elections in the District of Columbia and to repeal the Local Resident Voting Rights Amendment Act of 2022,passage
+Democrat,165,207,0.4975845410628019,0.5024154589371981,0.5970268268043801,0.6169498290941591,2025-06-12,S331,On Passage,HALT Fentanyl Act,passage
+Democrat,170,205,0.0536585365853659,0.05365853658536585,-0.5655671065089308,-0.5405198346737438,2025-06-12,HR2056,On Passage,District of Columbia Federal Immigration Compliance Act,passage
+Democrat,172,198,0.06060606060606055,0.9393939393939394,0.2785469897184282,0.4696885411593791,2025-06-23,HR3394,"On Motion to Suspend the Rules and Pass, as Amended",Fair Investment Opportunities for Professional Experts Act,suspension
+Democrat,174,207,0.3816425120772947,0.6183574879227053,0.5010667167652163,0.61560733347758,2025-06-24,HRES537,On Motion to Table,"Impeaching Donald J. Trump, President of the United States, for high crimes and misdemeanors",other
+Democrat,182,197,0.18781725888324874,0.18781725888324874,-0.5632561503797308,-0.5659829793191553,2025-06-26,HR875,On Passage,Jeremy and Angel Seay and Sergeant Brandon Mendoza Protect Our Communities from DUIs Act,passage
+Democrat,183,205,0.1121951219512195,0.11219512195121951,-0.597479845868462,-0.4861514790082804,2025-06-26,HR275,On Passage,Special Interest Alien Reporting Act,passage
+Democrat,198,212,0.3679245283018868,0.36792452830188677,-0.6474468201218284,-0.5028843142640476,2025-07-17,HR3633,On Passage,CLARITY Act,passage
+Democrat,199,212,0.4811320754716981,0.4811320754716981,-0.5314218490923882,-0.528060753373767,2025-07-17,S1582,On Passage,GENIUS Act,passage
+Democrat,212,196,0.38265306122448983,0.3826530612244898,-0.528885575463118,-0.4020479721752929,2025-07-21,HR3095,"On Motion to Suspend the Rules and Pass, as Amended","To direct the United States Postal Service to designate single, unique ZIP Codes for certain communities, and for other purposes",suspension
+Democrat,218,204,0.0980392156862745,0.9019607843137255,0.31417595367770856,0.5128984469529723,2025-09-02,HR4216,"On Motion to Suspend the Rules and Pass, as Amended",Made-in-America Defense Act,suspension
+Democrat,261,209,0.08133971291866027,0.08133971291866028,-0.5838913165323877,-0.5585064993797109,2025-09-10,HR3838,On Passage,Streamlining Procurement for Effective Execution and Delivery and National Defense Authorization Act for Fiscal Year 2026,passage
+Democrat,263,208,0.05288461538461542,0.052884615384615384,-0.5763783421521179,-0.5680537520157346,2025-09-11,HR3486,On Passage,Stop Illegal Entry Act,passage
+Democrat,269,209,0.14832535885167464,0.14832535885167464,-0.6297202903272374,-0.5443299966900681,2025-09-16,HR4922,On Passage,DC CRIMES Act,passage
+Democrat,274,211,0.13744075829383884,0.13744075829383887,-0.5832683006109991,-0.5924981010334893,2025-09-17,HR5143,On Passage,District of Columbia Policing Protection Act,passage
+Democrat,281,153,0.3790849673202614,0.6209150326797386,0.45443387015228137,0.5089705954219638,2025-09-19,HRES719,On Agreeing to the Resolution,Honoring the life and legacy of Charles “Charlie” James Kirk,rule
+Democrat,291,206,0.11165048543689315,0.11165048543689321,-0.43264809158644274,-0.38205407944598946,2025-11-18,HRES878,On Agreeing to the Resolution,Disapproving the behavior of Representative Jesus G. “Chuy” Garcia of Illinois,rule
+Democrat,297,207,0.13526570048309183,0.13526570048309178,-0.6834022131141141,-0.6579857524324119,2025-11-19,HR5214,On Passage,District of Columbia Cash Bail Reform Act,passage
+Democrat,298,210,0.09523809523809523,0.09523809523809523,-0.5948373137953599,-0.5687843200533498,2025-11-19,HR5107,On Passage,CLEAN DC Act,passage
+Democrat,301,201,0.47263681592039797,0.527363184079602,0.1769350910174326,0.13141175776823205,2025-11-19,HRES893,On Motion to Refer,Censuring Representative Cory Mills and Removing Him From the Committee on Armed Services and the Committee on Foreign Affairs,other
+Democrat,302,201,0.12437810945273631,0.12437810945273632,-0.6079373916884808,-0.5082606040727299,2025-11-20,HR3109,On Passage,REFINER Act,passage
+Democrat,303,199,0.055276381909547756,0.05527638190954774,-0.5044884066436959,-0.30255691415565117,2025-11-20,HR1949,On Passage,Unlocking our Domestic LNG Potential Act,passage
+Democrat,304,184,0.46739130434782605,0.4673913043478261,-0.6315757598293074,-0.682612628423002,2025-11-21,HCONRES58,On Agreeing to the Resolution,Denouncing the horrors of socialism,rule
+Democrat,309,205,0.07317073170731703,0.07317073170731707,-0.5890865629883019,-0.5183141589366786,2025-12-03,HR2965,On Passage,Small Business Regulatory Reduction Act,passage
+Democrat,310,205,0.2878048780487805,0.28780487804878047,-0.6693271111457643,-0.6502458266950071,2025-12-03,HR4305,On Passage,DUMP Red Tape Act,passage
+Democrat,311,206,0.1456310679611651,0.14563106796116504,-0.6708603049083495,-0.6554857177809407,2025-12-03,HR1005,On Passage,CLASS Act,passage
+Democrat,312,197,0.1675126903553299,0.16751269035532995,-0.6602024807088345,-0.6803512077421757,2025-12-04,HR1069,On Passage,PROTECT Our Kids Act,passage
+Democrat,313,199,0.16582914572864327,0.1658291457286432,-0.5867478870656151,-0.6270478084617386,2025-12-04,HR1049,On Passage,TRACE Act,passage
+Democrat,319,209,0.44976076555023925,0.5502392344497608,0.4112250615027179,0.6580530084500558,2025-12-10,S1071,On Passage,"To require the Secretary of Veterans Affairs to disinter the remains of Fernando V. Cota from Fort Sam Houston National Cemetery, Texas, and for other purposes",passage
+Democrat,321,163,0.14110429447852757,0.1411042944785276,-0.6613769417990496,-0.6866273563571349,2025-12-11,HRES939,On Motion to Table,"Impeaching Donald John Trump, President of the United States for high crimes and misdemeanors",other
+Democrat,323,210,0.24285714285714288,0.24285714285714285,-0.6017470450616319,-0.5721845588446589,2025-12-11,HR3638,On Passage,Electric Supply Chain Act,passage
+Democrat,327,210,0.41428571428571426,0.4142857142857143,-0.4989842779787877,-0.5349000975865447,2025-12-11,HR3383,On Passage,Increasing Investor Opportunities Act,passage
+Democrat,355,206,0.05339805825242716,0.05339805825242718,-0.5400513584085633,-0.38289673342611,2025-12-18,HR4776,On Passage,SPEED Act,passage
+Democrat,372,204,0.27941176470588236,0.27941176470588236,-0.5835733815975462,-0.6023797095457831,2026-01-09,HR5184,On Passage,Affordable HOMES Act,passage
+Democrat,374,202,0.054455445544554504,0.9455445544554455,0.03576757799466105,0.2074125605775862,2026-01-12,HR6500,"On Motion to Suspend the Rules and Pass, as Amended",AGOA Extension Act,suspension
+Democrat,383,208,0.05288461538461542,0.052884615384615384,-0.541530741883426,-0.5160832761903453,2026-01-13,HR4593,On Passage,SHOWER Act,passage
+Democrat,388,210,0.27142857142857146,0.7285714285714285,0.29661117226741895,0.5590949557804803,2026-01-14,HR7006,On Passage,"Financial Services and General Government and National Security, Department of State, and Related Programs Appropriations Act, 2026",passage
+Democrat,389,208,0.10576923076923073,0.8942307692307693,0.1436596955267461,0.3775552740177104,2026-01-15,HR2988,On Agreeing to the Amendment,,amendment
+Democrat,405,213,0.3004694835680751,0.6995305164319249,0.2829380253037815,0.6275612000640244,2026-01-22,HR7148,On Passage,"Consolidated Appropriations Act, 2026",passage
+Democrat,413,214,0.09813084112149528,0.09813084112149532,-0.35843947910659457,-0.36575328090930037,2026-02-03,HR7148,On Motion to Concur in the Senate Amendments,"Consolidated Appropriations Act, 2026",amendment
+Democrat,430,206,0.10679611650485432,0.10679611650485436,-0.4847491844733816,-0.41200116356743066,2026-02-12,HR2189,On Passage,Law-Enforcement Innovate to De-Escalate Act,passage
+Democrat,443,209,0.1291866028708134,0.8708133971291866,-0.22958101895595778,-0.0808038164270261,2026-03-04,HRES1100,On Motion to Refer,Directing the Committee on Ethics to preserve and publicly release records of the Committee’s review of violations or alleged violations of clause 9 (as it pertains to acts of sexual harassment) and clause 18 of rule XXIII of the Rules of the House of Representatives.,other
+Democrat,444,210,0.2523809523809524,0.7476190476190476,0.43769998087446577,0.6083474641395175,2026-03-05,HRES1099,On Motion to Suspend the Rules and Agree,Reaffirming Iran remains the largest state sponsor of terrorism,suspension
+Democrat,454,206,0.09708737864077666,0.0970873786407767,-0.5224282129333964,-0.5544729069979822,2026-03-18,HR1958,On Passage,Deporting Fraudsters Act,passage
+Democrat,456,205,0.07317073170731703,0.07317073170731707,-0.5630087919737488,-0.5468063721473465,2026-03-19,HR4638,On Passage,BOWOW Act,passage
+Democrat,465,205,0.19999999999999996,0.2,-0.5915501659129837,-0.525205627659414,2026-03-27,HR7084,On Passage,Defending American Property Abroad Act,passage
+Democrat,497,208,0.10576923076923073,0.10576923076923077,-0.5991596408951272,-0.5551880498678052,2026-04-23,HR5587,On Passage,HEATS Act,passage
+Democrat,502,211,0.19905213270142175,0.1990521327014218,-0.5200199846318565,-0.5974007891379169,2026-04-29,S1318,On Passage,Fallen Servicemembers Religious Heritage Restoration Act,passage
+Democrat,504,213,0.17370892018779338,0.17370892018779344,-0.3650216999980519,-0.2997865461074475,2026-04-30,HR7567,On Agreeing to the Amendment,,amendment
+Democrat,505,208,0.05769230769230771,0.9423076923076923,0.13679125776027645,0.16291625920399586,2026-04-30,HR7567,On Agreeing to the Amendment,,amendment
+Democrat,511,212,0.1367924528301887,0.13679245283018868,-0.2169900276928751,-0.15750786582628692,2026-04-30,HR7567,On Agreeing to the Amendment,,amendment
+Democrat,514,211,0.06635071090047395,0.06635071090047394,-0.5425191303087976,-0.4863432377274894,2026-04-30,HR7567,On Passage,"Farm, Food, and National Security Act",passage
+Democrat,515,179,0.4748603351955307,0.5251396648044693,0.3132697070117736,0.574729504828358,2026-04-30,S4465,On Motion to Suspend the Rules and Pass,"To amend the FISA Amendments Act of 2008 to extend the authorities of title VII of the Foreign Intelligence Surveillance Act of 1978, and for other purposes",suspension
+Democrat,516,203,0.08374384236453203,0.916256157635468,0.19075366460015042,0.3516934214028204,2026-05-12,HR2071,"On Motion to Suspend the Rules and Pass, as Amended",Save Our Shrimpers Act,suspension
+Democrat,517,203,0.29064039408866993,0.7093596059113301,0.44216201371911884,0.6153526076864425,2026-05-12,HR2853,"On Motion to Suspend the Rules and Pass, as Amended",Combating Organized Retail Crime Act,suspension
+Democrat,523,207,0.37681159420289856,0.37681159420289856,0.08460039125021132,0.34320555024036736,2026-05-13,HR1346,On Motion to Recommit,Nationwide Consumer and Fuel Retailer Choice Act,other
+Democrat,524,208,0.4567307692307693,0.4567307692307692,-0.2339464948149031,-0.3704841246882379,2026-05-13,HR1346,On Passage,Nationwide Consumer and Fuel Retailer Choice Act,passage
+Democrat,525,202,0.14356435643564358,0.14356435643564355,-0.6063171997815783,-0.5818687423160032,2026-05-13,HCONRES96,On Agreeing to the Resolution,Expressing support for law enforcement officers,rule
+Democrat,529,210,0.1523809523809524,0.1523809523809524,-0.682886404283161,-0.6744720660740512,2026-05-14,HR6260,On Passage,Keeping Violent Offenders Off Our Streets Act,passage
+Democrat,531,210,0.4571428571428572,0.45714285714285713,-0.48437934504424857,-0.6385772565979786,2026-05-14,HR5625,On Passage,Cashless Bail Reporting Act,passage
+Democrat,535,204,0.07352941176470584,0.9264705882352942,0.2112428799825029,0.42149286471503855,2026-05-15,HR8469,On Passage,"Making appropriations for military construction, the Department of Veterans Affairs, and related agencies for the fiscal year ending September 30, 2027, and for other purposes",passage
+Democrat,539,205,0.07804878048780484,0.9219512195121952,0.264281443774657,0.46709492269115754,2026-05-20,HR5317,"On Motion to Suspend the Rules and Pass, as Amended",Community Bank Deposit Access Act,suspension
+Democrat,551,206,0.1456310679611651,0.14563106796116504,-0.5242045594529784,-0.5284301946811729,2026-05-21,HR6047,On Passage,Sharri Briley and Eric Edmundson Veterans Benefits Expansion Act,passage
+Democrat,561,208,0.4375,0.4375,0.48277482974691355,0.6071171221344788,2026-06-04,HCONRES84,On Agreeing to the Resolution,Directing the President pursuant to section 5(c) of the War Powers Resolution to remove United States Armed Forces from Lebanon,rule
+Democrat,577,208,0.17307692307692313,0.17307692307692307,-0.6630642354946819,-0.6601604493300199,2026-06-10,HR7892,On Passage,No Aid for Ghost Students Act,passage
+Democrat,578,209,0.13397129186602874,0.1339712918660287,-0.6528766824759007,-0.6622498024543831,2026-06-10,HR8312,On Passage,Fraud Prevention and Accountability Act,passage
+Democrat,582,200,0.11499999999999999,0.115,-0.6093973120057932,-0.6223993190037549,2026-06-11,HRES1335,On Agreeing to the Resolution,"Condemning actors seeking to defraud the U.S. Government, and expressing the sense of the House of Representatives that government-wide fraud and improper payment prevention reforms will meaningfully improve the financial prosperity of the U.S., and that Federal program eligibility should be verified before payment",rule
+Democrat,588,189,0.44973544973544977,0.5502645502645502,0.24127756546693346,0.5288630651067983,2026-06-29,HR7757,"On Motion to Suspend the Rules and Pass, as Amended",KIDS Act,suspension
+Democrat,592,209,0.10526315789473684,0.8947368421052632,-0.5294439775725247,-0.4999847316467871,2026-06-30,HCONRES108,On Agreeing to the Resolution,Directing the President pursuant to section 5(c) of the War Powers Resolution to remove United States Armed Forces from hostilities in Lebanon,rule
+Democrat,598,209,0.4545454545454546,0.5454545454545454,0.24267959249892215,0.20225482850876217,2026-07-14,HR139,On Passage,Sunshine Protection Act,passage
+Democrat,603,201,0.48756218905472637,0.5124378109452736,-0.4586039666686516,-0.5292612098927466,2026-07-15,HR8595,On Agreeing to the Amendment,,amendment
+Democrat,618,212,0.17452830188679247,0.8254716981132075,-0.32298001340975135,-0.3412342236821367,2026-07-21,HR8800,On Agreeing to the Amendment,,amendment
+Democrat,631,210,0.2666666666666667,0.26666666666666666,-0.49846980742525465,-0.5214790104675476,2026-07-21,HR6955,On Passage,Main Street Act,passage
+Democrat,635,213,0.07981220657277,0.07981220657276995,-0.15504964387832917,0.011765369183566706,2026-07-22,HR8800,On Agreeing to the Amendment,,amendment
+Democrat,640,211,0.06161137440758291,0.061611374407582936,-0.5257217038942894,-0.5027630835534119,2026-07-22,HR7008,On Passage,Stop Insider Trading Act,passage
+Democrat,643,207,0.09178743961352653,0.09178743961352658,-0.6347029614764944,-0.5334823293075291,2026-07-23,HR8884,On Passage,Removing Barriers to Work for Disabled Americans Act,passage
+Democrat,646,205,0.14146341463414636,0.8585365853658536,0.22209534922658306,0.4700283000625378,2026-09-01,HR6500,On Motion to Suspend the Rules and Concur in the Senate Amendments,AGOA Extension Act,suspension
+Democrat,655,199,0.16582914572864327,0.1658291457286432,-0.533028678014315,-0.4746588896939253,2026-09-03,HR4795,On Passage,Protect Economic and Academic Freedom Act,passage
+Democrat,658,164,0.1097560975609756,0.10975609756097561,-0.5624809783485262,-0.6000304298779012,2026-09-15,HRES1486,On Motion to Table,"Impeaching Donald John Trump, President of the United States, for high crimes and misdemeanors",other
+Democrat,668,209,0.27751196172248804,0.27751196172248804,-0.40841268623967353,-0.4127630049785263,2026-09-16,HR5334,On Motion to Concur in the Senate Amendments,"An Act to amend the Internal Revenue Code of 1986 to allow early childhood educators to take the educator expense deduction, and for other purposes",amendment
+Democrat,669,210,0.3380952380952381,0.6619047619047619,0.3534021928667839,0.5708114846421121,2026-09-16,HR9576,On Passage,National Fraud Enforcement Division Act,passage

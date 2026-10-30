@@ -285,10 +285,53 @@ unsure = mem[mem.gmm_max_membership < 0.8]
 print(f'{len(unsure)} members have no group above 80% membership; by party:', unsure.party.value_counts().to_dict())
 """)
     md("""
+## 3 · What is dimension 2?
+
+The map's second axis has no label of its own. To name it, we look at the votes: for every roll call
+where at least 5% of a party broke with that party's majority, how strongly does "voted with my party"
+go with a member's position on each dimension? (`scripts/dimension2.py`; positive = members high on
+the dimension stay with the party.)
+
+*Suspension* bills are brought up under a fast-track rule: no amendments, two-thirds needed to pass.
+In practice they're the bipartisan bills the majority leadership schedules.
+""")
+    code("pd.read_csv('results/dim2_summary_119H.csv').round(2)")
+    md("""
+Among **Republicans**, left-right (dim 1) barely says who breaks with the party (0.07 across all such
+votes). Dimension 2 does (0.36), and most clearly on suspension bills (0.61): members low on it vote
+*no* on bipartisan bills most Republicans support.
+
+Among **Democrats**, the same members who are more moderate on dim 1 also break away on dim 2, crossing
+over to vote for Republican-led bills. The two parties look opposite in the table, but one reading fits
+both: dimension 2 tracks **how often a member votes yes on bills that both parties' majorities support**.
+""")
+    code("""
+d2 = json.load(open('results/dim2_119H.json'))
+print(f"votes where both parties' majorities voted yes: {d2['bipartisan_votes_both_majorities_yes']}")
+print('dimension 2 vs yes-rate on those votes (rank correlation): '
+      f"Democrats {d2['democrats_dim2_vs_bipartisan_yes_spearman']:.2f}, "
+      f"Republicans {d2['republicans_dim2_vs_bipartisan_yes_spearman']:.2f}")
+print(f"Freedom Caucus: yes on {d2['freedom_caucus_median_bipartisan_yes']:.0%} of them (median member), "
+      f"other Republicans {d2['freedom_caucus_rest_of_party_median_bipartisan_yes']:.0%}")
+print(f"Progressive Caucus: yes on {d2['progressive_caucus_median_bipartisan_yes']:.0%}, "
+      f"other Democrats {d2['progressive_caucus_rest_of_party_median_bipartisan_yes']:.0%}")
+""")
+    md("""
+That is why the Freedom Caucus sits at the bottom of the map: its median member voted yes on about
+half of the bipartisan bills, where other Republicans voted yes on nearly all of them. The Progressive
+Caucus sits lower than other Democrats too, but far less so.
+
+Two cautions. The positions were estimated from these same votes, so this *describes* the dimension
+rather than testing it; the caucus comparison is the independent part, since caucus lists were never
+used. And Voteview carries no text for the amendment votes, so we can say *how* members split on
+them, not what the amendments proposed.
+
 ## What this shows
 
 - **Groups that differ in kind** (voting against their own leadership) show up as clusters; groups that
   differ only by degree form a continuum, and any line through it is a choice, not a discovery.
+- In today's House that second kind of difference is real: dimension 2 tracks voting yes or no on
+  bipartisan bills, and it is what sets the Freedom Caucus apart from other Republicans.
 - No single best method: report clusters **with** their stability, and prefer soft membership when
   members sit between groups.
 - Party-level clustering is the trivial result. Caucus membership, which the votes never saw, is

@@ -58,3 +58,29 @@ def caucus_match(labels, caucus_labels, party, caucus, caucus_party):
             best = {"f1": float(f1), "precision": float(p), "recall": float(r), "cluster": int(c),
                     "cluster_size": int(in_c.sum())}
     return best
+
+
+def breakaway(votes, positions, party, min_dissent=0.05, min_voters=30):
+    """Who breaks with their own party, and which dimension says so. For each party and roll call with
+    at least `min_dissent` of the party voting against the party majority: the correlation between
+    "voted with my party's majority" (1/0) and each position column. Positive = members high on that
+    dimension stay with the party; negative = they break away. Model-free: uses only the raw votes and
+    the positions."""
+    party = pd.Series(np.asarray(party), index=votes.index)
+    rows = []
+    for p in pd.unique(party):
+        sub = votes[party == p]
+        for col in sub.columns:
+            y = sub[col].dropna()
+            if len(y) < min_voters:
+                continue
+            with_party = (y == float(y.mean() >= 0.5)).astype(float)
+            dissent = 1 - with_party.mean()
+            if dissent < min_dissent:
+                continue
+            row = {"party": p, "rollnumber": col, "voters": len(y), "dissent": float(dissent),
+                   "party_yea": float(y.mean())}
+            for d in positions.columns:
+                row[f"r_{d}"] = float(np.corrcoef(with_party, positions.loc[y.index, d])[0, 1])
+            rows.append(row)
+    return pd.DataFrame(rows)

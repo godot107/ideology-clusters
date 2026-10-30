@@ -65,3 +65,25 @@ def test_seat_parsing():
     assert caucus._seat("D-CA-24") == ("CA", 24)
     assert caucus._seat("Nick Begich (AK-AL)") == ("AK", 1)
     assert caucus._seat("no seat here") is None
+
+
+def test_breakaway_finds_the_dimension_rebels_sit_on():
+    # 40 members of one party; the 10 lowest on dim2 vote against the party on roll calls 1-5
+    rng = np.random.default_rng(0)
+    pos = pd.DataFrame({"dim1": rng.normal(size=40), "dim2": np.r_[rng.normal(-2, 0.3, 10), rng.normal(1, 0.3, 30)]})
+    votes = pd.DataFrame(1.0, index=pos.index, columns=range(1, 8))
+    votes.iloc[:10, :5] = 0.0
+    votes.loc[0, 6] = np.nan          # roll call 6: unanimous among voters -> no dissent, skipped
+    b = evaluate.breakaway(votes, pos, ["R"] * 40)
+    assert set(b.rollnumber) == {1, 2, 3, 4, 5}
+    assert np.allclose(b.dissent, 0.25)
+    assert (b.r_dim2 > 0.9).all() and (b.r_dim1.abs() < 0.5).all()
+
+
+def test_vote_type():
+    from ideology import voteview
+    assert voteview.vote_type("On Motion to Suspend the Rules and Pass, as Amended") == "suspension"
+    assert voteview.vote_type("On Agreeing to the Amendment") == "amendment"
+    assert voteview.vote_type("On Agreeing to the Resolution") == "rule"
+    assert voteview.vote_type("On Passage") == "passage"
+    assert voteview.vote_type(None) == "other"

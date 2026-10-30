@@ -102,11 +102,29 @@ similar the clustering stays when the roll calls are resampled (1 = identical).
 
 **The methods that find the most faction structure are the least stable.** HDBSCAN is rock-steady
 because it mostly just returns the two parties. Network communities isolate most of the Progressive
-Caucus but reshuffle the most between resamples. In the map, the Freedom Caucus members sit low on the
-second dimension, mostly in one mixture group. I haven't yet checked which votes drive that dimension,
-so I'm not naming it. There's no single best method. The useful habit is to report clusters together
+Caucus but reshuffle the most between resamples. There's no single best method. The useful habit is to report clusters together
 with their stability, and to use soft membership for the 86 members who don't belong more than 80% to
 any one group.
+
+## So what is the second dimension?
+
+In the map, Freedom Caucus members sit at the bottom of the Republican cloud. The axis has no label of
+its own, so I went back to the votes. For every roll call where at least 5% of a party broke with its
+majority, I asked which dimension predicts *who* broke away.
+
+Among Republicans, left-right barely does (correlation 0.07). Dimension 2 does (0.36), and most clearly
+on "suspension" bills, the fast-tracked, two-thirds-majority bills that are in practice the bipartisan
+ones (0.61). One reading fits both parties: dimension 2 tracks **how often a member votes yes on bills
+that both parties' majorities support**. Across the 80 such votes in the current House, the rank
+correlation is 0.88 among Democrats and 0.88 among Republicans.
+
+The median Freedom Caucus member voted yes on 53% of those bipartisan bills. Other Republicans: 99%.
+The Progressive Caucus sits lower than other Democrats too (88% vs 97%), but nowhere near as far.
+
+One caution: the positions were estimated from these same votes, so this *describes* the axis rather
+than proving anything about it. The independent part is the caucus comparison, since the caucus lists
+never went into the model. This is also exactly the kind of group the synthetic Congress warned about:
+one that differs on a second dimension, where a one-dimensional model's error bars miss.
 
 ## Polarisation since 1973
 

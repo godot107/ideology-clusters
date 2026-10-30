@@ -13,6 +13,7 @@ source .venv/bin/activate        # own venv, CPU only (jax cpu + numpyro)
 pytest -q
 python scripts/run_analysis.py   # all non-Bayesian results -> results/ (~10 min; downloads 54 Voteview files first time)
 python scripts/fit_irt.py 118S 118H 119H   # Bayesian ideal points -> data/irt_*.npy (~5-15 min each)
+python scripts/dimension2.py     # what dim 2 means -> results/dim2_* (seconds; needs run_analysis)
 python notebooks/build.py && for n in notebooks/0*.ipynb; do jupyter nbconvert --to notebook --execute --inplace $n; done
 ```
 

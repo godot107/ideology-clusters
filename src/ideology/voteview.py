@@ -59,3 +59,19 @@ def votes(congress, chamber):
 
 def rollcalls(congress, chamber):
     return pd.read_csv(fetch("rollcalls", congress, chamber)).set_index("rollnumber")
+
+
+def vote_type(question):
+    """Coarse kind of House roll call from its `vote_question` text. "suspension" = bills brought up
+    under suspension of the rules: no amendments, two-thirds needed, so in practice bipartisan bills
+    the majority leadership schedules."""
+    q = str(question)
+    if "Suspend the Rules" in q:
+        return "suspension"
+    if "Amendment" in q:
+        return "amendment"
+    if "Resolution" in q or "Previous Question" in q:
+        return "rule"
+    if "Passage" in q or "Concur" in q:
+        return "passage"
+    return "other"

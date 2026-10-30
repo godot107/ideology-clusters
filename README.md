@@ -85,6 +85,14 @@ report clusters with their stability, and use soft membership (the mixture's) fo
 
 ![119th House with Gaussian-mixture groups and two caucuses](reports/02_fig1.png)
 
+**What the second dimension is.** Among Republicans, left-right barely predicts who breaks with the party
+(correlation 0.07 across the 133 votes with at least 5% dissent); dimension 2 does (0.36, and 0.61 on
+bipartisan "suspension" bills). In both parties, dimension 2 tracks how often a member votes yes on the
+80 bills that both parties' majorities supported (rank correlation 0.88 in each). The Freedom Caucus's
+median member voted yes on 53% of them, other Republicans 99%; Progressives 88%, other Democrats 97%.
+The positions come from these same votes, so this describes the axis; the caucus comparison is the
+independent check. (`scripts/dimension2.py`)
+
 ## 3 · Polarisation
 
 Gap between the party medians, in "typical party widths", per Congress, from our model and from
@@ -121,6 +129,7 @@ pip install -r requirements.txt -r requirements-dev.txt && pip install -e .
 pytest -q
 python scripts/run_analysis.py              # all non-Bayesian results (~10 min, downloads Voteview data)
 python scripts/fit_irt.py 118S 118H 119H    # Bayesian ideal points (~5-15 min each, CPU)
+python scripts/dimension2.py                # what dimension 2 means (needs run_analysis first)
 python notebooks/build.py                   # then execute each notebook (see notebooks/build.py)
 ```
 
