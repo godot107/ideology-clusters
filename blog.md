@@ -142,10 +142,11 @@ first dimension both largely *are* the bipartisan-bills pattern (rank correlatio
 -0.85 and -0.76). Once the model has a separate axis for it, its left-right scale barely relates to that
 pattern (-0.16), and agrees much less with DW-NOMINATE among Republicans (0.54, down from 0.89). The
 median Freedom Caucus member moves from the 93rd percentile of Republicans on the one-dimensional scale
-to the 66th on the two-dimensional left-right axis. In other words, much of what puts them at the far
-end of a one-dimensional scale is voting no on bills both parties back. One caution: a two-dimensional
-model doesn't fix which way its axes point; I lined them up with logistic PCA's map, so this split is
-one reading of the same positions, not the only one.
+to the 66th on the two-dimensional left-right axis.
+
+In other words, much of what puts them at the far end of a one-dimensional scale is voting no on bills
+both parties back. A caveat: a two-dimensional model doesn't fix which way its axes point. I lined them
+up with logistic PCA's map, so this split is one reading of the same positions, not the only one.
 
 ## Polarisation since 1973
 
