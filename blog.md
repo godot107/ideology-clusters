@@ -75,7 +75,7 @@ left-right line and reports narrow ranges around the wrong spot. Error bars are 
 model behind them.
 
 The fix is to give the model somewhere to put it. With a second dimension, the same faction's ranges
-contain the truth **93%** of the time, and the other five stay at 82-97%. Getting there took one more
+contain the truth **93%** of the time on left-right (95% on the second dimension), and the other five stay at 82-97%. Getting there took one more
 lesson: these models only loosely fix where the axes point, so the sampler's runs slowly drift and
 rotate, and the raw diagnostics looked like total failure. Lining every draw up on a common map (a
 rotation that moves nobody relative to anybody else) showed the runs had agreed all along.
@@ -87,7 +87,7 @@ HDBSCAN (dense regions, with members in between as noise), Ward hierarchical clu
 detection on a co-voting network. Each picked its own number of groups by its standard rule.
 
 On the synthetic Congress, the honest finding was this: k-means, the mixture and Ward all found three
-groups: Democrats, Republicans and the faction that differs *in kind*. The factions that differed only
+groups (Democrats, Republicans and the faction that differs *in kind*). The factions that differed only
 *by degree* (a wing, a mainstream, moderates) formed a continuum with no gap between them, so there was
 nothing to find. Telling k-means the "right" answer of six groups made it score *worse*, because it then
 cuts the continuum at arbitrary points.
@@ -108,8 +108,8 @@ similar the clustering stays when the roll calls are resampled (1 = identical).
 
 **The methods that find the most faction structure are the least stable.** HDBSCAN is rock-steady
 because it mostly just returns the two parties. Network communities isolate most of the Progressive
-Caucus but reshuffle the most between resamples. There's no single best method. The useful habit is to report clusters together
-with their stability, and to use soft membership for the 86 members who don't belong more than 80% to
+Caucus but reshuffle the most between resamples. There's no single best method. The useful habit is to
+report clusters together with their stability, and to use soft membership for the 86 members who don't belong more than 80% to
 any one group.
 
 ## So what is the second dimension?
@@ -131,6 +131,21 @@ One caution: the positions were estimated from these same votes, so this *descri
 than proving anything about it. The independent part is the caucus comparison, since the caucus lists
 never went into the model. This is also exactly the kind of group the synthetic Congress warned about:
 one that differs on a second dimension, where a one-dimensional model's error bars miss.
+
+So I fitted the two-dimensional Bayesian model to the current House too, to get error bars on both
+axes. On dimension 2, **30 of the 31** Freedom Caucus members have a 90% range lying entirely below the
+median of other Republicans. That isn't automatic: only a third of the other Republicans do. Their ranges
+are also narrow (half as wide as other Republicans'), so the gap isn't a few noisy members.
+
+The second axis also changes the first. Among Republicans, the one-dimensional scale and DW-NOMINATE's
+first dimension both largely *are* the bipartisan-bills pattern (rank correlation with the yes-rate
+-0.85 and -0.76). Once the model has a separate axis for it, its left-right scale barely relates to that
+pattern (-0.16), and agrees much less with DW-NOMINATE among Republicans (0.54, down from 0.89). The
+median Freedom Caucus member moves from the 93rd percentile of Republicans on the one-dimensional scale
+to the 66th on the two-dimensional left-right axis. In other words, much of what puts them at the far
+end of a one-dimensional scale is voting no on bills both parties back. One caution: a two-dimensional
+model doesn't fix which way its axes point; I lined them up with logistic PCA's map, so this split is
+one reading of the same positions, not the only one.
 
 ## Polarisation since 1973
 
@@ -160,7 +175,7 @@ left-right. It's the same failure the synthetic Congress showed, appearing in re
 5. **Report clusters with their stability.** A clustering that changes when you resample isn't a finding
    yet.
 
-*Data: Voteview (Lewis, Poole, Rosenthal, Boche, Rudkin & Sonnet), https://voteview.com. Caucus lists:
+*Data: Voteview (Lewis, Poole, Rosenthal, Boche, Rudkin & Sonnet), [voteview.com](https://voteview.com). Caucus lists:
 Wikipedia, retrieved 2026-10-17; the Freedom Caucus doesn't publish its roster, so that list covers
 publicly identified members. These are public officials' public votes, described with the methods'
 own neutral terms.*

@@ -9,10 +9,13 @@ Built 2026-10-17: all stages 1-4 with results in results/ and three executed not
 - [x] IRT: 119H refit converged (2 chains, R-hat 1.02; within-party vs NOMINATE R 0.89 / D 0.75); 2-D IRT on synthetic fixes hard-line coverage 25% -> 93% (irt.fit2d/align, scripts/fit_irt_synthetic.py)
 - [x] Verified citations (docs/PRIOR_ART.md, README References); blog.md drafted
 
+## Done 2026-10-31
+- [x] 2-D Bayesian fit on the real 119th House (scripts/fit_irt2d.py): 30/31 Freedom Caucus dim-2 ranges clear of the other-R median; 2-D dim 1 no longer tracks the bipartisan yes-rate (R -0.16 vs -0.85 for 1-D)
+- [x] Proofread blog.md (numbers re-verified against results/)
+
 ## Dropped
 - Senate caucus check: the Progressive Caucus has ~1 Senate member (Sanders) and the cached list is House-only; one member can't validate a clustering.
 
 ## Open
 - [ ] Willie proofreads blog.md, then publish
-- [ ] (optional) 2-D Bayesian fit on the real 119th House: error bars for the Freedom Caucus on both dimensions (~1 h CPU)
 - [ ] Host docs/explorer.html (GitHub Pages?) and link it from the blog

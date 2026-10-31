@@ -1,0 +1,449 @@
+icpsr,name,party,state,district,caucus,dim1,dim1_lo,dim1_hi,dim2,dim2_lo,dim2_hi
+14854,"ROGERS, Harold Dallas (Hal)",Republican,KY,5,none,1.46,1.1469,1.8445,1.1986,0.7434,1.7212
+14863,"SMITH, Christopher Henry",Republican,NJ,4,none,0.7655,0.6924,0.843,-0.1713,-0.2885,-0.0426
+14873,"HOYER, Steny Hamilton",Democrat,MD,5,none,-1.3888,-1.6823,-1.1391,0.4672,0.1744,0.7814
+15029,"KAPTUR, Marcia Carolyn (Marcy)",Democrat,OH,9,none,-0.6156,-0.7,-0.536,0.0756,-0.0534,0.2291
+15433,"MFUME, Kweisi",Democrat,MD,7,Progressive Caucus,-1.2955,-1.5694,-1.0812,-0.1148,-0.3063,0.1016
+15448,"PELOSI, Nancy",Democrat,CA,11,none,-1.619,-1.993,-1.2709,0.2975,0.008,0.6295
+15454,"PALLONE, Frank, Jr.",Democrat,NJ,6,Progressive Caucus,-1.334,-1.6018,-1.1115,-0.1765,-0.3695,0.0347
+15616,"NEAL, Richard Edmund",Democrat,MA,1,none,-1.7106,-2.126,-1.3531,0.3982,0.0962,0.7595
+20107,"ISSA, Darrell",Republican,CA,48,none,1.1146,0.9374,1.3237,0.5364,0.2788,0.8458
+20119,"LYNCH, Stephen F.",Democrat,MA,8,none,-0.9266,-1.0798,-0.8034,-0.0179,-0.1969,0.1844
+20122,"MCCOLLUM, Betty",Democrat,MN,4,none,-1.6746,-2.0534,-1.3356,0.1786,-0.0759,0.4755
+20124,"GRAVES, Samuel",Republican,MO,6,none,1.5138,1.2321,1.8493,0.363,0.0745,0.6861
+20138,"WILSON, Joe",Republican,SC,2,none,1.2915,1.0431,1.5852,0.2724,-0.0062,0.5895
+20145,"LARSEN, Richard Ray (Rick)",Democrat,WA,2,none,-1.1481,-1.3868,-0.9589,0.1455,-0.1034,0.4371
+20301,"ROGERS, Mike Dennis",Republican,AL,3,none,1.2169,1.0045,1.4805,0.6152,0.313,0.9661
+20310,"SÁNCHEZ, Linda T.",Democrat,CA,38,Progressive Caucus,-1.4972,-1.8635,-1.2086,-0.0714,-0.3103,0.1926
+20316,"DIAZ-BALART, Mario",Republican,FL,26,none,1.0338,0.8536,1.2421,0.7615,0.4279,1.1282
+20321,"SCOTT, David",Democrat,GA,13,none,-1.2437,-1.5206,-1.0261,0.0181,-0.2314,0.3159
+20322,"CASE, Ed",Democrat,HI,1,Problem Solvers Caucus,-1.1032,-1.3365,-0.9186,0.3472,0.0892,0.6505
+20342,"TURNER, Michael R.",Republican,OH,10,none,0.6713,0.5868,0.7617,0.437,0.2282,0.6646
+20344,"COLE, Tom",Republican,OK,4,none,1.0987,0.9126,1.3113,0.7219,0.4294,1.0564
+20356,"CARTER, John R.",Republican,TX,31,none,1.5666,1.2346,1.9738,0.6693,0.2987,1.1291
+20501,"COSTA, Jim",Democrat,CA,21,Blue Dog Coalition + Problem Solvers Caucus,-0.537,-0.6102,-0.4683,0.0706,-0.0622,0.2249
+20504,"WASSERMAN SCHULTZ, Debbie",Democrat,FL,25,none,-1.2715,-1.5187,-1.0725,0.3114,0.0462,0.6014
+20517,"CLEAVER, Emanuel, II",Democrat,MO,5,none,-1.7657,-2.2392,-1.3763,0.3634,0.0301,0.781
+20521,"FOXX, Virginia Ann",Republican,NC,5,none,1.9041,1.4991,2.3535,0.4108,0.0807,0.804
+20529,"GREEN, Al",Democrat,TX,9,none,-2.1723,-2.7511,-1.618,-0.0247,-0.3039,0.2643
+20530,"MCCAUL, Michael T.",Republican,TX,10,none,1.0023,0.8535,1.1834,0.6268,0.3419,0.9388
+20533,"CUELLAR, Henry",Democrat,TX,28,Blue Dog Coalition + Problem Solvers Caucus,-0.2307,-0.2849,-0.1764,0.4403,0.2975,0.5908
+20537,"MOORE, Gwendolynne S. (Gwen)",Democrat,WI,4,Progressive Caucus,-1.4244,-1.7345,-1.1555,-0.3019,-0.4982,-0.0865
+20538,"MATSUI, Doris",Democrat,CA,7,none,-1.393,-1.6774,-1.1507,-0.3547,-0.5318,-0.1596
+20706,"COURTNEY, Joe",Democrat,CT,2,none,-1.0129,-1.1926,-0.8724,0.0761,-0.1172,0.3055
+20708,"CASTOR, Kathy",Democrat,FL,14,none,-1.1846,-1.4621,-0.9574,0.334,0.0384,0.6982
+20709,"BUCHANAN, Vernon G.",Republican,FL,16,none,1.0145,0.8758,1.1803,0.3512,0.1248,0.5978
+20712,"JOHNSON, Hank",Democrat,GA,4,Progressive Caucus,-1.199,-1.3998,-1.0263,-0.45,-0.5988,-0.2927
+20725,"WALBERG, Tim",Republican,MI,5,none,1.2555,1.0239,1.5387,0.4855,0.1878,0.8485
+20729,"SMITH, Adrian",Republican,NE,3,none,1.2568,1.0289,1.5277,0.4448,0.167,0.7597
+20733,"CLARKE, Yvette Diane",Democrat,NY,9,Progressive Caucus,-1.5041,-1.8992,-1.2007,-0.3862,-0.5928,-0.1499
+20738,"JORDAN, Jim",Republican,OH,4,Freedom Caucus,1.605,1.3538,1.9009,-0.2196,-0.3891,-0.0178
+20748,"COHEN, Stephen",Democrat,TN,9,none,-1.1786,-1.3795,-1.0077,-0.0828,-0.2753,0.1174
+20749,"FOSTER, Bill",Democrat,IL,11,none,-1.37,-1.6511,-1.1231,0.4401,0.1425,0.7666
+20755,"LATTA, Robert E.",Republican,OH,5,none,1.372,1.1114,1.6892,0.5825,0.2637,0.9787
+20756,"WITTMAN, Robert J.",Republican,VA,1,none,1.403,1.0951,1.7638,0.6936,0.2937,1.1555
+20757,"CARSON, André",Democrat,IN,7,Progressive Caucus,-1.1924,-1.4069,-1.0204,-0.4356,-0.5999,-0.2566
+20758,"BILIRAKIS, Gus",Republican,FL,12,none,1.268,1.0632,1.4846,0.207,-0.0191,0.4732
+20759,"SCALISE, Steve",Republican,LA,1,none,1.1837,1.002,1.3895,-0.1025,-0.2679,0.074
+20903,"McCLINTOCK, Tom",Republican,CA,5,none,1.0661,0.9611,1.1827,-0.6569,-0.7552,-0.5532
+20907,"HIMES, James A.",Democrat,CT,4,none,-1.0887,-1.2901,-0.9076,0.2948,0.0594,0.5663
+20916,"GUTHRIE, Brett",Republican,KY,2,none,1.1279,0.942,1.3525,0.5747,0.2875,0.9039
+20920,"PINGREE, Chellie",Democrat,ME,1,Progressive Caucus,-1.2808,-1.5492,-1.0595,-0.3077,-0.4917,-0.1041
+20927,"TITUS, Alice (Dina)",Democrat,NV,1,none,-0.9726,-1.1201,-0.8446,-0.0028,-0.1708,0.1864
+20934,"TONKO, Paul",Democrat,NY,20,Progressive Caucus,-1.5489,-1.9033,-1.2545,-0.1485,-0.367,0.0883
+20946,"THOMPSON, Glenn",Republican,PA,15,none,1.2069,0.9884,1.5009,0.8948,0.5414,1.3288
+20952,"CONNOLLY, Gerald E. (Gerry)",Democrat,VA,11,none,-1.431,-1.9934,-1.0387,-0.141,-0.8181,0.6038
+20954,"QUIGLEY, Mike",Democrat,IL,5,none,-1.6432,-2.0671,-1.2886,0.6628,0.2696,1.0949
+20955,"CHU, Judy",Democrat,CA,28,Progressive Caucus,-1.3833,-1.6786,-1.1234,-0.1869,-0.3952,0.0384
+20958,"GARAMENDI, John",Democrat,CA,8,Progressive Caucus,-1.1361,-1.3512,-0.9601,-0.2222,-0.4107,-1e-04
+21100,"STUTZMAN, Marlin",Republican,IN,3,Freedom Caucus,1.5332,1.267,1.837,-0.0367,-0.2569,0.2076
+21102,"SEWELL, Terri",Democrat,AL,7,none,-0.9638,-1.1237,-0.84,0.0592,-0.1152,0.2657
+21103,"GOSAR, Paul",Republican,AZ,9,Freedom Caucus,1.3354,1.1871,1.4759,-0.9986,-1.1154,-0.8825
+21105,"SCHWEIKERT, David",Republican,AZ,1,none,1.0744,0.9581,1.2031,-0.4026,-0.5184,-0.2872
+21106,"CRAWFORD, Rick",Republican,AR,1,none,1.4037,1.1473,1.7082,0.3894,0.1057,0.708
+21108,"WOMACK, Steve",Republican,AR,3,none,1.1192,0.9391,1.3604,0.767,0.4517,1.1428
+21116,"WEBSTER, Daniel A.",Republican,FL,11,none,1.4199,1.1826,1.7116,-0.0359,-0.2437,0.2117
+21118,"WILSON, Frederica",Democrat,FL,24,Progressive Caucus,-1.4491,-1.8292,-1.1407,0.2084,-0.102,0.5694
+21123,"SCOTT, Austin",Republican,GA,8,none,1.2773,1.0788,1.507,0.0126,-0.1742,0.2301
+21139,"HARRIS, Andy",Republican,MD,1,Freedom Caucus,1.1073,1.01,1.2128,-1.0127,-1.1199,-0.9106
+21140,"KEATING, William R.",Democrat,MA,9,none,-1.2135,-1.4268,-1.013,0.1464,-0.0977,0.4091
+21142,"HUIZENGA, Bill",Republican,MI,4,none,1.2656,1.0457,1.5556,0.425,0.1472,0.7526
+21167,"KELLY, Mike",Republican,PA,16,none,1.6341,1.2802,2.0702,0.9446,0.5003,1.483
+21178,"FLEISCHMANN, Chuck",Republican,TN,3,none,1.2349,1.0076,1.5116,0.642,0.3389,1.0072
+21179,"DESJARLAIS, Scott",Republican,TN,4,Freedom Caucus,1.396,1.1589,1.6806,0.0402,-0.1831,0.2788
+21191,"GRIFFITH, H. Morgan",Republican,VA,9,Freedom Caucus,0.9881,0.8841,1.0967,-0.271,-0.3815,-0.1525
+21196,"AMODEI, Mark E.",Republican,NV,2,none,1.1664,0.9526,1.4374,0.631,0.2986,1.0562
+21198,"BONAMICI, Suzanne",Democrat,OR,1,Progressive Caucus,-2.0798,-2.6655,-1.5784,-0.1155,-0.3721,0.1632
+21302,"LAMALFA, Doug",Republican,CA,1,none,1.7194,1.2636,2.2407,0.2965,-0.1505,0.8262
+21303,"HUFFMAN, Jared",Democrat,CA,2,Progressive Caucus,-1.514,-1.8764,-1.2116,-0.42,-0.601,-0.2172
+21304,"BERA, Ami",Democrat,CA,6,none,-1.2661,-1.5391,-1.0504,0.3522,0.0661,0.6856
+21306,"SWALWELL, Eric",Democrat,CA,14,none,-1.1008,-1.3433,-0.9068,-0.0831,-0.3642,0.2435
+21307,"VALADAO, David G.",Republican,CA,22,Problem Solvers Caucus,0.7931,0.6957,0.9021,0.5416,0.3252,0.79
+21308,"BROWNLEY, Julia",Democrat,CA,26,none,-1.7,-2.1288,-1.3533,0.3865,0.0753,0.7576
+21311,"RUIZ, Raul",Democrat,CA,25,none,-1.1534,-1.3439,-0.9788,-0.0202,-0.2014,0.184
+21312,"TAKANO, Mark",Democrat,CA,39,Progressive Caucus,-1.6291,-2.0369,-1.3029,-0.2565,-0.4495,-0.0306
+21314,"VARGAS, Juan",Democrat,CA,52,Progressive Caucus,-1.1087,-1.2925,-0.9442,-0.3397,-0.4921,-0.165
+21315,"PETERS, Scott",Democrat,CA,50,Problem Solvers Caucus,-1.0052,-1.1701,-0.8506,0.2164,-0.0082,0.4516
+21321,"FRANKEL, Lois",Democrat,FL,22,none,-1.4125,-1.7294,-1.1501,0.381,0.0812,0.7352
+21326,"SCHNEIDER, Brad",Democrat,IL,10,Problem Solvers Caucus,-1.0888,-1.2936,-0.9182,0.2413,0.0147,0.4976
+21333,"BARR, Garland H. (Andy), IV",Republican,KY,6,none,1.8106,1.4502,2.2327,0.5945,0.2302,1.0041
+21337,"WAGNER, Ann",Republican,MO,2,none,1.2566,1.0325,1.5327,0.5062,0.2178,0.8635
+21339,"HORSFORD, Steven",Democrat,NV,4,Progressive Caucus + Problem Solvers Caucus,-0.7653,-0.87,-0.6698,0.0725,-0.0748,0.235
+21342,"MENG, Grace",Democrat,NY,6,Progressive Caucus,-1.2268,-1.4657,-1.0275,-0.2074,-0.3978,-0.0026
+21343,"JEFFRIES, Hakeem",Democrat,NY,8,none,-1.9231,-2.4677,-1.4862,0.5789,0.1745,1.0463
+21346,"HUDSON, Richard",Republican,NC,9,none,1.3746,1.1284,1.6512,0.2719,0.0342,0.5557
+21352,"BEATTY, Joyce",Democrat,OH,3,none,-1.3816,-1.6973,-1.1102,0.1258,-0.1206,0.4233
+21353,"JOYCE, David",Republican,OH,14,Problem Solvers Caucus,0.7031,0.6129,0.8038,0.4204,0.204,0.6437
+21356,"PERRY, Scott",Republican,PA,10,Freedom Caucus,1.3289,1.2016,1.4686,-1.1861,-1.3152,-1.0595
+21360,"WEBER, Randy",Republican,TX,14,none,1.7538,1.4104,2.168,0.1349,-0.1288,0.4391
+21362,"CASTRO, Joaquin",Democrat,TX,20,Progressive Caucus,-1.592,-2.0127,-1.2513,-0.4878,-0.6868,-0.2654
+21364,"WILLIAMS, Roger",Republican,TX,25,none,1.2473,1.0544,1.4797,0.1224,-0.0853,0.3569
+21365,"VEASEY, Marc",Democrat,TX,33,none,-0.8057,-0.9263,-0.6942,-0.0054,-0.1584,0.1893
+21370,"POCAN, Mark",Democrat,WI,2,Progressive Caucus,-1.9021,-2.405,-1.4629,-0.2382,-0.4812,0.0239
+21371,"KELLY, Robin L.",Democrat,IL,2,none,-2.0351,-2.5929,-1.5742,0.1331,-0.1587,0.4554
+21373,"SMITH, Jason",Republican,MO,8,none,1.4593,1.2037,1.8041,0.1214,-0.1128,0.3902
+21375,"CLARK, Katherine M.",Democrat,MA,5,none,-1.976,-2.5231,-1.5278,0.5845,0.2202,1.0482
+21500,"PALMER, Gary James",Republican,AL,6,none,1.2297,1.0561,1.4386,-0.0989,-0.2622,0.0873
+21503,"HILL, French",Republican,AR,2,none,1.1629,0.9697,1.3848,0.6056,0.323,0.9538
+21504,"DESAULNIER, Mark James",Democrat,CA,10,Progressive Caucus,-1.4952,-1.8642,-1.1769,-0.2881,-0.4969,-0.0628
+21506,"AGUILAR, Peter Rey",Democrat,CA,33,none,-1.6091,-2.0026,-1.281,0.4882,0.163,0.8791
+21507,"LIEU, Ted",Democrat,CA,36,Progressive Caucus,-1.2268,-1.45,-1.033,0.0362,-0.1739,0.2732
+21508,"TORRES, Norma Judith",Democrat,CA,35,none,-1.1718,-1.3793,-0.9895,0.1669,-0.0545,0.4268
+21513,"CARTER, Buddy",Republican,GA,1,none,1.3853,1.1321,1.6734,0.2338,-0.0227,0.5079
+21515,"LOUDERMILK, Barry D.",Republican,GA,11,none,1.3686,1.1171,1.6487,0.0387,-0.1887,0.2853
+21516,"ALLEN, Rick W.",Republican,GA,12,none,1.5373,1.2634,1.8744,0.1801,-0.0616,0.4483
+21519,"BOST, Mike",Republican,IL,12,none,1.1413,0.9769,1.3209,-0.0512,-0.2065,0.1308
+21525,"MOULTON, Seth",Democrat,MA,6,none,-1.1321,-1.3469,-0.9559,-0.1034,-0.3082,0.1054
+21526,"MOOLENAAR, John",Republican,MI,2,none,1.3938,1.1187,1.7183,0.7791,0.4228,1.2074
+21529,"DINGELL, Debbie",Democrat,MI,6,Progressive Caucus + Problem Solvers Caucus,-1.5847,-1.9137,-1.2864,0.1766,-0.072,0.4592
+21531,"EMMER, Thomas Earl, II",Republican,MN,6,none,1.4559,1.1863,1.7563,0.2099,-0.0354,0.481
+21532,"ZINKE, Ryan",Republican,MT,1,none,1.1332,0.9585,1.3258,0.088,-0.1039,0.3068
+21536,"NORCROSS, Donald",Democrat,NJ,1,Progressive Caucus + Problem Solvers Caucus,-1.1193,-1.3263,-0.9466,0.0399,-0.1673,0.2631
+21538,"WATSON COLEMAN, Bonnie",Democrat,NJ,12,Progressive Caucus,-1.9769,-2.4682,-1.5166,-0.1576,-0.4042,0.098
+21541,"STEFANIK, Elise M.",Republican,NY,21,none,1.1536,0.9587,1.385,0.2687,0.0146,0.5646
+21544,"ROUZER, David",Republican,NC,7,none,1.775,1.3903,2.2597,0.5713,0.1869,1.0038
+21545,"ADAMS, Alma",Democrat,NC,12,Progressive Caucus,-1.6511,-2.0374,-1.342,0.1136,-0.1113,0.3876
+21548,"BOYLE, Brendan Francis",Democrat,PA,2,Progressive Caucus,-0.9441,-1.0825,-0.828,-0.1079,-0.2521,0.0619
+21551,"BABIN, Brian",Republican,TX,36,none,1.6716,1.3718,2.0643,0.21,-0.0669,0.5392
+21554,"BEYER, Donald Sternoff Jr.",Democrat,VA,8,Progressive Caucus,-1.4763,-1.7994,-1.2042,-0.168,-0.3736,0.0609
+21556,"NEWHOUSE, Daniel Milton",Republican,WA,4,none,1.0438,0.8805,1.2587,0.8157,0.5009,1.1521
+21559,"GROTHMAN, Glenn",Republican,WI,6,none,1.3241,1.135,1.5509,-0.3531,-0.4985,-0.1936
+21561,"KELLY, Trent",Republican,MS,1,none,1.6493,1.3356,2.0022,0.3971,0.0999,0.7244
+21562,"LAHOOD, Darin",Republican,IL,16,none,1.3158,1.0207,1.6669,0.4942,0.1329,0.9755
+21563,"WESTERMAN, Bruce",Republican,AR,4,none,1.0997,0.9468,1.2775,0.2144,0.0161,0.4415
+21564,"DAVIDSON, Warren",Republican,OH,8,none,0.9669,0.8801,1.0513,-0.9065,-0.9989,-0.8127
+21565,"COMER, James",Republican,KY,1,none,1.4045,1.1938,1.6505,-0.2653,-0.4222,-0.089
+21566,"EVANS, Dwight",Democrat,PA,3,Progressive Caucus,-1.7812,-2.3182,-1.3462,-0.1558,-0.4064,0.1248
+21700,"ARRINGTON, Jodey Cook",Republican,TX,19,none,1.4931,1.2366,1.8366,-0.2191,-0.4035,-0.0123
+21701,"BACON, Donald J.",Republican,NE,2,Problem Solvers Caucus,0.5627,0.5013,0.6271,0.3018,0.1366,0.4623
+21703,"BARRAGÁN, Nanette Diaz",Democrat,CA,44,Progressive Caucus,-1.7844,-2.2872,-1.3887,0.1088,-0.1809,0.463
+21704,"BERGMAN, John",Republican,MI,1,none,1.3597,1.1068,1.6629,0.4192,0.131,0.7554
+21705,"BIGGS, Andrew S.",Republican,AZ,5,Freedom Caucus,1.4298,1.2684,1.5938,-1.2655,-1.4161,-1.1236
+21709,"CARBAJAL, Salud",Democrat,CA,24,Problem Solvers Caucus,-1.3836,-1.6791,-1.1208,0.4667,0.1485,0.817
+21711,"CORREA, Jose Luis",Democrat,CA,46,Blue Dog Coalition,-0.716,-0.8107,-0.6295,-0.1041,-0.2376,0.0568
+21714,"DUNN, Neal Patrick",Republican,FL,2,none,2.0285,1.5574,2.5615,1.2749,0.6893,1.8867
+21715,"ESPAILLAT, Adriano J.",Democrat,NY,13,Progressive Caucus,-1.3835,-1.6769,-1.1348,-0.3603,-0.5358,-0.1498
+21718,"FITZPATRICK, Brian K.",Republican,PA,1,Problem Solvers Caucus,0.3153,0.2736,0.3585,-0.045,-0.1667,0.0833
+21722,"GONZALEZ, Vicente, Jr.",Democrat,TX,34,Blue Dog Coalition,-0.3628,-0.44,-0.295,0.4294,0.2592,0.6203
+21723,"GOTTHEIMER, Josh S.",Democrat,NJ,5,Blue Dog Coalition + Problem Solvers Caucus,-0.7431,-0.8748,-0.6259,0.459,0.269,0.6719
+21724,"HIGGINS, Clay",Republican,LA,3,Freedom Caucus,1.4881,1.3108,1.6713,-0.8473,-0.9702,-0.7254
+21726,"JAYAPAL, Pramila",Democrat,WA,7,Progressive Caucus,-1.5036,-1.7933,-1.2615,-0.7907,-0.9503,-0.6307
+21727,"JOHNSON, Mike",Republican,LA,4,none,1.5171,1.1144,2.0515,0.4986,0.0147,1.1683
+21728,"KHANNA, Ro",Democrat,CA,17,Progressive Caucus,-1.2366,-1.4824,-1.0512,-0.3357,-0.5075,-0.1564
+21730,"KRISHNAMOORTHI, S. Raja",Democrat,IL,8,none,-1.3407,-1.6291,-1.0976,-0.0851,-0.2948,0.1578
+21731,"KUSTOFF, David",Republican,TN,8,none,1.3678,1.1265,1.6541,0.3118,0.0703,0.6084
+21735,"MAST, Brian Jeffrey",Republican,FL,21,none,1.1901,1.0101,1.3947,0.045,-0.1367,0.2597
+21740,"PANETTA, James Varni",Democrat,CA,19,Progressive Caucus + Problem Solvers Caucus,-0.875,-1.0248,-0.743,0.3582,0.1631,0.584
+21741,"RASKIN, Jamie Ben",Democrat,MD,8,Progressive Caucus,-1.4376,-1.7304,-1.193,-0.0376,-0.2577,0.2053
+21744,"RUTHERFORD, John Henry",Republican,FL,5,none,1.3788,1.1155,1.6752,0.3479,0.079,0.6643
+21745,"SMUCKER, Lloyd K.",Republican,PA,11,none,1.3722,1.1407,1.6595,0.2332,-0.0065,0.503
+21746,"SOTO, Darren Michael",Democrat,FL,9,Progressive Caucus + Problem Solvers Caucus,-1.0918,-1.2996,-0.918,0.6289,0.3697,0.919
+21747,"SUOZZI, Thomas",Democrat,NY,3,Problem Solvers Caucus,-0.6645,-0.7775,-0.5763,0.4305,0.2637,0.6257
+21749,"TENNEY, Claudia",Republican,NY,24,none,1.5755,1.2729,1.9178,0.5723,0.2387,0.9527
+21750,"ESTES, Ron",Republican,KS,4,none,1.247,1.0535,1.4877,0.0162,-0.1886,0.2429
+21753,"NORMAN, Ralph",Republican,SC,5,Freedom Caucus,1.6039,1.4075,1.8274,-1.1355,-1.2789,-0.9971
+21754,"GOMEZ, Jimmy",Democrat,CA,34,Progressive Caucus,-1.2821,-1.5396,-1.0624,-0.3835,-0.5708,-0.1854
+21758,"CLOUD, Michael",Republican,TX,27,Freedom Caucus,1.2504,1.1214,1.377,-1.0721,-1.1817,-0.9619
+21759,"BALDERSON, Troy",Republican,OH,12,none,1.2987,1.0785,1.5428,0.1419,-0.0747,0.3984
+21760,"HERN, Kevin",Republican,OK,1,none,1.6371,1.3667,1.9436,-0.0363,-0.2333,0.1842
+21761,"MORELLE, Joseph",Democrat,NY,25,none,-1.0661,-1.2698,-0.8958,0.1639,-0.051,0.4276
+21762,"SCANLON, Mary Gay",Democrat,PA,5,Progressive Caucus,-1.5919,-1.9586,-1.2796,-0.1678,-0.3702,0.0676
+21903,"BAIRD, James",Republican,IN,4,none,1.226,1.0091,1.4981,0.3645,0.1113,0.6788
+21905,"BURCHETT, Timothy",Republican,TN,2,none,1.1136,1.0115,1.222,-1.0974,-1.2142,-0.9809
+21906,"CASTEN, Sean",Democrat,IL,6,none,-1.4198,-1.7241,-1.1536,0.0006,-0.2133,0.2398
+21907,"CISNEROS, Gil",Democrat,CA,31,none,-1.173,-1.3662,-1.0026,0.0391,-0.1632,0.2452
+21908,"CLINE, Benjamin",Republican,VA,6,Freedom Caucus + Problem Solvers Caucus,1.5412,1.3322,1.7794,-0.5202,-0.6442,-0.3839
+21910,"CRAIG, Angela",Democrat,MN,2,Problem Solvers Caucus,-0.8627,-0.9703,-0.7669,-0.1661,-0.3064,-0.0167
+21911,"CRENSHAW, Daniel",Republican,TX,2,none,1.1434,0.9662,1.3593,0.0554,-0.1366,0.2737
+21912,"CROW, Jason",Democrat,CO,6,none,-1.2189,-1.4299,-1.0307,-0.0498,-0.2402,0.1522
+21914,"DAVIDS, Sharice",Democrat,KS,3,none,-0.8843,-1.0291,-0.7635,0.284,0.1052,0.508
+21915,"DEAN, Madeleine",Democrat,PA,4,Progressive Caucus,-1.7852,-2.1958,-1.413,0.4022,0.0872,0.7647
+21917,"ESCOBAR, Veronica",Democrat,TX,16,Progressive Caucus,-1.4775,-1.8375,-1.2028,-0.2366,-0.4496,-0.0015
+21919,"FLETCHER, Elizabeth",Democrat,TX,7,none,-0.9619,-1.0769,-0.8588,-0.5774,-0.6947,-0.4589
+21920,"FULCHER, Russell",Republican,ID,1,Freedom Caucus,1.2163,1.0901,1.3596,-0.6159,-0.7199,-0.5135
+21921,"GARCÍA, Jesús",Democrat,IL,4,Progressive Caucus,-1.5495,-1.8592,-1.2716,-0.8058,-0.9769,-0.6376
+21922,"GARCIA, Sylvia",Democrat,TX,29,none,-1.6002,-2.0212,-1.2624,-0.0926,-0.3296,0.1611
+21923,"GOLDEN, Jared",Democrat,ME,2,Blue Dog Coalition + Problem Solvers Caucus,-0.3019,-0.3593,-0.2444,0.4039,0.2754,0.5351
+21925,"GOODEN, Lance",Republican,TX,5,none,1.2048,1.0423,1.3885,-0.2297,-0.3666,-0.0838
+21926,"GREEN, Mark E.",Republican,TN,7,none,1.8562,1.2552,2.5815,-0.1191,-0.514,0.3511
+21927,"GUEST, Michael",Republican,MS,3,none,1.2935,1.0863,1.5599,0.162,-0.0625,0.4358
+21930,"HARDER, Josh",Democrat,CA,9,Problem Solvers Caucus,-0.7927,-0.9019,-0.6997,0.0663,-0.0911,0.2331
+21931,"HAYES, Jahana",Democrat,CT,5,none,-1.1562,-1.3564,-0.9951,-0.2288,-0.3852,-0.0477
+21934,"HOULAHAN, Christina",Democrat,PA,6,Problem Solvers Caucus,-0.9766,-1.1553,-0.8129,0.3383,0.1037,0.607
+21935,"JOHNSON, Dustin (Dusty)",Republican,SD,1,Problem Solvers Caucus,1.7687,1.3968,2.1743,0.7598,0.3453,1.2061
+21936,"JOYCE, John",Republican,PA,13,none,1.558,1.3167,1.8479,-0.3437,-0.4955,-0.1692
+21938,"LEE, Susie",Democrat,NV,3,Problem Solvers Caucus,-0.7263,-0.8416,-0.6305,0.3153,0.1496,0.5007
+21939,"LEVIN, Mike",Democrat,CA,49,Progressive Caucus,-1.0007,-1.157,-0.8561,0.1083,-0.069,0.3037
+21944,"McBATH, Lucy",Democrat,GA,6,none,-1.0242,-1.1746,-0.8851,-0.011,-0.1911,0.1796
+21945,"MEUSER, Dan",Republican,PA,9,Problem Solvers Caucus,1.1988,0.9836,1.4467,0.2981,0.0659,0.5723
+21946,"MILLER, Carol",Republican,WV,1,none,1.7112,1.3631,2.1447,0.2377,-0.045,0.5837
+21948,"NEGUSE, Joseph",Democrat,CO,2,Progressive Caucus,-1.2394,-1.4708,-1.0331,-0.2532,-0.4233,-0.0687
+21949,"OCASIO-CORTEZ, Alexandria",Democrat,NY,14,Progressive Caucus,-1.7657,-2.204,-1.4044,-0.8194,-1.007,-0.6368
+21950,"OMAR, Ilhan",Democrat,MN,5,Progressive Caucus,-1.2882,-1.4691,-1.1342,-0.8827,-1.0184,-0.7513
+21951,"PAPPAS, Chris",Democrat,NH,1,Problem Solvers Caucus,-0.8255,-0.9657,-0.7057,0.3974,0.2043,0.6145
+21955,"PRESSLEY, Ayanna",Democrat,MA,7,Progressive Caucus,-1.6652,-2.0347,-1.3661,-0.8064,-0.9771,-0.6468
+21956,"RESCHENTHALER, Guy",Republican,PA,14,none,1.5496,1.2258,1.9386,0.3898,0.0555,0.7884
+21959,"ROSE, John",Republican,TN,6,none,1.0062,0.9041,1.1325,-0.3758,-0.4884,-0.2478
+21961,"ROY, Charles",Republican,TX,21,Freedom Caucus,1.6233,1.4156,1.8699,-1.715,-1.9738,-1.4806
+21962,"SCHRIER, Kim",Democrat,WA,8,none,-0.9309,-1.1082,-0.7841,0.3815,0.1685,0.6343
+21964,"SHERRILL, Mikie",Democrat,NJ,11,none,-1.1163,-1.5081,-0.8292,0.6585,0.1469,1.2819
+21968,"STANTON, Greg",Democrat,AZ,4,none,-0.8947,-1.0256,-0.7775,0.1815,0.0162,0.3612
+21969,"STAUBER, Peter",Republican,MN,8,none,0.9176,0.8166,1.0349,-0.0672,-0.2068,0.0894
+21970,"STEIL, Bryan",Republican,WI,1,Problem Solvers Caucus,1.4263,1.1593,1.7613,0.4201,0.1325,0.7794
+21971,"STEUBE, W. Greg",Republican,FL,17,none,1.2234,1.1022,1.3661,-0.9085,-1.0169,-0.8061
+21972,"STEVENS, Haley",Democrat,MI,11,Problem Solvers Caucus,-1.0409,-1.2068,-0.8873,0.1723,-0.0334,0.3899
+21974,"TIMMONS, William",Republican,SC,4,none,1.4937,1.2378,1.778,-0.0519,-0.2461,0.1639
+21975,"TLAIB, Rashida",Democrat,MI,12,Progressive Caucus,-1.5844,-1.8707,-1.3294,-1.1247,-1.2941,-0.9532
+21977,"TRAHAN, Lori",Democrat,MA,3,Progressive Caucus,-1.6667,-2.1254,-1.299,0.4072,0.0738,0.7996
+21979,"UNDERWOOD, Lauren",Democrat,IL,14,none,-1.8083,-2.2573,-1.447,-0.0737,-0.3033,0.2011
+21987,"MURPHY, Gregory Francis",Republican,NC,3,none,1.4589,1.1355,1.838,0.6433,0.2657,1.1214
+21989,"TIFFANY, Thomas P.",Republican,WI,7,Freedom Caucus,1.2751,1.1199,1.4463,-0.6408,-0.7597,-0.5194
+21993,"NORTON, Eleanor Holmes",Democrat,DC,0,none,-1.3044,-1.9818,-0.7746,0.5488,-0.1112,1.281
+21994,"PLASKETT, Stacey E.",Democrat,VI,0,none,-0.7835,-1.2276,-0.4375,-0.1636,-0.7503,0.4557
+22100,"AUCHINCLOSS, Jake",Democrat,MA,4,none,-1.0267,-1.1873,-0.8876,0.0764,-0.1062,0.2884
+22101,"BENTZ, Cliff",Republican,OR,2,none,1.3301,1.0527,1.6587,0.805,0.4191,1.2388
+22102,"BICE, Stephanie I.",Republican,OK,5,none,1.0843,0.9183,1.2862,0.2284,0.0172,0.4597
+22103,"BOEBERT, Lauren",Republican,CO,4,Freedom Caucus,1.1445,1.0415,1.2545,-0.977,-1.0847,-0.865
+22107,"CAMMACK, Kat",Republican,FL,3,none,1.1832,1.0596,1.3197,-0.6567,-0.7515,-0.5533
+22110,"CLYDE, Andrew S.",Republican,GA,9,Freedom Caucus,1.5183,1.3458,1.6995,-1.0141,-1.1323,-0.8912
+22111,"DONALDS, Byron",Republican,FL,19,Freedom Caucus,1.093,0.9894,1.2005,-0.807,-0.9111,-0.6967
+22112,"FALLON, Pat",Republican,TX,4,none,1.4048,1.1833,1.6674,-0.1815,-0.3503,0.0125
+22113,"FEENSTRA, Randy",Republican,IA,4,none,1.2168,1.0109,1.4806,0.4494,0.1778,0.7509
+22114,"FISCHBACH, Michelle",Republican,MN,7,none,1.5729,1.2855,1.9586,0.2138,-0.0409,0.549
+22115,"FITZGERALD, Scott",Republican,WI,5,none,1.5129,1.2591,1.8161,0.0866,-0.1295,0.3243
+22116,"FRANKLIN, C. Scott",Republican,FL,18,none,1.6886,1.3531,2.1056,0.3969,0.0933,0.7587
+22117,"GARBARINO, Andrew R.",Republican,NY,2,Problem Solvers Caucus,0.7128,0.6265,0.8013,0.3717,0.1688,0.5903
+22118,"GIMENEZ, Carlos A.",Republican,FL,28,none,0.9712,0.8031,1.1779,0.8291,0.5207,1.1889
+22119,"GONZALES, Tony",Republican,TX,23,none,1.5002,1.1265,1.949,0.4626,0.0243,0.9513
+22121,"GREENE, Marjorie Taylor",Republican,GA,14,none,1.0358,0.9224,1.1541,-1.1058,-1.2481,-0.9725
+22122,"HARSHBARGER, Diana",Republican,TN,1,Freedom Caucus,1.6274,1.4069,1.8896,-0.6662,-0.7898,-0.5385
+22124,"HINSON, Ashley",Republican,IA,2,none,1.4572,1.1669,1.8104,0.5548,0.2352,0.9463
+22125,"JACKSON, Ronny",Republican,TX,13,none,1.4114,1.1938,1.6534,-0.3503,-0.4999,-0.186
+22126,"JACOBS, Sara",Democrat,CA,51,Progressive Caucus,-1.7464,-2.1832,-1.3502,-0.2345,-0.4681,0.0219
+22129,"KIM, Young",Republican,CA,40,Problem Solvers Caucus,1.2438,1.0167,1.5313,0.7194,0.3882,1.1359
+22131,"LEGER FERNANDEZ, Teresa",Democrat,NM,3,Progressive Caucus,-1.4874,-1.8295,-1.1921,-0.0323,-0.2735,0.2424
+22132,"MACE, Nancy",Republican,SC,1,none,1.0023,0.9007,1.1199,-0.537,-0.6407,-0.4264
+22133,"MALLIOTAKIS, Nicole",Republican,NY,11,Problem Solvers Caucus,0.7346,0.6529,0.8263,0.351,0.1515,0.5735
+22134,"MANN, Tracey",Republican,KS,1,none,1.9253,1.5453,2.4133,0.2298,-0.0574,0.5886
+22136,"MCCLAIN, Lisa C.",Republican,MI,9,none,1.1762,0.9854,1.3885,0.3204,0.0928,0.5818
+22138,"MILLER, Mary E.",Republican,IL,15,Freedom Caucus,1.7091,1.4666,1.9907,-0.7357,-0.8655,-0.5964
+22139,"MILLER-MEEKS, Mariannette",Republican,IA,1,none,0.8385,0.7459,0.9339,0.0202,-0.1213,0.1867
+22140,"MOORE, Barry",Republican,AL,1,Freedom Caucus,1.31,1.1488,1.4824,-0.6105,-0.7234,-0.4946
+22141,"MOORE, Blake D.",Republican,UT,1,Problem Solvers Caucus,1.4325,1.1231,1.7821,0.7231,0.3322,1.1754
+22142,"MRVAN, Frank J.",Democrat,IN,1,none,-0.9275,-1.0946,-0.7767,0.4932,0.2505,0.7446
+22143,"NEHLS, Troy E.",Republican,TX,22,none,1.4056,1.2015,1.6465,-0.2864,-0.4413,-0.123
+22145,"OBERNOLTE, Jay",Republican,CA,23,none,0.9466,0.8158,1.1001,0.4482,0.1876,0.7668
+22146,"OWENS, Burgess",Republican,UT,4,none,1.1002,0.9373,1.2864,0.2055,-0.0006,0.4581
+22147,"PFLUGER, August",Republican,TX,11,none,1.6007,1.2767,1.9755,0.5743,0.2236,1.0122
+22149,"ROSS, Deborah K.",Democrat,NC,2,none,-1.4867,-1.8137,-1.2174,0.218,-0.047,0.5297
+22150,"SALAZAR, Maria Elvira",Republican,FL,27,Problem Solvers Caucus,0.7984,0.6914,0.9277,0.3196,0.0911,0.5981
+22151,"SPARTZ, Victoria",Republican,IN,5,none,0.9785,0.8882,1.0751,-0.6727,-0.7641,-0.5796
+22153,"STRICKLAND, Marilyn",Democrat,WA,10,none,-1.3703,-1.6545,-1.1335,0.3227,0.0417,0.6343
+22154,"TORRES, Ritchie",Democrat,NY,15,none,-0.9712,-1.1,-0.8551,-0.1682,-0.3169,-0.0115
+22155,"VAN DUYNE, Beth",Republican,TX,24,none,1.4007,1.1966,1.6307,-0.1809,-0.3509,0.0047
+22156,"WILLIAMS, Nikema",Democrat,GA,5,Progressive Caucus,-1.6589,-2.0696,-1.2944,-0.1758,-0.4051,0.0755
+22157,"LETLOW, Julia",Republican,LA,5,none,1.5665,1.2603,1.9361,0.3342,0.0339,0.6827
+22158,"CARTER, Troy",Democrat,LA,2,Progressive Caucus,-1.2252,-1.4582,-1.0249,-0.0236,-0.2274,0.2099
+22159,"STANSBURY, Melanie Ann",Democrat,NM,1,Progressive Caucus,-1.5057,-1.8485,-1.2249,-0.1353,-0.354,0.0885
+22160,"ELLZEY, Jake",Republican,TX,6,none,1.2213,1.0148,1.4955,0.7329,0.4157,1.1129
+22161,"BROWN, Shontel M.",Democrat,OH,11,Progressive Caucus,-1.8337,-2.3948,-1.4126,0.1163,-0.1835,0.4489
+22162,"CAREY, Mike",Republican,OH,15,none,0.9745,0.8371,1.1281,0.439,0.1992,0.6922
+22163,"CHERFILUS-MCCORMICK, Sheila",Democrat,FL,20,none,-1.4181,-1.8088,-1.1078,0.3578,0.0009,0.8377
+22166,"FLOOD, Mike",Republican,NE,1,none,1.0966,0.9172,1.3131,0.5322,0.2533,0.8627
+22167,"FINSTAD, Brad",Republican,MN,1,none,1.8154,1.4146,2.3186,0.4083,0.0766,0.8212
+22169,"RYAN, Patrick",Democrat,NY,18,none,-0.7964,-0.9006,-0.6974,0.0457,-0.1104,0.2171
+22171,"YAKYM, Rudy, III",Republican,IN,2,none,1.9612,1.5298,2.4762,0.7395,0.3268,1.2161
+22300,"ALFORD, Mark",Republican,MO,4,none,1.1412,0.9591,1.3502,0.3562,0.1063,0.6403
+22301,"BALINT, Becca",Democrat,VT,1,Progressive Caucus,-1.6046,-2.0076,-1.2789,-0.3253,-0.5314,-0.1063
+22302,"BEAN, Aaron",Republican,FL,4,none,1.693,1.4539,1.9537,-0.5934,-0.723,-0.4457
+22303,"BRECHEEN, Josh",Republican,OK,2,Freedom Caucus,1.3904,1.2405,1.5478,-1.2464,-1.3918,-1.1107
+22304,"BUDZINSKI, Nikki",Democrat,IL,13,none,-0.897,-1.0387,-0.7781,0.1486,-0.0292,0.3394
+22305,"BURLISON, Eric",Republican,MO,7,Freedom Caucus,1.3819,1.2366,1.5263,-1.2842,-1.426,-1.1521
+22307,"CASAR, Greg",Democrat,TX,35,Progressive Caucus,-2.1601,-2.8132,-1.6184,-0.7095,-0.9561,-0.4451
+22309,"CISCOMANI, Juan",Republican,AZ,6,Problem Solvers Caucus,1.023,0.893,1.1668,0.1093,-0.0523,0.3009
+22310,"COLLINS, Mike",Republican,GA,10,none,1.4148,1.234,1.6278,-0.598,-0.7169,-0.4778
+22311,"CRANE, Eli",Republican,AZ,2,Freedom Caucus,1.4355,1.28,1.6054,-1.3636,-1.5444,-1.2015
+22312,"CROCKETT, Jasmine",Democrat,TX,30,Progressive Caucus,-1.8727,-2.3689,-1.4419,0.0201,-0.2542,0.3183
+22314,"DAVIS, Don",Democrat,NC,1,Problem Solvers Caucus,-0.3084,-0.3761,-0.2452,0.4927,0.3391,0.6572
+22315,"DE LA CRUZ, Monica",Republican,TX,15,none,1.341,1.1066,1.6179,0.1495,-0.0843,0.4414
+22316,"DELUZIO, Chris",Democrat,PA,17,Progressive Caucus,-1.0469,-1.1954,-0.913,-0.1972,-0.3446,-0.023
+22318,"EDWARDS, Chuck",Republican,NC,11,Problem Solvers Caucus,0.9165,0.811,1.036,0.1092,-0.0609,0.3002
+22319,"EZELL, Mike",Republican,MS,4,none,1.2006,1.0243,1.4034,-0.1112,-0.2718,0.072
+22320,"FOUSHEE, Valerie",Democrat,NC,4,Progressive Caucus,-1.7459,-2.2138,-1.3499,-0.2447,-0.4777,0.0013
+22321,"FROST, Maxwell",Democrat,FL,10,Progressive Caucus,-2.1921,-2.8093,-1.6872,-0.477,-0.7059,-0.223
+22322,"FRY, Russell",Republican,SC,7,none,1.3255,1.1581,1.5055,-0.5635,-0.6752,-0.4489
+22323,"GARCIA, Robert",Democrat,CA,42,Progressive Caucus,-1.4289,-1.754,-1.1521,-0.3274,-0.5371,-0.1056
+22324,"GOLDMAN, Daniel",Democrat,NY,10,Progressive Caucus,-1.0866,-1.2673,-0.9375,-0.3191,-0.483,-0.1359
+22325,"HAGEMAN, Harriet",Republican,WY,1,none,1.1391,1.021,1.273,-0.6613,-0.7627,-0.5581
+22326,"HOUCHIN, Erin",Republican,IN,9,none,1.4862,1.238,1.7959,0.0249,-0.178,0.2711
+22327,"HOYLE, Val",Democrat,OR,4,Progressive Caucus,-0.9544,-1.0645,-0.8517,-0.4316,-0.5566,-0.3067
+22328,"HUNT, Wesley",Republican,TX,38,none,1.4934,1.2525,1.8074,-0.3776,-0.5411,-0.182
+22329,"IVEY, Glenn",Democrat,MD,4,none,-1.5983,-1.9384,-1.2945,0.1098,-0.1452,0.3808
+22330,"JACKSON, Jonathan",Democrat,IL,1,Progressive Caucus,-1.0593,-1.2196,-0.9225,-0.3838,-0.5345,-0.2133
+22332,"JAMES, John",Republican,MI,10,none,1.0448,0.901,1.213,0.1882,-0.0244,0.4209
+22333,"KAMLAGER-DOVE, Sydney",Democrat,CA,37,Progressive Caucus,-1.5439,-1.921,-1.2407,-0.2874,-0.488,-0.0675
+22334,"KEAN, Thomas",Republican,NJ,7,Problem Solvers Caucus,0.6993,0.61,0.8014,0.4224,0.2012,0.6544
+22335,"KIGGANS, Jennifer",Republican,VA,2,Problem Solvers Caucus,0.958,0.8246,1.1196,0.7053,0.3897,1.0163
+22336,"KILEY, Kevin",Republican,CA,3,none,0.7629,0.653,0.895,0.255,0.0058,0.5541
+22337,"LALOTA, Nicholas",Republican,NY,1,Problem Solvers Caucus,0.6538,0.5807,0.7283,0.3293,0.151,0.51
+22338,"LANDSMAN, Greg",Democrat,OH,1,Problem Solvers Caucus,-0.7444,-0.8547,-0.6487,0.2595,0.1042,0.4474
+22339,"LANGWORTHY, Nick",Republican,NY,23,none,1.0366,0.906,1.1788,-0.0254,-0.1848,0.1406
+22340,"LAWLER, Michael",Republican,NY,17,Problem Solvers Caucus,0.5457,0.483,0.613,0.3254,0.1682,0.4792
+22341,"LEE, Laurel",Republican,FL,15,none,1.3753,1.1369,1.6521,0.2192,-0.0224,0.5083
+22342,"LEE, Summer",Democrat,PA,12,Progressive Caucus,-2.1653,-2.7739,-1.6721,-0.8728,-1.0751,-0.6697
+22343,"LUNA, Anna",Republican,FL,13,none,0.9495,0.8605,1.0388,-0.8293,-0.93,-0.7348
+22344,"LUTTRELL, Morgan",Republican,TX,8,none,1.1484,1.0128,1.2856,-0.3764,-0.4953,-0.2453
+22345,"MAGAZINER, Seth",Democrat,RI,2,none,-1.0618,-1.2309,-0.8997,0.2028,-0.0218,0.4398
+22346,"MCCORMICK, Rich",Republican,GA,7,none,1.3142,1.1311,1.5087,-0.4468,-0.578,-0.3075
+22347,"MCGARVEY, Morgan",Democrat,KY,3,Progressive Caucus,-1.3624,-1.6203,-1.1367,-0.2894,-0.4655,-0.0877
+22348,"MENENDEZ, Robert",Democrat,NJ,8,none,-1.3456,-1.6209,-1.1367,-0.2978,-0.4829,-0.0956
+22349,"MILLER, Max",Republican,OH,7,none,0.7669,0.6903,0.8445,-0.1973,-0.3116,-0.071
+22350,"MILLS, Cory",Republican,FL,7,none,1.2581,1.117,1.4207,-0.637,-0.7518,-0.5234
+22352,"MORAN, Nathaniel",Republican,TX,1,none,1.7131,1.3836,2.1444,0.5074,0.1774,0.913
+22353,"MOSKOWITZ, Jared",Democrat,FL,23,none,-0.6899,-0.7968,-0.5907,0.2786,0.1232,0.4578
+22354,"MULLIN, Kevin",Democrat,CA,15,Progressive Caucus,-1.2915,-1.5472,-1.0672,-0.1208,-0.3127,0.0785
+22356,"NUNN, Zach",Republican,IA,3,none,0.7951,0.7052,0.8908,0.2828,0.081,0.5106
+22357,"OGLES, Andy",Republican,TN,5,Freedom Caucus,1.2888,1.1449,1.4438,-0.8481,-0.9553,-0.7385
+22358,"PEREZ, Marie Gluesenkamp",Democrat,WA,3,Blue Dog Coalition + Problem Solvers Caucus,-0.281,-0.3316,-0.2302,0.3095,0.2022,0.4258
+22359,"PETTERSEN, Brittany",Democrat,CO,7,Problem Solvers Caucus,-1.0283,-1.2021,-0.8871,-0.272,-0.4197,-0.1031
+22360,"RAMIREZ, Delia",Democrat,IL,3,Progressive Caucus,-1.6362,-1.9973,-1.3688,-0.883,-1.0617,-0.7165
+22361,"SALINAS, Andrea",Democrat,OR,6,Progressive Caucus,-1.0781,-1.2458,-0.9342,-0.1255,-0.2951,0.0529
+22363,"SCHOLTEN, Hillary",Democrat,MI,3,Problem Solvers Caucus,-0.8266,-0.9453,-0.7159,0.1946,0.0246,0.3679
+22364,"SELF, Keith",Republican,TX,3,Freedom Caucus,1.2701,1.1515,1.4076,-1.2854,-1.424,-1.1537
+22365,"SORENSEN, Eric",Democrat,IL,17,none,-0.9387,-1.1217,-0.7879,0.4124,0.1858,0.6706
+22366,"STRONG, Dale",Republican,AL,5,none,1.2852,1.0546,1.5545,0.5083,0.2147,0.8516
+22367,"SYKES, Emilia",Democrat,OH,13,Problem Solvers Caucus,-1.0107,-1.1776,-0.8648,0.1212,-0.0759,0.3399
+22368,"THANEDAR, Shri",Democrat,MI,13,Progressive Caucus,-1.0399,-1.2006,-0.9037,-0.2157,-0.3683,-0.0475
+22369,"TOKUDA, Jill",Democrat,HI,2,Progressive Caucus,-1.8723,-2.3247,-1.4554,0.1154,-0.1709,0.4176
+22370,"VAN ORDEN, Derrick",Republican,WI,3,none,0.8755,0.7795,0.9888,-0.0964,-0.2327,0.0517
+22371,"VASQUEZ, Gabriel",Democrat,NM,2,none,-0.7989,-0.9652,-0.6648,0.3933,0.1695,0.6793
+22373,"MOYLAN, James",Republican,GU,0,none,0.128,-0.0162,0.2759,0.1123,-0.1367,0.3709
+22374,"MCCLELLAN, Jennifer",Democrat,VA,4,Progressive Caucus,-1.6917,-2.0955,-1.3478,0.1617,-0.1234,0.4917
+22375,"AMO, Gabe",Democrat,RI,1,none,-1.4565,-1.7704,-1.1937,0.1557,-0.1081,0.4386
+22376,"MALOY, Celeste",Republican,UT,2,none,1.0296,0.8868,1.2022,0.3293,0.1143,0.5967
+22377,"KENNEDY, Timothy M.",Democrat,NY,26,none,-1.21,-1.4401,-0.9994,0.2046,-0.0355,0.4714
+22378,"FONG, Vince",Republican,CA,20,none,1.181,0.9774,1.4455,0.6001,0.2789,0.9557
+22379,"RULLI, Michael A.",Republican,OH,6,none,0.928,0.8303,1.0369,-0.2484,-0.3647,-0.1205
+22381,"MCIVER, LaMonica",Democrat,NJ,10,Progressive Caucus,-1.9356,-2.483,-1.4779,-0.1693,-0.4146,0.0972
+22383,"WIED, Tony",Republican,WI,8,none,1.2616,1.1003,1.4518,-0.3663,-0.4999,-0.2385
+22500,"ANSARI, Yassamin",Democrat,AZ,3,Progressive Caucus,-1.3075,-1.5794,-1.0963,-0.5164,-0.6701,-0.334
+22501,"BARRETT, Tom",Republican,MI,7,none,0.9193,0.8291,1.0144,-0.4092,-0.5137,-0.2985
+22502,"BAUMGARTNER, Michael",Republican,WA,5,none,1.5019,1.2046,1.8884,0.407,0.0967,0.7674
+22503,"BEGICH, Nicholas J., III",Republican,AK,1,Freedom Caucus,1.1399,1.0066,1.279,-0.4647,-0.5691,-0.3533
+22504,"BELL, Wesley",Democrat,MO,1,none,-1.2151,-1.4502,-1.0244,0.0449,-0.1766,0.3088
+22505,"BIGGS, Sheri",Republican,SC,3,Freedom Caucus,1.8638,1.6,2.1906,-0.7913,-0.9214,-0.6566
+22506,"BRESNAHAN, Robert P., Jr.",Republican,PA,8,Problem Solvers Caucus,0.6411,0.5723,0.7121,0.1433,-0.0116,0.3122
+22507,"BYNUM, Janelle S.",Democrat,OR,5,none,-0.9665,-1.13,-0.8336,0.1256,-0.0613,0.3309
+22508,"CONAWAY, Herbert C., Jr.",Democrat,NJ,3,none,-1.0771,-1.2582,-0.9201,0.1569,-0.0554,0.39
+22509,"CRANK, Jeff",Republican,CO,5,none,1.3771,1.1895,1.5858,-0.3983,-0.5261,-0.2582
+22510,"DEXTER, Maxine",Democrat,OR,3,Progressive Caucus,-1.9572,-2.4861,-1.5096,-0.551,-0.7397,-0.3139
+22511,"DOWNING, Troy",Republican,MT,2,none,1.1655,1.0358,1.3168,-0.4294,-0.5395,-0.3098
+22512,"ELFRETH, Sarah",Democrat,MD,3,none,-1.2908,-1.5576,-1.079,0.0345,-0.198,0.2853
+22513,"EVANS, Gabe",Republican,CO,8,Problem Solvers Caucus,0.8771,0.7823,0.9813,0.0628,-0.0972,0.24
+22514,"FEDORCHAK, Julie",Republican,ND,1,none,1.3395,1.1423,1.5661,-0.1252,-0.2954,0.0473
+22515,"FIGURES, Shomari",Democrat,AL,2,none,-0.8702,-0.9943,-0.7592,0.0237,-0.1451,0.1989
+22516,"FRIEDMAN, Laura",Democrat,CA,30,Progressive Caucus,-1.2342,-1.472,-1.0407,-0.3255,-0.491,-0.1379
+22517,"GILL, Brandon",Republican,TX,26,Freedom Caucus,1.4397,1.2653,1.6241,-0.8083,-0.9257,-0.6935
+22518,"GILLEN, Laura",Democrat,NY,4,none,-0.6296,-0.7414,-0.5296,0.4637,0.2819,0.6608
+22519,"GOLDMAN, Craig A.",Republican,TX,12,none,1.7062,1.3674,2.1336,0.2234,-0.0737,0.5747
+22520,"GOODLANDER, Maggie",Democrat,NH,2,none,-0.8455,-0.9833,-0.7319,0.3095,0.128,0.5241
+22521,"GRAY, Adam",Democrat,CA,13,Blue Dog Coalition,-0.3797,-0.4448,-0.3195,0.3302,0.1967,0.4743
+22522,"HAMADEH, Abraham J.",Republican,AZ,8,none,1.3443,1.1626,1.5453,-0.3784,-0.5137,-0.2379
+22523,"HARIDOPOLOS, Mike",Republican,FL,8,none,1.0481,0.9068,1.2019,-0.008,-0.1821,0.1788
+22524,"HARRIGAN, Pat",Republican,NC,10,none,1.4176,1.2319,1.6136,-0.6631,-0.7728,-0.5479
+22525,"HARRIS, Mark",Republican,NC,8,Freedom Caucus,1.4205,1.2599,1.6184,-0.7222,-0.8262,-0.609
+22526,"HURD, Jeff",Republican,CO,3,Problem Solvers Caucus,0.9673,0.8291,1.1268,0.5298,0.2571,0.8399
+22527,"JACK, Brian",Republican,GA,3,none,1.3028,1.1023,1.5391,-0.0993,-0.2723,0.0932
+22528,"JOHNSON, Julie",Democrat,TX,32,none,-0.8954,-1.035,-0.777,-0.0941,-0.251,0.0988
+22529,"KENNEDY, Mike",Republican,UT,3,none,1.1997,1.0758,1.3345,-0.6611,-0.7684,-0.555
+22530,"KNOTT, Brad",Republican,NC,13,none,1.1907,1.0612,1.3254,-0.5141,-0.6208,-0.4107
+22531,"LATIMER, George",Democrat,NY,16,none,-1.131,-1.3228,-0.9681,0.1546,-0.0689,0.3983
+22532,"LICCARDO, Sam T.",Democrat,CA,16,none,-1.2876,-1.5521,-1.0724,0.114,-0.1185,0.3909
+22533,"MACKENZIE, Ryan",Republican,PA,7,none,0.7057,0.6347,0.7833,-0.098,-0.2315,0.0459
+22534,"MANNION, John W.",Democrat,NY,22,none,-0.8277,-0.9498,-0.7198,0.1104,-0.04,0.2961
+22535,"MCBRIDE, Sarah",Democrat,DE,1,Progressive Caucus,-1.0307,-1.1716,-0.89,-0.223,-0.382,-0.0586
+22536,"MCCLAIN DELANEY, April",Democrat,MD,6,none,-0.9635,-1.1068,-0.8352,0.0523,-0.127,0.2651
+22537,"MCDONALD RIVET, Kristen",Democrat,MI,8,none,-0.7398,-0.8622,-0.6277,0.3361,0.1496,0.5463
+22538,"MCDOWELL, Addison P.",Republican,NC,6,none,1.2366,1.0429,1.4539,-0.0724,-0.2468,0.1187
+22539,"MCGUIRE, John J., III",Republican,VA,5,none,1.4165,1.217,1.6401,-0.5178,-0.64,-0.3831
+22540,"MESSMER, Mark B.",Republican,IN,8,none,1.4779,1.1889,1.815,0.3782,0.0687,0.7439
+22541,"MIN, Dave",Democrat,CA,47,Progressive Caucus,-0.7835,-0.8654,-0.6975,-0.1966,-0.3204,-0.0637
+22542,"MOORE, Tim",Republican,NC,14,none,1.4699,1.2116,1.7559,0.1162,-0.1107,0.3841
+22543,"MOORE, Riley M.",Republican,WV,2,none,0.9617,0.8751,1.0548,-0.5253,-0.6224,-0.4295
+22544,"MORRISON, Kelly",Democrat,MN,3,none,-1.4461,-1.7489,-1.1791,0.3029,0.0142,0.627
+22545,"OLSZEWSKI, Johnny, Jr.",Democrat,MD,2,none,-1.4813,-1.8051,-1.1972,0.2719,-0.0125,0.5868
+22546,"ONDER, Robert F., Jr.",Republican,MO,3,none,1.3576,1.1886,1.558,-0.6009,-0.7149,-0.4781
+22547,"POU, Nellie",Democrat,NJ,9,Progressive Caucus,-1.1662,-1.3794,-0.9883,0.2483,0.0185,0.4989
+22548,"RANDALL, Emily",Democrat,WA,6,Progressive Caucus,-1.6833,-2.1134,-1.3229,-0.3147,-0.5297,-0.0728
+22549,"RILEY, Josh",Democrat,NY,19,none,-0.7322,-0.8425,-0.6369,0.3095,0.1503,0.4924
+22550,"RIVAS, Luz M.",Democrat,CA,29,Progressive Caucus,-1.6365,-2.0237,-1.2993,-0.1651,-0.3997,0.077
+22551,"SCHMIDT, Derek",Republican,KS,2,none,1.3602,1.1656,1.5844,-0.3209,-0.4698,-0.1607
+22552,"SHREVE, Jefferson",Republican,IN,6,none,1.6522,1.3337,2.0351,0.4569,0.136,0.8506
+22553,"SIMON, Lateefah",Democrat,CA,12,Progressive Caucus,-1.3945,-1.6738,-1.1637,-0.5859,-0.7392,-0.4156
+22554,"SUBRAMANYAM, Suhas",Democrat,VA,10,none,-0.8965,-0.9907,-0.8088,-0.2482,-0.3709,-0.1176
+22555,"TAYLOR, David J.",Republican,OH,2,none,1.2633,1.0643,1.499,0.0316,-0.1574,0.2578
+22556,"TRAN, Derek",Democrat,CA,45,none,-0.8355,-0.9694,-0.7142,0.2499,0.0705,0.4368
+22557,"TURNER, Sylvester",Democrat,TX,18,none,-1.1086,-1.4652,-0.8201,-0.8068,-1.363,-0.1962
+22558,"VINDMAN, Eugene Simon",Democrat,VA,7,none,-0.7264,-0.8417,-0.6202,0.3317,0.1513,0.5261
+22559,"WHITESIDES, George",Democrat,CA,27,none,-0.7798,-0.9147,-0.6639,0.2109,0.0257,0.4245
+22560,"HERNÁNDEZ, Pablo José",Democrat,PR,0,none,-1.5551,-2.3034,-0.9786,-0.2315,-0.9016,0.4437
+22561,"KING-HINDS, Kimberlyn",Republican,MP,0,none,0.1932,0.0522,0.3314,-0.0725,-0.3478,0.24
+22562,"FINE, Randy",Republican,FL,6,Freedom Caucus,1.0931,0.9793,1.2134,-0.7087,-0.8119,-0.61
+22563,"PATRONIS, Jimmy",Republican,FL,1,none,1.0173,0.9053,1.1428,-0.3436,-0.453,-0.2217
+22564,"WALKINSHAW, James R.",Democrat,VA,11,none,-1.3274,-1.7144,-1.0212,0.2485,-0.0449,0.587
+22565,"GRIJALVA, Adelita S.",Democrat,AZ,7,Progressive Caucus,-1.8563,-2.4385,-1.375,-0.4988,-0.7556,-0.2265
+22566,"VAN EPPS, MATT",Republican,TN,7,none,1.5954,1.1958,2.1037,0.5523,0.1776,1.0027
+22567,"MENEFEE, Christian D.",Democrat,TX,18,Progressive Caucus,-1.819,-2.5835,-1.2426,-0.2121,-0.548,0.1741
+22568,"FULLER, Clay",Republican,GA,14,none,1.694,1.2945,2.1981,-0.4507,-0.6599,-0.2025
+22569,"MEJIA, Analilia",Democrat,NJ,11,Progressive Caucus,-1.3593,-1.8995,-0.9555,-0.3274,-0.5937,-0.0215
+22570,"GALLAGHER, James",Republican,CA,1,none,0.7611,0.5439,1.0179,0.0093,-0.2574,0.2982
+22571,"BLAIR, Everton",Democrat,GA,13,Progressive Caucus,-1.327,-2.1449,-0.6758,-0.3514,-0.892,0.2774
+29106,"WATERS, Maxine",Democrat,CA,43,Progressive Caucus,-1.5792,-1.952,-1.2471,-0.134,-0.368,0.094
+29109,"DeLAURO, Rosa L.",Democrat,CT,3,Progressive Caucus,-1.3329,-1.6028,-1.0979,0.0902,-0.1354,0.3322
+29323,"CALVERT, Ken",Republican,CA,41,none,1.2284,0.9958,1.5164,0.8899,0.5233,1.3031
+29339,"BISHOP, Sanford Dixon, Jr.",Democrat,GA,2,Blue Dog Coalition,-0.7701,-0.8719,-0.6779,-0.0633,-0.2096,0.0903
+29354,"FIELDS, Cleo",Democrat,LA,6,none,-1.1403,-1.3419,-0.962,0.003,-0.2111,0.2433
+29368,"THOMPSON, Bennie",Democrat,MS,2,none,-1.354,-1.6298,-1.1124,-0.0607,-0.2821,0.1953
+29377,"NADLER, Jerrold Lewis",Democrat,NY,12,Progressive Caucus,-1.7167,-2.2024,-1.3244,-0.0392,-0.2923,0.2597
+29378,"VELÁZQUEZ, Nydia M.",Democrat,NY,7,Progressive Caucus,-1.5352,-1.8731,-1.2466,-0.6062,-0.7782,-0.4116
+29393,"LUCAS, Frank D.",Republican,OK,3,none,1.4833,1.1659,1.8864,1.1286,0.6901,1.634
+29504,"LOFGREN, Zoe",Democrat,CA,18,none,-1.1884,-1.4064,-1.0038,-0.1078,-0.298,0.1228
+29571,"DOGGETT, Lloyd Alton, II",Democrat,TX,37,Progressive Caucus,-1.4642,-1.8173,-1.1878,-0.3509,-0.5494,-0.1325
+29701,"ADERHOLT, Robert",Republican,AL,4,none,1.2273,1.0119,1.5105,0.5381,0.2433,0.8754
+29707,"SHERMAN, Brad",Democrat,CA,32,Progressive Caucus,-1.1736,-1.3736,-1.0005,-0.1946,-0.3799,0.0057
+29710,"DEGETTE, Diana",Democrat,CO,1,Progressive Caucus,-1.4218,-1.7468,-1.1481,-0.3579,-0.5527,-0.1433
+29717,"DAVIS, Danny K.",Democrat,IL,7,Progressive Caucus,-2.1468,-2.7122,-1.6133,0.0564,-0.2462,0.3861
+29729,"McGOVERN, James P.",Democrat,MA,2,Progressive Caucus,-1.6276,-1.9955,-1.3316,-0.7391,-0.9088,-0.564
+29759,"SESSIONS, Pete",Republican,TX,17,none,1.2027,1.0104,1.434,0.095,-0.1168,0.326
+29768,"SMITH, Adam",Democrat,WA,9,Progressive Caucus,-1.4368,-1.7702,-1.1415,0.1099,-0.1491,0.4243
+29776,"MEEKS, Gregory W.",Democrat,NY,5,none,-1.4668,-1.782,-1.2004,0.2463,-0.017,0.5572
+29901,"THOMPSON, Michael",Democrat,CA,4,Blue Dog Coalition,-1.0429,-1.1922,-0.9083,-0.1216,-0.2931,0.0551
+29908,"LARSON, John B.",Democrat,CT,1,none,-1.3826,-1.6542,-1.1582,0.075,-0.1424,0.3347
+29910,"SIMPSON, Michael K.",Republican,ID,2,none,1.0468,0.884,1.2402,0.7283,0.4188,1.0842
+29911,"SCHAKOWSKY, Janice D.",Democrat,IL,9,Progressive Caucus,-2.1005,-2.7498,-1.5799,0.0239,-0.2708,0.3376
+31101,"DELBENE, Suzan K.",Democrat,WA,1,none,-1.6365,-2.0323,-1.3096,0.5038,0.1687,0.8974
+31102,"MASSIE, Thomas",Republican,KY,4,none,0.8141,0.7245,0.9069,-1.3962,-1.5343,-1.2657
+39301,"CLYBURN, James Enos",Democrat,SC,6,none,-1.3613,-1.6841,-1.1134,0.2343,-0.0357,0.5618
+39307,"SCOTT, Robert C.",Democrat,VA,3,none,-1.5693,-1.9469,-1.2558,-0.012,-0.258,0.2528
+91980,"VAN DREW, Jefferson",Republican,NJ,2,none,0.7607,0.6893,0.8332,-0.3087,-0.4133,-0.2088
+92336,"KILEY, Kevin",Independent,CA,3,none,0.4879,0.3962,0.5886,0.4002,0.1577,0.6704

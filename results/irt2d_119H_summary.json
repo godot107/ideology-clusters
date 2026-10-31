@@ -1,0 +1,35 @@
+{
+  "raw_diagnostics": {
+    "max_split_rhat": 2.3206262588500977,
+    "min_ess": 1.1995944065924602,
+    "divergences": 0,
+    "anchor_rollcall_column": 1,
+    "chains": 2,
+    "warmup": 1000,
+    "samples": 500,
+    "seconds": 753
+  },
+  "aligned_diagnostics": {
+    "max_split_rhat": 1.0400724411010742,
+    "min_ess": 23.048319075198688
+  },
+  "members": 448,
+  "roll_calls": 573,
+  "republicans_dim1_vs_nominate_dim1_spearman": 0.5394036623112488,
+  "republicans_dim2_vs_bipartisan_yes_spearman": 0.8608648911014318,
+  "republicans_dim2_vs_lpca_dim2_spearman": 0.9451906868942268,
+  "democrats_dim1_vs_nominate_dim1_spearman": 0.7076290126726508,
+  "democrats_dim2_vs_bipartisan_yes_spearman": 0.8253639777204034,
+  "democrats_dim2_vs_lpca_dim2_spearman": 0.9149391462765244,
+  "freedom_caucus_members": 31,
+  "freedom_caucus_median_dim2": -0.8082824349403381,
+  "other_republicans_median_dim2": 0.21681836247444153,
+  "freedom_caucus_median_dim2_width": 0.24480879306793213,
+  "other_republicans_median_dim2_width": 0.49062979221343994,
+  "freedom_caucus_share_dim2_range_clear_of_other_R_median": 0.967741935483871,
+  "other_republicans_share_dim2_range_clear_of_other_R_median": 0.32989690721649484,
+  "freedom_caucus_median_dim1_width_1d_model_in_R_sd": 0.6981213171381981,
+  "freedom_caucus_median_dim1_width_2d_model_in_R_sd": 1.0452903509140015,
+  "other_republicans_median_dim1_width_1d_model_in_R_sd": 0.5628317273677643,
+  "other_republicans_median_dim1_width_2d_model_in_R_sd": 1.3677256107330322
+}

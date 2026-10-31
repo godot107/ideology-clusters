@@ -15,6 +15,7 @@ python scripts/run_analysis.py   # all non-Bayesian results -> results/ (~10 min
 python scripts/fit_irt.py 118S 118H 119H   # Bayesian ideal points -> data/irt_*.npy (~5-15 min each)
 python scripts/fit_irt_synthetic.py  # 1-D vs 2-D IRT coverage on synthetic (~40 min; --rescore = seconds)
 python scripts/dimension2.py     # what dim 2 means -> results/dim2_* (seconds; needs run_analysis)
+python scripts/fit_irt2d.py      # 2-D IRT on real 119H -> results/irt2d_119H_* (~13 min; --rescore; needs dimension2)
 python scripts/build_explorer.py # docs/explorer.html: self-contained SVG+JS, no CDN (needs the three above)
 python notebooks/build.py && for n in notebooks/0*.ipynb; do jupyter nbconvert --to notebook --execute --inplace $n; done
 ```

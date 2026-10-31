@@ -59,11 +59,11 @@ DW-NOMINATE within party: **0.90** among Republicans and **0.72** among Democrat
 model fits. On the synthetic Congress its 90% ranges contain the truth 77-91% of the time for five
 factions, but only **25%** for the faction that differs on a *second* dimension: a one-dimensional model
 is confidently wrong about them. **Give the model a second dimension and that faction's coverage rises to
-93%** (96% on dimension 2), with the other five at 82-97% on both.
+93%** (95% on dimension 2), with the other five at 82-97% on both.
 
 | Faction (synthetic) | 1-D model | 2-D model, dim 1 | 2-D model, dim 2 |
 |---|---|---|---|
-| Hard-line (differs on dim 2) | **25%** | **93%** | 96% |
+| Hard-line (differs on dim 2) | **25%** | **93%** | 95% |
 | Other five factions | 77-91% | 87-97% | 82-94% |
 
 ![Every member of the 118th House with a 90% range](reports/01_fig3.png)
@@ -101,6 +101,14 @@ median member voted yes on 53% of them, other Republicans 99%; Progressives 88%,
 The positions come from these same votes, so this describes the axis; the caucus comparison is the
 independent check. (`scripts/dimension2.py`)
 
+**2-D Bayesian fit on the 119th House** (`scripts/fit_irt2d.py`): error bars on both dimensions. 30 of
+31 Freedom Caucus members have a dimension-2 90% range entirely below the median other Republican (a
+third of other Republicans do); their dimension-2 ranges are half as wide (0.24 vs 0.49). Among
+Republicans, the 1-D scale and DW-NOMINATE dim 1 track the bipartisan yes-rate (rank correlation -0.85 /
+-0.76); the 2-D model's dim 1 barely does (-0.16) and agrees less with DW-NOMINATE (0.54 vs 0.89 for the
+1-D model). The median Freedom Caucus member goes from the 93rd percentile of Republicans (1-D) to the
+66th (2-D dim 1). The split between the two axes depends on the rotation (aligned to logistic PCA).
+
 ## 3 · Polarisation
 
 Gap between the party medians, in "typical party widths", per Congress, from our model and from
@@ -125,6 +133,8 @@ voting ran partly along a second dimension.
 - The Bayesian sampler (NUTS, no divergences): 118th House and Senate, 1 chain, 500 + 500 draws, split
   R-hat 1.02 / 1.03, effective sample size low (~18) for a few members, so their intervals are rougher.
   119th House: 2 chains, 1000 + 1000 draws, R-hat 1.02, min ESS 67 (a first 1-chain run mixed poorly).
+  119th House 2-D: 2 chains, 1000 + 500 draws, R-hat 1.04 after alignment (2.3 raw), min ESS 23 for one
+  member; Freedom Caucus members' ESS is at least 172 (dim 2) and 368 (dim 1).
 - The model pins the axis's location, scale and (in 2-D) rotation only weakly, so chains drift in ways
   that move nobody relative to anyone else. Synthetic draws are standardised (1-D) or rotated onto the
   logistic-PCA map (2-D) before scoring; after that, R-hat is 1.01 (1-D) and 1.02 (2-D).
@@ -142,6 +152,7 @@ python scripts/run_analysis.py              # all non-Bayesian results (~10 min,
 python scripts/fit_irt.py 118S 118H 119H    # Bayesian ideal points (~5-15 min each, CPU)
 python scripts/fit_irt_synthetic.py         # 1-D vs 2-D Bayesian model on the synthetic Congress (~40 min)
 python scripts/dimension2.py                # what dimension 2 means (needs run_analysis first)
+python scripts/fit_irt2d.py                 # 2-D Bayesian model on the 119th House (~15 min; needs dimension2)
 python scripts/build_explorer.py            # docs/explorer.html, the interactive page
 python notebooks/build.py                   # then execute each notebook (see notebooks/build.py)
 ```
