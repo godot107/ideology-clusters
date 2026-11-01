@@ -44,8 +44,8 @@ and those are almost always uncontroversial.
   international affairs. Here the typical vote had the parties within 10 points of each other.
 
 One caution on taxes. The "Taxation" bar looks fully bipartisan because its seven votes were small,
-specific bills, such as disaster filing extensions and help for fraud victims. The big 2025 tax-and-
-spending law (H.R. 1) is classified under "Economics and Public Finance". Both of its votes were
+specific bills, such as disaster filing extensions and help for fraud victims. The big 2025
+tax-and-spending law (H.R. 1) is classified under "Economics and Public Finance". Both of its votes were
 strictly party-line: 0% of Democrats and 99% of Republicans voted yes.
 
 ## Who crosses party lines?
