@@ -125,6 +125,26 @@ voting ran partly along a second dimension.
 
 ![Polarisation 1973-2025](reports/03_fig1.png)
 
+## 4 · Issues and individuals (119th House)
+
+Every roll call, joined to the bill's official policy area from the Congress.gov API
+(`scripts/fetch_bills.py`, needs a free key in `.env` as `CONGRESS_API_KEY`), then summarised from raw
+votes with no model (`scripts/issues.py`, figure `scripts/plot_issues.py`). Write-up: `blog_issues.md`.
+
+- 38% of 420 votes on bills were bipartisan (party yes-rates within 25 points), 43% party-line (over 80
+  apart). Fast-track (suspension) votes: 87% bipartisan; regular final passage: 80% party-line.
+- Most divided areas: Energy and Environmental Protection (median gap 0.95), Immigration 0.89;
+  most bipartisan: Science/Technology 0.04, Transportation 0.05, Emergency Management 0.02.
+- The one bill whose summary names data centers (Ratepayer Protection Act, H.R. 9340) passed 417–3.
+- On the 317 votes where the party majorities disagreed, the median member sided with the other party
+  2.3% (D) / 2.5% (R) of the time; 41 of 445 voting members did so over 10%.
+
+![How far apart the parties voted, by issue](reports/04_issues.png)
+
+**Dashboard:** `streamlit run app/streamlit_app.py`: look up any member (missed votes, crossing rate,
+votes by issue). Deploys to Streamlit Community Cloud from this repo (main file `app/streamlit_app.py`;
+it installs only `app/requirements.txt` and reads `results/`).
+
 ## Method notes (honesty)
 
 - **DW-NOMINATE is a comparison, not ground truth** within a party: it pools each member's whole career

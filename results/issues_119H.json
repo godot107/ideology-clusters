@@ -1,0 +1,646 @@
+{
+ "roll_calls": 674,
+ "substantive_with_policy_area": 420,
+ "bills_looked_up": 429,
+ "bills_missing_on_congress_gov": 0,
+ "party_split_votes": 317,
+ "both_majorities_yes_votes": 175,
+ "median_against_party": {
+  "D": 0.022727272727272728,
+  "R": 0.025236593059936908
+ },
+ "median_missed": {
+  "D": 0.020771513353115778,
+  "R": 0.01928783382789323
+ },
+ "themes": {
+  "data centers": [
+   {
+    "date": "2026-09-16",
+    "bill_number": "HR9340",
+    "bill_title": "Ratepayer Protection Act",
+    "vote_question": "On Motion to Suspend the Rules and Pass, as Amended",
+    "D_yes": 0.986,
+    "R_yes": 1.0,
+    "gap": 0.014
+   }
+  ],
+  "artificial intelligence": [],
+  "crypto / digital assets": [
+   {
+    "date": "2025-03-11",
+    "bill_number": "HJRES25",
+    "bill_title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Internal Revenue Service relating to \"Gross Proceeds Reporting by Brokers That Regularly Provide Services Effectuating Digital Asset Sales\".",
+    "vote_question": "On Passage",
+    "D_yes": 0.365,
+    "R_yes": 1.0,
+    "gap": 0.635
+   },
+   {
+    "date": "2025-07-17",
+    "bill_number": "HR3633",
+    "bill_title": "Digital Asset Market Clarity Act",
+    "vote_question": "On Passage",
+    "D_yes": 0.368,
+    "R_yes": 1.0,
+    "gap": 0.632
+   }
+  ],
+  "electricity prices / grid": [
+   {
+    "date": "2025-01-15",
+    "bill_number": "HR164",
+    "bill_title": "POWER Act of 2025",
+    "vote_question": "On Motion to Suspend the Rules and Pass",
+    "D_yes": 1.0,
+    "R_yes": 0.991,
+    "gap": 0.009
+   },
+   {
+    "date": "2025-03-11",
+    "bill_number": "HR1968",
+    "bill_title": "Full-Year Continuing Appropriations and Extensions Act, 2025",
+    "vote_question": "On Passage",
+    "D_yes": 0.005,
+    "R_yes": 0.995,
+    "gap": 0.991
+   },
+   {
+    "date": "2025-05-22",
+    "bill_number": "HR1",
+    "bill_title": "An act to provide for reconciliation pursuant to title II of H. Con. Res. 14.",
+    "vote_question": "On Passage",
+    "D_yes": 0.0,
+    "R_yes": 0.991,
+    "gap": 0.991
+   },
+   {
+    "date": "2025-07-03",
+    "bill_number": "HR1",
+    "bill_title": "An act to provide for reconciliation pursuant to title II of H. Con. Res. 14.",
+    "vote_question": "On Motion to Concur in the Senate Amendment",
+    "D_yes": 0.0,
+    "R_yes": 0.991,
+    "gap": 0.991
+   },
+   {
+    "date": "2025-09-03",
+    "bill_number": "HR4553",
+    "bill_title": "Energy and Water Development and Related Agencies Appropriations Act, 2026",
+    "vote_question": "On Agreeing to the Amendment",
+    "D_yes": 0.0,
+    "R_yes": 0.899,
+    "gap": 0.899
+   },
+   {
+    "date": "2025-09-03",
+    "bill_number": "HR4553",
+    "bill_title": "Energy and Water Development and Related Agencies Appropriations Act, 2026",
+    "vote_question": "On Agreeing to the Amendment",
+    "D_yes": 0.0,
+    "R_yes": 0.662,
+    "gap": 0.662
+   },
+   {
+    "date": "2025-09-03",
+    "bill_number": "HR4553",
+    "bill_title": "Energy and Water Development and Related Agencies Appropriations Act, 2026",
+    "vote_question": "On Agreeing to the Amendment",
+    "D_yes": 0.0,
+    "R_yes": 0.358,
+    "gap": 0.358
+   },
+   {
+    "date": "2025-09-03",
+    "bill_number": "HR4553",
+    "bill_title": "Energy and Water Development and Related Agencies Appropriations Act, 2026",
+    "vote_question": "On Agreeing to the Amendment",
+    "D_yes": 0.0,
+    "R_yes": 0.642,
+    "gap": 0.642
+   },
+   {
+    "date": "2025-09-03",
+    "bill_number": "HR4553",
+    "bill_title": "Energy and Water Development and Related Agencies Appropriations Act, 2026",
+    "vote_question": "On Agreeing to the Amendment",
+    "D_yes": 0.0,
+    "R_yes": 0.556,
+    "gap": 0.556
+   },
+   {
+    "date": "2025-09-03",
+    "bill_number": "HR4553",
+    "bill_title": "Energy and Water Development and Related Agencies Appropriations Act, 2026",
+    "vote_question": "On Agreeing to the Amendment",
+    "D_yes": 0.0,
+    "R_yes": 0.574,
+    "gap": 0.574
+   },
+   {
+    "date": "2025-09-03",
+    "bill_number": "HR4553",
+    "bill_title": "Energy and Water Development and Related Agencies Appropriations Act, 2026",
+    "vote_question": "On Agreeing to the Amendment",
+    "D_yes": 0.0,
+    "R_yes": 0.591,
+    "gap": 0.591
+   },
+   {
+    "date": "2025-09-03",
+    "bill_number": "HR4553",
+    "bill_title": "Energy and Water Development and Related Agencies Appropriations Act, 2026",
+    "vote_question": "On Agreeing to the Amendment",
+    "D_yes": 0.0,
+    "R_yes": 0.556,
+    "gap": 0.556
+   },
+   {
+    "date": "2025-09-04",
+    "bill_number": "HR4553",
+    "bill_title": "Energy and Water Development and Related Agencies Appropriations Act, 2026",
+    "vote_question": "On Agreeing to the Amendment",
+    "D_yes": 0.0,
+    "R_yes": 0.558,
+    "gap": 0.558
+   },
+   {
+    "date": "2025-09-04",
+    "bill_number": "HR4553",
+    "bill_title": "Energy and Water Development and Related Agencies Appropriations Act, 2026",
+    "vote_question": "On Agreeing to the Amendment",
+    "D_yes": 0.0,
+    "R_yes": 0.591,
+    "gap": 0.591
+   },
+   {
+    "date": "2025-09-04",
+    "bill_number": "HR4553",
+    "bill_title": "Energy and Water Development and Related Agencies Appropriations Act, 2026",
+    "vote_question": "On Agreeing to the Amendment",
+    "D_yes": 0.0,
+    "R_yes": 0.35,
+    "gap": 0.35
+   },
+   {
+    "date": "2025-09-04",
+    "bill_number": "HR4553",
+    "bill_title": "Energy and Water Development and Related Agencies Appropriations Act, 2026",
+    "vote_question": "On Passage",
+    "D_yes": 0.0,
+    "R_yes": 0.982,
+    "gap": 0.982
+   },
+   {
+    "date": "2025-09-10",
+    "bill_number": "HR3838",
+    "bill_title": "Streamlining Procurement for Effective Execution and Delivery and National Defense Authorization Act for Fiscal Year 2026",
+    "vote_question": "On Agreeing to the Amendment",
+    "D_yes": 1.0,
+    "R_yes": 0.227,
+    "gap": 0.773
+   },
+   {
+    "date": "2025-09-10",
+    "bill_number": "HR3838",
+    "bill_title": "Streamlining Procurement for Effective Execution and Delivery and National Defense Authorization Act for Fiscal Year 2026",
+    "vote_question": "On Agreeing to the Amendment",
+    "D_yes": 0.019,
+    "R_yes": 0.995,
+    "gap": 0.977
+   },
+   {
+    "date": "2025-09-10",
+    "bill_number": "HR3838",
+    "bill_title": "Streamlining Procurement for Effective Execution and Delivery and National Defense Authorization Act for Fiscal Year 2026",
+    "vote_question": "On Agreeing to the Amendment",
+    "D_yes": 0.028,
+    "R_yes": 0.991,
+    "gap": 0.962
+   },
+   {
+    "date": "2025-09-10",
+    "bill_number": "HR3838",
+    "bill_title": "Streamlining Procurement for Effective Execution and Delivery and National Defense Authorization Act for Fiscal Year 2026",
+    "vote_question": "On Agreeing to the Amendment",
+    "D_yes": 0.047,
+    "R_yes": 1.0,
+    "gap": 0.953
+   },
+   {
+    "date": "2025-09-10",
+    "bill_number": "HR3838",
+    "bill_title": "Streamlining Procurement for Effective Execution and Delivery and National Defense Authorization Act for Fiscal Year 2026",
+    "vote_question": "On Agreeing to the Amendment",
+    "D_yes": 0.019,
+    "R_yes": 0.995,
+    "gap": 0.977
+   },
+   {
+    "date": "2025-09-10",
+    "bill_number": "HR3838",
+    "bill_title": "Streamlining Procurement for Effective Execution and Delivery and National Defense Authorization Act for Fiscal Year 2026",
+    "vote_question": "On Agreeing to the Amendment",
+    "D_yes": 0.014,
+    "R_yes": 0.995,
+    "gap": 0.981
+   },
+   {
+    "date": "2025-09-10",
+    "bill_number": "HR3838",
+    "bill_title": "Streamlining Procurement for Effective Execution and Delivery and National Defense Authorization Act for Fiscal Year 2026",
+    "vote_question": "On Agreeing to the Amendment",
+    "D_yes": 0.023,
+    "R_yes": 0.927,
+    "gap": 0.904
+   },
+   {
+    "date": "2025-09-10",
+    "bill_number": "HR3838",
+    "bill_title": "Streamlining Procurement for Effective Execution and Delivery and National Defense Authorization Act for Fiscal Year 2026",
+    "vote_question": "On Agreeing to the Amendment",
+    "D_yes": 0.028,
+    "R_yes": 0.991,
+    "gap": 0.963
+   },
+   {
+    "date": "2025-09-10",
+    "bill_number": "HR3838",
+    "bill_title": "Streamlining Procurement for Effective Execution and Delivery and National Defense Authorization Act for Fiscal Year 2026",
+    "vote_question": "On Agreeing to the Amendment",
+    "D_yes": 0.042,
+    "R_yes": 0.995,
+    "gap": 0.953
+   },
+   {
+    "date": "2025-09-10",
+    "bill_number": "HR3838",
+    "bill_title": "Streamlining Procurement for Effective Execution and Delivery and National Defense Authorization Act for Fiscal Year 2026",
+    "vote_question": "On Agreeing to the Amendment",
+    "D_yes": 0.023,
+    "R_yes": 0.991,
+    "gap": 0.967
+   },
+   {
+    "date": "2025-09-10",
+    "bill_number": "HR3838",
+    "bill_title": "Streamlining Procurement for Effective Execution and Delivery and National Defense Authorization Act for Fiscal Year 2026",
+    "vote_question": "On Agreeing to the Amendment",
+    "D_yes": 0.023,
+    "R_yes": 0.871,
+    "gap": 0.847
+   },
+   {
+    "date": "2025-09-10",
+    "bill_number": "HR3838",
+    "bill_title": "Streamlining Procurement for Effective Execution and Delivery and National Defense Authorization Act for Fiscal Year 2026",
+    "vote_question": "On Agreeing to the Amendment",
+    "D_yes": 0.0,
+    "R_yes": 0.274,
+    "gap": 0.274
+   },
+   {
+    "date": "2025-09-10",
+    "bill_number": "HR3838",
+    "bill_title": "Streamlining Procurement for Effective Execution and Delivery and National Defense Authorization Act for Fiscal Year 2026",
+    "vote_question": "On Agreeing to the Amendment",
+    "D_yes": 0.0,
+    "R_yes": 0.274,
+    "gap": 0.274
+   },
+   {
+    "date": "2025-09-10",
+    "bill_number": "HR3838",
+    "bill_title": "Streamlining Procurement for Effective Execution and Delivery and National Defense Authorization Act for Fiscal Year 2026",
+    "vote_question": "On Agreeing to the Amendment",
+    "D_yes": 0.0,
+    "R_yes": 0.041,
+    "gap": 0.041
+   },
+   {
+    "date": "2025-09-10",
+    "bill_number": "HR3838",
+    "bill_title": "Streamlining Procurement for Effective Execution and Delivery and National Defense Authorization Act for Fiscal Year 2026",
+    "vote_question": "On Agreeing to the Amendment",
+    "D_yes": 0.009,
+    "R_yes": 0.995,
+    "gap": 0.986
+   },
+   {
+    "date": "2025-09-10",
+    "bill_number": "HR3838",
+    "bill_title": "Streamlining Procurement for Effective Execution and Delivery and National Defense Authorization Act for Fiscal Year 2026",
+    "vote_question": "On Agreeing to the Amendment",
+    "D_yes": 0.009,
+    "R_yes": 0.917,
+    "gap": 0.907
+   },
+   {
+    "date": "2025-09-10",
+    "bill_number": "HR3838",
+    "bill_title": "Streamlining Procurement for Effective Execution and Delivery and National Defense Authorization Act for Fiscal Year 2026",
+    "vote_question": "On Agreeing to the Amendment",
+    "D_yes": 0.986,
+    "R_yes": 1.0,
+    "gap": 0.014
+   },
+   {
+    "date": "2025-09-10",
+    "bill_number": "HR3838",
+    "bill_title": "Streamlining Procurement for Effective Execution and Delivery and National Defense Authorization Act for Fiscal Year 2026",
+    "vote_question": "On Passage",
+    "D_yes": 0.081,
+    "R_yes": 0.982,
+    "gap": 0.9
+   },
+   {
+    "date": "2025-09-18",
+    "bill_number": "HR3062",
+    "bill_title": "Promoting Cross-border Energy Infrastructure Act",
+    "vote_question": "On Passage",
+    "D_yes": 0.033,
+    "R_yes": 1.0,
+    "gap": 0.967
+   },
+   {
+    "date": "2025-09-18",
+    "bill_number": "HR1047",
+    "bill_title": "GRID Power Act",
+    "vote_question": "On Passage",
+    "D_yes": 0.024,
+    "R_yes": 0.995,
+    "gap": 0.971
+   },
+   {
+    "date": "2025-09-19",
+    "bill_number": "HR5371",
+    "bill_title": "Continuing Appropriations, Agriculture, Legislative Branch, Military Construction and Veterans Affairs, and Extensions Act, 2026",
+    "vote_question": "On Passage",
+    "D_yes": 0.005,
+    "R_yes": 0.991,
+    "gap": 0.986
+   },
+   {
+    "date": "2025-11-12",
+    "bill_number": "HR5371",
+    "bill_title": "Continuing Appropriations, Agriculture, Legislative Branch, Military Construction and Veterans Affairs, and Extensions Act, 2026",
+    "vote_question": "On Motion to Concur in the Senate Amendment",
+    "D_yes": 0.028,
+    "R_yes": 0.991,
+    "gap": 0.963
+   },
+   {
+    "date": "2025-11-20",
+    "bill_number": "HR3109",
+    "bill_title": "REFINER Act",
+    "vote_question": "On Passage",
+    "D_yes": 0.124,
+    "R_yes": 1.0,
+    "gap": 0.876
+   },
+   {
+    "date": "2025-12-11",
+    "bill_number": "HR3628",
+    "bill_title": "State Planning for Reliability and Affordability Act",
+    "vote_question": "On Passage",
+    "D_yes": 0.019,
+    "R_yes": 0.995,
+    "gap": 0.976
+   },
+   {
+    "date": "2025-12-11",
+    "bill_number": "HR3638",
+    "bill_title": "Electric Supply Chain Act",
+    "vote_question": "On Passage",
+    "D_yes": 0.243,
+    "R_yes": 1.0,
+    "gap": 0.757
+   },
+   {
+    "date": "2025-12-16",
+    "bill_number": "HR3632",
+    "bill_title": "Power Plant Reliability Act of 2025",
+    "vote_question": "On Passage",
+    "D_yes": 0.034,
+    "R_yes": 0.986,
+    "gap": 0.952
+   },
+   {
+    "date": "2025-12-17",
+    "bill_number": "HR3616",
+    "bill_title": "Reliable Power Act",
+    "vote_question": "On Passage",
+    "D_yes": 0.033,
+    "R_yes": 1.0,
+    "gap": 0.967
+   },
+   {
+    "date": "2026-01-08",
+    "bill_number": "HR6938",
+    "bill_title": "Commerce, Justice, Science; Energy and Water Development; and Interior and Environment Appropriations Act, 2026",
+    "vote_question": "On Passage",
+    "D_yes": 0.972,
+    "R_yes": 0.897,
+    "gap": 0.075
+   },
+   {
+    "date": "2026-01-12",
+    "bill_number": "HR6500",
+    "bill_title": "Continuing Appropriations and Extensions Act, 2027",
+    "vote_question": "On Motion to Suspend the Rules and Pass, as Amended",
+    "D_yes": 0.946,
+    "R_yes": 0.776,
+    "gap": 0.17
+   },
+   {
+    "date": "2026-01-14",
+    "bill_number": "HR7006",
+    "bill_title": "Financial Services and General Government and National Security, Department of State, and Related Programs Appropriations Act, 2026",
+    "vote_question": "On Agreeing to the Amendment",
+    "D_yes": 0.0,
+    "R_yes": 0.78,
+    "gap": 0.78
+   },
+   {
+    "date": "2026-01-14",
+    "bill_number": "HR7006",
+    "bill_title": "Financial Services and General Government and National Security, Department of State, and Related Programs Appropriations Act, 2026",
+    "vote_question": "On Agreeing to the Amendment",
+    "D_yes": 0.0,
+    "R_yes": 0.611,
+    "gap": 0.611
+   },
+   {
+    "date": "2026-01-14",
+    "bill_number": "HR7006",
+    "bill_title": "Financial Services and General Government and National Security, Department of State, and Related Programs Appropriations Act, 2026",
+    "vote_question": "On Passage",
+    "D_yes": 0.729,
+    "R_yes": 0.895,
+    "gap": 0.167
+   },
+   {
+    "date": "2026-02-24",
+    "bill_number": "HR4626",
+    "bill_title": "Home Appliance Protection and Affordability Act",
+    "vote_question": "On Passage",
+    "D_yes": 0.036,
+    "R_yes": 1.0,
+    "gap": 0.964
+   },
+   {
+    "date": "2026-04-20",
+    "bill_number": "HR5200",
+    "bill_title": "Emergency Reporting Act",
+    "vote_question": "On Motion to Suspend the Rules and Pass",
+    "D_yes": 1.0,
+    "R_yes": 0.964,
+    "gap": 0.036
+   },
+   {
+    "date": "2026-04-21",
+    "bill_number": "S1020",
+    "bill_title": "A bill to require the Federal Energy Regulatory Commission to extend the time period during which licensees are required to commence construction of certain hydropower projects.",
+    "vote_question": "On Motion to Suspend the Rules and Pass",
+    "D_yes": 1.0,
+    "R_yes": 0.93,
+    "gap": 0.07
+   },
+   {
+    "date": "2026-04-30",
+    "bill_number": "HR7567",
+    "bill_title": "Farm, Food, and National Security Act of 2026",
+    "vote_question": "On Agreeing to the Amendment",
+    "D_yes": 0.174,
+    "R_yes": 0.811,
+    "gap": 0.638
+   },
+   {
+    "date": "2026-04-30",
+    "bill_number": "HR7567",
+    "bill_title": "Farm, Food, and National Security Act of 2026",
+    "vote_question": "On Agreeing to the Amendment",
+    "D_yes": 0.942,
+    "R_yes": 0.89,
+    "gap": 0.052
+   },
+   {
+    "date": "2026-04-30",
+    "bill_number": "HR7567",
+    "bill_title": "Farm, Food, and National Security Act of 2026",
+    "vote_question": "On Agreeing to the Amendment",
+    "D_yes": 0.967,
+    "R_yes": 0.995,
+    "gap": 0.028
+   },
+   {
+    "date": "2026-04-30",
+    "bill_number": "HR7567",
+    "bill_title": "Farm, Food, and National Security Act of 2026",
+    "vote_question": "On Agreeing to the Amendment",
+    "D_yes": 0.009,
+    "R_yes": 0.318,
+    "gap": 0.308
+   },
+   {
+    "date": "2026-04-30",
+    "bill_number": "HR7567",
+    "bill_title": "Farm, Food, and National Security Act of 2026",
+    "vote_question": "On Agreeing to the Amendment",
+    "D_yes": 0.972,
+    "R_yes": 0.351,
+    "gap": 0.621
+   },
+   {
+    "date": "2026-04-30",
+    "bill_number": "HR7567",
+    "bill_title": "Farm, Food, and National Security Act of 2026",
+    "vote_question": "On Agreeing to the Amendment",
+    "D_yes": 0.014,
+    "R_yes": 0.868,
+    "gap": 0.854
+   },
+   {
+    "date": "2026-04-30",
+    "bill_number": "HR7567",
+    "bill_title": "Farm, Food, and National Security Act of 2026",
+    "vote_question": "On Agreeing to the Amendment, as Modified",
+    "D_yes": 1.0,
+    "R_yes": 0.089,
+    "gap": 0.911
+   },
+   {
+    "date": "2026-04-30",
+    "bill_number": "HR7567",
+    "bill_title": "Farm, Food, and National Security Act of 2026",
+    "vote_question": "On Agreeing to the Amendment",
+    "D_yes": 0.137,
+    "R_yes": 0.739,
+    "gap": 0.603
+   },
+   {
+    "date": "2026-04-30",
+    "bill_number": "HR7567",
+    "bill_title": "Farm, Food, and National Security Act of 2026",
+    "vote_question": "On Agreeing to the Amendment",
+    "D_yes": 0.038,
+    "R_yes": 0.963,
+    "gap": 0.925
+   },
+   {
+    "date": "2026-04-30",
+    "bill_number": "HR7567",
+    "bill_title": "Farm, Food, and National Security Act of 2026",
+    "vote_question": "On Passage",
+    "D_yes": 0.066,
+    "R_yes": 0.986,
+    "gap": 0.919
+   },
+   {
+    "date": "2026-06-04",
+    "bill_number": "HR8646",
+    "bill_title": "Agriculture, Rural Development, Food and Drug Administration, and Related Agency Appropriations Act, 2027",
+    "vote_question": "On Passage",
+    "D_yes": 0.019,
+    "R_yes": 0.977,
+    "gap": 0.957
+   },
+   {
+    "date": "2026-07-21",
+    "bill_number": "HR9770",
+    "bill_title": "Continuing Appropriations Act, 2027",
+    "vote_question": "On Passage",
+    "D_yes": 0.029,
+    "R_yes": 0.995,
+    "gap": 0.967
+   },
+   {
+    "date": "2026-09-01",
+    "bill_number": "HR6500",
+    "bill_title": "Continuing Appropriations and Extensions Act, 2027",
+    "vote_question": "On Motion to Suspend the Rules and Concur in the Senate Amendments",
+    "D_yes": 0.859,
+    "R_yes": 0.91,
+    "gap": 0.052
+   },
+   {
+    "date": "2026-09-16",
+    "bill_number": "HR9340",
+    "bill_title": "Ratepayer Protection Act",
+    "vote_question": "On Motion to Suspend the Rules and Pass, as Amended",
+    "D_yes": 0.986,
+    "R_yes": 1.0,
+    "gap": 0.014
+   },
+   {
+    "date": "2026-09-16",
+    "bill_number": "HR9497",
+    "bill_title": "Water Resources Development Act of 2026",
+    "vote_question": "On Motion to Suspend the Rules and Pass, as Amended",
+    "D_yes": 1.0,
+    "R_yes": 0.957,
+    "gap": 0.043
+   }
+  ]
+ }
+}

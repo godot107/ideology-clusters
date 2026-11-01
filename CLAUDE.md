@@ -16,6 +16,10 @@ python scripts/fit_irt.py 118S 118H 119H   # Bayesian ideal points -> data/irt_*
 python scripts/fit_irt_synthetic.py  # 1-D vs 2-D IRT coverage on synthetic (~40 min; --rescore = seconds)
 python scripts/dimension2.py     # what dim 2 means -> results/dim2_* (seconds; needs run_analysis)
 python scripts/fit_irt2d.py      # 2-D IRT on real 119H -> results/irt2d_119H_* (~13 min; --rescore; needs dimension2)
+python scripts/fetch_bills.py 119  # Congress.gov policy areas -> data/congress/ (key in .env CONGRESS_API_KEY; never print it)
+python scripts/issues.py         # issues + individuals -> results/issues_* (all roll calls, no lopsided filter)
+python scripts/plot_issues.py    # reports/04_issues.png
+streamlit run app/streamlit_app.py  # look-up dashboard (Streamlit Cloud: main file app/streamlit_app.py)
 python scripts/build_explorer.py # docs/explorer.html: self-contained SVG+JS, no CDN (needs the three above)
 python notebooks/build.py && for n in notebooks/0*.ipynb; do jupyter nbconvert --to notebook --execute --inplace $n; done
 ```
