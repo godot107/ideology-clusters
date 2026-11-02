@@ -141,7 +141,7 @@ votes with no model (`scripts/issues.py`, figure `scripts/plot_issues.py`). Writ
 
 ![How far apart the parties voted, by issue](reports/04_issues.png)
 
-**Dashboard:** `streamlit run app/streamlit_app.py`: look up any member (missed votes, crossing rate,
+**Dashboard:** [live](https://ideology-clusters-m3ky5ydmbkhxmwnmzri8tz.streamlit.app), or `streamlit run app/streamlit_app.py`: look up any member (missed votes, crossing rate,
 votes by issue). Deploys to Streamlit Community Cloud from this repo (main file `app/streamlit_app.py`;
 it installs only `app/requirements.txt` and reads `results/`).
 
