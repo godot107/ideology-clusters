@@ -81,7 +81,7 @@ a deal. These numbers describe what happened, not why.
 
 ## Look up your own representative
 
-[**How your representative votes**](https://congress-votes.streamlit.app) is a free, non-partisan
+[**How your representative votes**](https://ideology-clusters-m3ky5ydmbkhxmwnmzri8tz.streamlit.app) is a free, non-partisan
 dashboard built from the same data. It works the same way for all 445 voting members. Pick your state
 and representative to see:
 
